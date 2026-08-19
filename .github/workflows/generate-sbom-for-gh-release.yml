@@ -1,0 +1,14 @@
+name: Generate SBOM for GitHub Release
+
+on:
+  release:
+    types: [ published ]
+    
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  generate-sbom:
+    uses: resmed/devx-shared-workflows/.github/workflows/sbom-file-generate.yml@main
+    secrets: inherit

@@ -1,0 +1,46 @@
+name: Destroy Release 
+run-name: Destroy Release ${{ inputs.k8s-service-name || github.event.repository.name }} in ${{ inputs.env-name }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      k8s-service-name:
+        description: k8s service name to destroy.
+        required: false
+        type: string
+      env-name:
+        description: environment name.
+        required: true
+        default: 'dev-amr'
+        type: environment
+      is-ec2-target:
+        description: Is the target EC2?
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.inputs.env-name }}
+  cancel-in-progress: true
+
+permissions:
+  id-token: write
+  contents: read
+  checks: write
+  pull-requests: write
+  packages: write
+  issues: write
+
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  call-destroy-release-eks:
+    name: EKS-Destroy-Release
+    uses: resmed/devx-shared-workflows/.github/workflows/destroy-service-k8s.yml@main
+    with:
+      env-name: ${{ inputs.env-name }}
+      k8s-service-name: ${{ inputs.k8s-service-name }}
+      is-ec2-target: ${{ inputs.is-ec2-target }}
+    secrets: inherit

@@ -1,0 +1,9 @@
+site_name: ros-coveo-config-poc
+site_url: https://github.com/resmed/ros-coveo-config-poc
+repo_url: https://github.com/resmed/ros-coveo-config-poc
+repo_name: ros-coveo-config-poc
+edit_uri: edit/main/docs/
+site_author: ros-cp
+copyright: 'Copyright (c) resmed'
+plugins:
+  - techdocs-core

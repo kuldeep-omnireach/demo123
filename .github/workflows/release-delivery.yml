@@ -1,0 +1,66 @@
+################################################################################################
+## Workflow to deploy docker image to different environments
+## Documentation : https://docs.devx.resmed.com/docs/products/resmed-standard-pipeline/tutorials/setup-release-deploy-to-envs/
+################################################################################################
+
+name: Release Deployment
+run-name: Deploy to ${{ inputs.env-name }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      image-tag-version:
+        description: Docker image tag version to deploy.
+        required: true
+        type: string
+      env-name:
+        description: environment to deploy.
+        required: true
+        type: environment
+  workflow_call:
+    inputs:
+      image-tag-version:
+        description: Docker image tag version to deploy.
+        required: true
+        type: string
+      env-name:
+        description: environment to deploy.
+        required: true
+        default: 'dev-amr'
+        type: string
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event.inputs.env-name }}
+  cancel-in-progress: true
+
+permissions:
+  id-token: write
+  contents: read
+  checks: write
+  pull-requests: write
+  packages: write
+  issues: write
+
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  deploy-to-eks:
+    name: EKS-Deploy
+    uses: resmed/devx-shared-workflows/.github/workflows/deploy-docker-image-k8s.yml@main
+    with:
+      env-name: ${{ inputs.env-name }}
+      docker-image-tag: ${{ inputs.image-tag-version }}
+    secrets: inherit
+
+  dns-management:
+    needs: deploy-to-eks
+    uses: resmed/devx-dns-management/.github/workflows/dns-management.yaml@main
+    with:
+      dry-run: false
+      env-name: ${{ needs.deploy-to-eks.outputs.environment }}
+      target: envoy
+      app-label: tags.datadoghq.com/service=${{ needs.deploy-to-eks.outputs.service-name }},tags.datadoghq.com/env=${{ needs.deploy-to-eks.outputs.environment }}
+      namespace: ${{ needs.deploy-to-eks.outputs.namespace }}
+    secrets: inherit

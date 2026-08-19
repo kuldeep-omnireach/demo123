@@ -1,0 +1,59 @@
+replicaCount: 1
+
+# DEPRECATED: please use routes instead
+ingress:
+  enabled: false
+
+# handles routing traffic to your service
+routes:
+  default:
+    type: private
+    enabled: true
+    hostnames:
+      # this will render a hostname like "dev-hello-world-app.priv.devx-eks-stg.dht.live"
+      - '{{ include "chart.app-name" $ }}.{{ $.Values.kubernetes.hostConfig.privatePrefix }}.{{ $.Values.kubernetes.hostConfig.route53PublicZoneDomainName }}'
+
+      # if type is public, then use the below format instead:
+      # - '{{ include "chart.app-name" $ }}.{{ $.Values.kubernetes.hostConfig.route53PublicZoneDomainName }}'
+
+# necessary to access your service from our endpoint / internal k8s network. think of it like an internal load balancer
+service:
+  enabled: true
+  port: 8080
+  targetPort: 8000
+
+# the workload definition for your service
+deployment:
+  enabled: true
+  target: "ec2" # Enable deployment to EC2; do not change
+
+  # requests are guaranteed, limits are not
+  resources:
+    requests:
+      memory: '512Mi'
+      cpu: 0.25
+      ephemeralStorage: 100Mi
+    limits:
+      memory: '512Mi'
+      cpu: 0.25
+      ephemeralStorage: 100Mi
+
+  # read more about probes at https://docs.devx.resmed.com/docs/products/compute-platform/getting-started/k8s-probe
+  startupProbe:
+    enabled: false
+  readinessProbe:
+    enabled: false
+  livenessProbe:
+    enabled: false
+
+# If your application needs to write to the filesystem, you can enable emptyDir volumes and specify the paths that your application needs to write to.
+emptyDirVolumes:
+  enabled: false
+  volumes:
+    - name: tmp
+      mountPath: /tmp
+
+# for adding GitHub environment secrets as env vars to your deployment
+secrets:
+  enabled: false
+  escapeValues: true

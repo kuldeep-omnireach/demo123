@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ros-coveo-config-poc
+  namespace: default
+  description: >-
+    "Python base for config-poc"
+  title: ros-coveo-config-poc
+  links:
+    - url: https://github.com/resmed/ros-coveo-config-poc
+      title: Repository Link
+      icon: github
+  annotations:
+    backstage.io/techdocs-ref: "dir:."
+    sonarqube.org/project-key: "resmed_ros-coveo-config-poc"
+    resmed.com/capability-code: ""
+    resmed.com/business-owner: "emmanuel.fenneteau@resmed.fr"
+    resmed.com/product-identifier: ""
+    resmed.com/business-vertical: ""
+    github.com/project-slug: "resmed/ros-coveo-config-poc"
+
+spec:
+  type: "service"
+  lifecycle: development
+  owner: ros-cp
+  dependsOn: []
+  providesApis: []
+  consumesApis: []

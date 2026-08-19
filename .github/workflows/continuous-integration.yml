@@ -1,0 +1,65 @@
+name: Continuous Integration
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ main, release** ]
+    paths-ignore:
+      - '**/README.md'  # README.md file anywhere in repo
+      - '**/docs/**'  # any files in a docs directory anywhere in the repo
+      - '.githooks/**'  # .githooks dir at root of repo
+      - '**/catalog-info.yaml' # catalog-info.yaml file anywhere in repo
+      - 'values-*.yaml'  # deployment value files at root of repo
+      - .gitignore
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+    paths-ignore:
+      - '**/README.md'  # README.md file anywhere in repo
+      - '**/docs/**'  # any files in a docs directory anywhere in the repo
+      - '.githooks/**'  # .githooks dir at root of repo
+      - '**/catalog-info.yaml' # catalog-info.yaml file anywhere in repo
+      - .gitignore
+  workflow_dispatch:
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  style-python-build:
+      name: 'Style that code'
+      uses: resmed/devx-shared-workflows/.github/workflows/python-stylecheck.yml@main
+      secrets: inherit
+  
+  call-workflow-python-build:
+    name: 'Build'
+    uses: resmed/devx-shared-workflows/.github/workflows/python-build.yml@main
+    secrets: inherit
+
+  generate-semver:
+    name: 'generate semver'
+    runs-on: ubuntu-latest
+    outputs:
+      image-tag: ${{steps.generate-tag.outputs.semver-tag}}
+    steps:
+        - name: generate the next tag
+          id: generate-tag
+          uses: resmed/devx-action-semver-generator@main
+          with:
+            ARTIFACTORY_HOST: ${{ vars.ARTIFACTORY_HOST }}
+            ARTIFACTORY_USER: ${{ secrets.ARTIFACTORY_USER }}
+            ARTIFACTORY_TOKEN: ${{ secrets.ARTIFACTORY_TOKEN }}
+            ARTIFACTORY_DOCKER_REPO: ${{vars.ARTIFACTORY_DOCKER_REPO}}
+
+  build-publish-image:
+    needs: [ call-workflow-python-build, generate-semver ]
+    if: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
+    name: 'Build Image'
+    uses: resmed/devx-shared-workflows/.github/workflows/create-publish-docker-image.yml@main
+    secrets: inherit
+    with:
+      artifact-name: '' # not published to Artifactory yet
+      docker-image-tag: ${{needs.generate-semver.outputs.image-tag}} # this tag would be 0.0.0 if no exisiting semver tag detected in Artifactory
+      project-type: python

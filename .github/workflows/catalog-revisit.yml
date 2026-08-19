@@ -1,0 +1,29 @@
+# Catalog Entity Revisitor
+# https://github.com/resmed/devx-action-backstage-catalog-revisitor
+#
+# This Workflow runs on below mentioned scheduled time.
+# It checks for last modified time for catalog entity file for developer portal.
+# It encourages developers/teams to keep catalog file up-to date.
+# This action will create an issue on repo when last modified time is greater than frequency mentioned below.
+#
+# 'catalog-path' input takes file path relative from root dir for catalog entity file.
+# 'frequency' is time in days for revisit. This is calculated from cron. 
+# For example '0 0 1 * *' is 'Runs at 00:00, on day 1 of the month' which calculates to 30 days.
+
+name: Catalog Revisit
+on:
+  schedule:
+    # At 00:00 on day-of-month 1.
+    - cron: '0 0 1 * *'
+
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  revisit:
+    uses: resmed/devx-shared-workflows/.github/workflows/catalog-revisitor.yml@main
+    secrets: inherit
+    with:
+      catalog-path: catalog-info.yaml
+      frequency: 30

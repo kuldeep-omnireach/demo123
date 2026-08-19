@@ -1,0 +1,27 @@
+# Catalog Entity Validation
+# https://github.com/resmed/devx-action-backstage-catalog-validator/
+#
+# This workflow validates catalog entity file and creates PR comment based on any error found.
+# It checks for all values from catalog entity file.
+# It also supports monorepo setup and will automatically validates any sub catalog files pointed in base file.
+#
+# 'catalog-path' input takes file path relative from root dir for catalog entity file.
+
+name: Catalog Validation
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    paths:
+      - '**/*.yaml'
+
+jobs:
+  tag-workflow:
+    uses: resmed/devx-shared-workflows/.github/workflows/tag-workflow-for-datadog-ci.yml@main
+    secrets: inherit
+
+  validation:
+    uses: resmed/devx-shared-workflows/.github/workflows/catalog-validator.yml@main
+    secrets: inherit
+    with:
+      catalog-path: catalog-info.yaml
