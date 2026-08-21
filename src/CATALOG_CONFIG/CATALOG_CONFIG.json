@@ -1,0 +1,62 @@
+{
+  "CATALOG_CONFIG": [
+    {
+      "model": {
+        "availabilityFilterStrategy": "ALWAYS",
+        "catalogVersion": "V1",
+        "fieldsMapping": {
+          "ec_brand": "ec_brand",
+          "ec_category": "ec_category",
+          "ec_description": "ec_description",
+          "ec_item_group_id": "ec_item_group_id",
+          "ec_name": "ec_name"
+        },
+        "name": "DEV Global B2B Catalog Configuration",
+        "product": {
+          "idField": "ec_product_id",
+          "objectType": "Product"
+        }
+      },
+      "parents": {},
+      "resourceName": "Global_B2B_Catalog_Configuration_cUZdVV"
+    },
+    {
+      "model": {
+        "availabilityFilterStrategy": "ALWAYS",
+        "catalogVersion": "V1",
+        "fieldsMapping": {
+          "ec_brand": "ec_brand",
+          "ec_category": "ec_category",
+          "ec_description": "ec_description",
+          "ec_in_stock": "ec_in_stock",
+          "ec_item_group_id": "ec_item_group_id",
+          "ec_name": "ec_name",
+          "ec_price": "ec_price",
+          "ec_rating": "ec_rating",
+          "ec_shortdesc": "ec_shortdesc"
+        },
+        "name": "Global D2C Catalog Configuration",
+        "product": {
+          "idField": "ec_product_id",
+          "objectType": "Product"
+        }
+      },
+      "parents": {},
+      "resourceName": "Global_D2C_Catalog_Configuration_4ld15k"
+    },
+    {
+      "model": {
+        "availabilityFilterStrategy": "ALWAYS",
+        "catalogVersion": "V1",
+        "fieldsMapping": {},
+        "name": "QA Global B2B Catalog Configuration",
+        "product": {
+          "idField": "ec_product_id",
+          "objectType": "Product"
+        }
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_Catalog_Configuration_lYBFrK"
+    }
+  ]
+}

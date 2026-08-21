@@ -1,0 +1,312 @@
+{
+  "TRACKING_ID": [
+    {
+      "model": {
+        "defaultCurrency": "GBP",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "DEV Hybris UK",
+        "trackingId": "dev_hybris_en_uk"
+      },
+      "parents": {},
+      "resourceName": "DEV_Hybris_UK_DAszg3"
+    },
+    {
+      "model": {
+        "defaultCurrency": "INR",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV ROS APAC",
+        "trackingId": "dev_ros_apac"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_APAC_N3ZuJl"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "DEV ROS DE DE",
+        "trackingId": "dev_ros_de_de"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_DE_DE_Hrjnt8"
+    },
+    {
+      "model": {
+        "defaultCurrency": "AUD",
+        "defaultTimeZone": "Australia/Sydney",
+        "displayName": "DEV ROS EN AU",
+        "trackingId": "dev_ros_en_au"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EN_AU_K4qRYd"
+    },
+    {
+      "model": {
+        "defaultCurrency": "CAD",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV ROS EN CA",
+        "trackingId": "dev_ros_en_ca"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EN_CA_5V4e0V"
+    },
+    {
+      "model": {
+        "defaultCurrency": "GBP",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "DEV ROS EN GB",
+        "trackingId": "dev_ros_en_gb"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EN_GB_Mu8Hke"
+    },
+    {
+      "model": {
+        "defaultCurrency": "NZD",
+        "defaultTimeZone": "Australia/Sydney",
+        "displayName": "DEV ROS EN NZ",
+        "trackingId": "dev_ros_en_nz"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EN_NZ_JyumYw"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "America/New_York",
+        "displayName": "DEV ROS EN US",
+        "trackingId": "dev_ros_en_us"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EN_US_wdqw1F"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV ROS EU",
+        "trackingId": "dev_ros_eu"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_EU_xo1MPU"
+    },
+    {
+      "model": {
+        "defaultCurrency": "CAD",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV ROS FR CA",
+        "trackingId": "dev_ros_fr_ca"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_FR_CA_9fbu0A"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "DEV ROS FR FR",
+        "trackingId": "dev_ros_fr_fr"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_FR_FR_ARHKtU"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "America/New_York",
+        "displayName": "DEV ROS NA",
+        "trackingId": "dev_ros_na"
+      },
+      "parents": {},
+      "resourceName": "DEV_ROS_NA_IEd7x4"
+    },
+    {
+      "model": {
+        "defaultCurrency": "AUD",
+        "defaultTimeZone": "Australia/Melbourne",
+        "displayName": "DEV Shopify AU",
+        "trackingId": "dev_shopify_en_au"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_AU_pK6Jtc"
+    },
+    {
+      "model": {
+        "defaultCurrency": "AUD",
+        "defaultTimeZone": "Australia/Melbourne",
+        "displayName": "DEV Shopify CPAP AU",
+        "trackingId": "dev_shopify_en_cpap_au"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_CPAP_AU_Nfb57Z"
+    },
+    {
+      "model": {
+        "defaultCurrency": "INR",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV Shopify IN",
+        "trackingId": "dev_shopify_en_in"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_IN_rTSDgJ"
+    },
+    {
+      "model": {
+        "defaultCurrency": "JPY",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV Shopify JP",
+        "trackingId": "dev_shopify_en_jp"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_JP_0fOGwc"
+    },
+    {
+      "model": {
+        "defaultCurrency": "NZD",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "DEV Shopify NZ",
+        "trackingId": "dev_shopify_en_nz"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_NZ_nRX3we"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "America/Chicago",
+        "displayName": "DEV Shopify US",
+        "trackingId": "dev_shopify_en_us"
+      },
+      "parents": {},
+      "resourceName": "DEV_Shopify_US_vc3TKG"
+    },
+    {
+      "model": {
+        "displayName": "Default",
+        "trackingId": "default"
+      },
+      "parents": {},
+      "resourceName": "Default_x9nFZG"
+    },
+    {
+      "model": {
+        "defaultCurrency": "INR",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "QA ROS APAC",
+        "trackingId": "qa_ros_apac"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_APAC_ap7s5z"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "QA ROS DE DE",
+        "trackingId": "qa_ros_de_de"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_DE_DE_RpJB3s"
+    },
+    {
+      "model": {
+        "defaultCurrency": "AUD",
+        "defaultTimeZone": "Australia/Sydney",
+        "displayName": "QA ROS EN AU",
+        "trackingId": "qa_ros_en_au"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EN_AU_tZ9Ugu"
+    },
+    {
+      "model": {
+        "defaultCurrency": "CAD",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "QA ROS EN CA",
+        "trackingId": "qa_ros_en_ca"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EN_CA_aE6SQT"
+    },
+    {
+      "model": {
+        "defaultCurrency": "GBP",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "QA ROS EN GB",
+        "trackingId": "qa_ros_en_gb"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EN_GB_nIKd47"
+    },
+    {
+      "model": {
+        "defaultCurrency": "NZD",
+        "defaultTimeZone": "Australia/Sydney",
+        "displayName": "QA ROS EN NZ",
+        "trackingId": "qa_ros_en_nz"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EN_NZ_ZdUxWH"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "America/New_York",
+        "displayName": "QA ROS EN US",
+        "trackingId": "qa_ros_en_us"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EN_US_oE2lML"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "QA ROS EU",
+        "trackingId": "qa_ros_eu"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_EU_i1mxaW"
+    },
+    {
+      "model": {
+        "defaultCurrency": "CAD",
+        "defaultTimeZone": "Asia/Calcutta",
+        "displayName": "QA ROS FR CA",
+        "trackingId": "qa_ros_fr_ca"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_FR_CA_mdoKon"
+    },
+    {
+      "model": {
+        "defaultCurrency": "EUR",
+        "defaultTimeZone": "Europe/London",
+        "displayName": "QA ROS FR FR",
+        "trackingId": "qa_ros_fr_fr"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_FR_FR_0Jy4Md"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "America/New_York",
+        "displayName": "QA ROS NA",
+        "trackingId": "qa_ros_na"
+      },
+      "parents": {},
+      "resourceName": "QA_ROS_NA_3wDhgd"
+    },
+    {
+      "model": {
+        "defaultCurrency": "USD",
+        "defaultTimeZone": "Indian/Cocos",
+        "displayName": "TEST CATALOG FOR ROS",
+        "trackingId": "test_catalog_ros"
+      },
+      "parents": {},
+      "resourceName": "TEST_CATALOG_FOR_ROS_Un2aE2"
+    }
+  ]
+}

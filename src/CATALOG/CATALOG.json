@@ -1,0 +1,614 @@
+{
+  "CATALOG": [
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS APAC Region Product Catalog",
+        "name": "Dev Global B2B APAC Region Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_APAC_Region_Stream_Catalog_vGv5Eo"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS DE DE  Product Catalog",
+        "name": "Dev Global B2B DE DE Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_DE_DE_Stream_Catalog_uYTlSO"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN AU Product Catalog",
+        "name": "Dev Global B2B EN AU Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EN_AU_Stream_Catalog_qMiq65"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN CA Product Catalog",
+        "name": "Dev Global B2B EN CA Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EN_CA_Stream_Catalog_BPe1nb"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN GB Product Catalog",
+        "name": "Dev Global B2B EN GB Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EN_GB_Stream_Catalog_BTya29"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN NZ Product Catalog",
+        "name": "Dev Global B2B EN NZ Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EN_NZ_Stream_Catalog_obxhfD"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN US Product Catalog",
+        "name": "Dev Global B2B EN US Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EN_US_Stream_Catalog_nM6qsa"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EU Region Product Catalog",
+        "name": "Dev Global B2B EU Region Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_EU_Region_Stream_Catalog_WB89D0"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS FR CA Product Catalog",
+        "name": "Dev Global B2B FR CA Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS FR FR Product Catalog",
+        "name": "Dev Global B2B FR FR Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_FR_FR_Stream_Catalog_mUsJpQ"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS NA Region Product Catalog",
+        "name": "Dev Global B2B NA Region Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_B2B_NA_Region_Stream_Catalog_Pu6XcR"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_D2C_Catalog_Configuration_4ld15k }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_in_stock": "ec_in_stock",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name",
+            "ec_price": "ec_price",
+            "ec_rating": "ec_rating",
+            "ec_shortdesc": "ec_shortdesc"
+          },
+          "name": "Global D2C Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "Hybris & Shopify Product Catalog",
+        "name": "Dev Global D2C Stream Catalog",
+        "sourceId": "{{ SOURCE.dev-global-d2c-product-catalog_oUMp3P }}"
+      },
+      "parents": {},
+      "resourceName": "Dev_Global_D2C_Stream_Catalog_tzD78A"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS APAC Region Product Catalog",
+        "name": "QA Global B2B APAC Region Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_APAC_Region_Stream_Catalog_AuDEUy"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS DE DE  Product Catalog",
+        "name": "QA Global B2B DE DE Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_DE_DE_Stream_Catalog_9HZfig"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN AU Product Catalog",
+        "name": "QA Global B2B EN AU Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EN_AU_Stream_Catalog_B1jXpy"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN CA Product Catalog",
+        "name": "QA Global B2B EN CA Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EN_CA_Stream_Catalog_Ihz246"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN GB Product Catalog",
+        "name": "QA Global B2B EN GB Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EN_GB_Stream_Catalog_KArXox"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN NZ Product Catalog",
+        "name": "QA Global B2B EN NZ Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EN US Product Catalog",
+        "name": "QA Global B2B EN US Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EN_US_Stream_Catalog_RDiE6b"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS EU Region Product Catalog",
+        "name": "QA Global B2B EU Region Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_EU_Region_Stream_Catalog_qhhAdL"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS FR CA Product Catalog",
+        "name": "QA Global B2B FR CA Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_FR_CA_Stream_Catalog_zjkC5s"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS FR FR Product Catalog",
+        "name": "QA Global B2B FR FR Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_FR_FR_Stream_Catalog_EK1KLW"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.QA_Global_B2B_Catalog_Configuration_lYBFrK }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {},
+          "name": "QA Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "ROS NA Region Product Catalog",
+        "name": "QA Global B2B NA Region Stream Catalog",
+        "sourceId": "{{ SOURCE.qa-global-b2b-product-catalog_0QnTCJ }}"
+      },
+      "parents": {},
+      "resourceName": "QA_Global_B2B_NA_Region_Stream_Catalog_ub3Gvp"
+    },
+    {
+      "model": {
+        "catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+        "catalogVersion": "V1",
+        "configuration": {
+          "availabilityFilterStrategy": "ALWAYS",
+          "catalogVersion": "V1",
+          "fieldsMapping": {
+            "ec_brand": "ec_brand",
+            "ec_category": "ec_category",
+            "ec_description": "ec_description",
+            "ec_item_group_id": "ec_item_group_id",
+            "ec_name": "ec_name"
+          },
+          "name": "DEV Global B2B Catalog Configuration",
+          "product": {
+            "fields": [],
+            "idField": "ec_product_id",
+            "objectType": "Product"
+          }
+        },
+        "description": "TEST CATALOG ROS",
+        "name": "TEST CATALOG ROS",
+        "sourceId": "{{ SOURCE.TEST_ROS_CATALOG_SOURCE_fFhWqs }}"
+      },
+      "parents": {},
+      "resourceName": "TEST_CATALOG_ROS_Ncxiav"
+    }
+  ]
+}
