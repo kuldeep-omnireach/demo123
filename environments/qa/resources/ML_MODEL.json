@@ -140,7 +140,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 4,
+					"daysUntilArchival": 1,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",

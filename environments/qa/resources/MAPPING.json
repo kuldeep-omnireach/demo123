@@ -2432,6 +2432,54 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.resmed.de_KE1xoM }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_4pmTqL"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.pl_BHg9dM }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_6yx5bx"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.cz_b5Bywm }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_AXAxnJ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.uat4.resmed.com-uk_cv98Fq }}"
 				},
 				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_KA4hJa"
@@ -2464,9 +2512,105 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.resmed.pt_KFCix2 }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_aJya9B"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.no_k0jygq }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_lotxSZ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.resmed.co.uk_QBUpkn }}"
 				},
 				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_mYQwul"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.se_6mgpfF }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_oHabcB"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.fr_bhP7DO }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_vqfoTR"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.it_CboBXA }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_y8pbBT"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.resmed.dk_zoGLS3 }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_yDf0x3"
 			},
 			{
 				"model": {
@@ -2611,22 +2755,6 @@
 					"sourceId": "{{ SOURCE.resmed.ch_ejnm9o }}"
 				},
 				"resourceName": "Field:_body_Rule:_%[ogdescription]_6ocVYM"
-			},
-			{
-				"model": {
-					"rules": [
-						{
-							"content": [
-								"%[ogdescription]"
-							],
-							"field": "{{ FIELD.body_7uoAv0 }}"
-						}
-					]
-				},
-				"parents": {
-					"sourceId": "{{ SOURCE.resmed.com/en-us_cw2E34 }}"
-				},
-				"resourceName": "Field:_body_Rule:_%[ogdescription]_7Ph41Q"
 			},
 			{
 				"model": {
@@ -38905,7 +39033,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -38969,7 +39097,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39017,7 +39145,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39113,7 +39241,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39129,7 +39257,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}

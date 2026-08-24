@@ -879,19 +879,6 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
-				},
-				"resourceName": "enableDidYouMean_22MHj7"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
 					"position": 5,
 					"type": "BOOLEAN",
 					"value": true
@@ -1061,19 +1048,6 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
-				},
-				"resourceName": "enableDidYouMean_Ewyfj9"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
 					"position": 6,
 					"type": "BOOLEAN",
 					"value": true
@@ -1199,19 +1173,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_hybris_en_uk_r2xmtK }}"
 				},
 				"resourceName": "enableDidYouMean_Om540p"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
-				},
-				"resourceName": "enableDidYouMean_PmnPVN"
 			},
 			{
 				"model": {
@@ -1386,19 +1347,6 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
-				},
-				"resourceName": "enableDidYouMean_c2kt74"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
 					"position": 7,
 					"type": "BOOLEAN",
 					"value": true
@@ -1498,19 +1446,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
 				},
 				"resourceName": "enableDidYouMean_kqWOu4"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
-				},
-				"resourceName": "enableDidYouMean_lMMAu3"
 			},
 			{
 				"model": {
@@ -1654,32 +1589,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
 				},
 				"resourceName": "enableDidYouMean_tGX8j5"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
-				},
-				"resourceName": "enableDidYouMean_tcRfJ0"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 2,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
-				},
-				"resourceName": "enableDidYouMean_u8revK"
 			},
 			{
 				"model": {
@@ -3179,6 +3088,328 @@
 			{
 				"model": {
 					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_BYQzg6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_KnJLuJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_PI2Hjx"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_ULh5Ax"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_XK6K8v"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_oTZrLa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_vRWG3d"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_AdderY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_PoR4Nj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_WYT1lH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_XKfQQg"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_oaDhgU"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_pUXRXa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_tneINs"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_OUG689"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_bLtHE9"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_drxYqT"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_gGJxRz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_lCmAn8"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_oEOvfc"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_v25CLc"
+			},
+			{
+				"model": {
+					"description": "",
 					"name": "partialMatchOptions",
 					"position": 6,
 					"type": "STRUCTURED",
@@ -3435,23 +3666,6 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
-				},
-				"resourceName": "partialMatchOptions_BNIosM"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
@@ -3651,23 +3865,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
 				},
 				"resourceName": "partialMatchOptions_Qd8LXt"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
-				},
-				"resourceName": "partialMatchOptions_RDjvyt"
 			},
 			{
 				"model": {
@@ -3962,40 +4159,6 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
-				},
-				"resourceName": "partialMatchOptions_bvr0rj"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
-				},
-				"resourceName": "partialMatchOptions_cvadcm"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 6,
 					"type": "STRUCTURED",
 					"value": {
@@ -4098,40 +4261,6 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
-				},
-				"resourceName": "partialMatchOptions_g1DTTE"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
-				},
-				"resourceName": "partialMatchOptions_gSx3vB"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 5,
 					"type": "STRUCTURED",
 					"value": {
@@ -4144,23 +4273,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
 				},
 				"resourceName": "partialMatchOptions_hkt3uB"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 4,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 4,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
-				},
-				"resourceName": "partialMatchOptions_iWAj9e"
 			},
 			{
 				"model": {
@@ -4537,22 +4649,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
-				},
-				"resourceName": "queryCorrection_5Nhqh4"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 6,
 					"type": "STRUCTURED",
 					"value": {
@@ -4644,22 +4740,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
 				},
 				"resourceName": "queryCorrection_7pLpgn"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
-				},
-				"resourceName": "queryCorrection_8ommjv"
 			},
 			{
 				"model": {
@@ -4833,38 +4913,6 @@
 					}
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
-				},
-				"resourceName": "queryCorrection_JyJoR3"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
-				},
-				"resourceName": "queryCorrection_K9FPup"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.PROD_Hubspot_Resmed_2tDqtc }}"
 				},
 				"resourceName": "queryCorrection_LmEVDJ"
@@ -4884,22 +4932,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
 				},
 				"resourceName": "queryCorrection_MEG7eW"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
-				},
-				"resourceName": "queryCorrection_MHBzJI"
 			},
 			{
 				"model": {
@@ -5257,22 +5289,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
-				},
-				"resourceName": "queryCorrection_c2NR8R"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
@@ -5284,22 +5300,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_ca_5LdUdr }}"
 				},
 				"resourceName": "queryCorrection_en2BCs"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 3,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
-				},
-				"resourceName": "queryCorrection_eyIHX8"
 			},
 			{
 				"model": {
