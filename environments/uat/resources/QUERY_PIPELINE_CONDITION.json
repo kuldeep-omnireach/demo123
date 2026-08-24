@@ -470,7 +470,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_de\"",
+					"definition": "when $searchHub is \"uat_global_de\"",
 					"description": ""
 				},
 				"parents": {},
@@ -478,7 +478,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_dk\"",
+					"definition": "when $searchHub is \"uat_global_dk\"",
 					"description": ""
 				},
 				"parents": {},
@@ -486,7 +486,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_fi\"",
+					"definition": "when $searchHub is \"uat_global_fi\"",
 					"description": ""
 				},
 				"parents": {},
@@ -494,7 +494,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_fr\"",
+					"definition": "when $searchHub is \"uat_global_fr\"",
 					"description": ""
 				},
 				"parents": {},
@@ -502,7 +502,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_it\"",
+					"definition": "when $searchHub is \"uat_global_it\"",
 					"description": ""
 				},
 				"parents": {},
@@ -510,7 +510,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_no\"",
+					"definition": "when $searchHub is \"uat_global_no\"",
 					"description": ""
 				},
 				"parents": {},
@@ -518,7 +518,7 @@
 			},
 			{
 				"model": {
-					"definition": "when $searchHub is \"dev_global_se\"",
+					"definition": "when $searchHub is \"uat_global_se\"",
 					"description": ""
 				},
 				"parents": {},

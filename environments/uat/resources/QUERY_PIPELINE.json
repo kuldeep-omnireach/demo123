@@ -111,7 +111,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_de\"",
+						"definition": "when $searchHub is \"uat_global_de\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -119,13 +119,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_de"
+								"right": "uat_global_de"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_de_S6fPBf }}"
 					},
-					"description": "Dev Support  & WordPress DE",
-					"name": "Dev Global DE Cross Platform Search",
+					"description": "UAT Support  & WordPress DE",
+					"name": "UAT Global DE Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "ecommerce"
 				},
@@ -135,7 +135,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_dk\"",
+						"definition": "when $searchHub is \"uat_global_dk\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -143,13 +143,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_dk"
+								"right": "uat_global_dk"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_dk_i3OPam }}"
 					},
-					"description": "Dev Hybris & WordPress DK (Collection & Pages)",
-					"name": "Dev Global DK Cross Platform Search",
+					"description": "UAT Hybris & WordPress DK (Collection & Pages)",
+					"name": "UAT Global DK Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "website"
 				},
@@ -159,7 +159,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_fi\"",
+						"definition": "when $searchHub is \"uat_global_fi\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -167,13 +167,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_fi"
+								"right": "uat_global_fi"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_fi_RXZDMy }}"
 					},
-					"description": "Dev Hybris & WordPress FI (Collection & Pages)",
-					"name": "Dev Global FI Cross Platform Search",
+					"description": "UAT Hybris & WordPress FI (Collection & Pages)",
+					"name": "UAT Global FI Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "website"
 				},
@@ -183,7 +183,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_fr\"",
+						"definition": "when $searchHub is \"uat_global_fr\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -191,13 +191,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_fr"
+								"right": "uat_global_fr"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_fr_zEsOMk }}"
 					},
-					"description": "Dev Support  & WordPress FR",
-					"name": "Dev Global FR Cross Platform Search",
+					"description": "UAT Support  & WordPress FR",
+					"name": "UAT Global FR Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "ecommerce"
 				},
@@ -207,7 +207,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_it\"",
+						"definition": "when $searchHub is \"uat_global_it\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -215,13 +215,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_it"
+								"right": "uat_global_it"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_it_Q2BTpg }}"
 					},
-					"description": "Dev Support  & WordPress IT",
-					"name": "Dev Global IT Cross Platform Search",
+					"description": "UAT Support  & WordPress IT",
+					"name": "UAT Global IT Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "ecommerce"
 				},
@@ -231,7 +231,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_no\"",
+						"definition": "when $searchHub is \"uat_global_no\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -239,13 +239,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_no"
+								"right": "uat_global_no"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_no_rpiLt8 }}"
 					},
-					"description": "Dev Hybris & WordPress NO (Collection & Pages)",
-					"name": "Dev Global NO Cross Platform Search",
+					"description": "UAT Hybris & WordPress NO (Collection & Pages)",
+					"name": "UAT Global NO Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "website"
 				},
@@ -255,7 +255,7 @@
 			{
 				"model": {
 					"condition": {
-						"definition": "when $searchHub is \"dev_global_se\"",
+						"definition": "when $searchHub is \"uat_global_se\"",
 						"description": "",
 						"detailed": {
 							"condition": {
@@ -263,13 +263,13 @@
 									"object": "searchHub"
 								},
 								"operator": "is",
-								"right": "dev_global_se"
+								"right": "uat_global_se"
 							}
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_se_mg2kbU }}"
 					},
-					"description": "Dev Hybris & WordPress SE (Collection & Pages)",
-					"name": "Dev Global SE Cross Platform Search",
+					"description": "UAT Hybris & WordPress SE (Collection & Pages)",
+					"name": "UAT Global SE Cross Platform Search",
 					"splitTestEnabled": false,
 					"useCase": "website"
 				},

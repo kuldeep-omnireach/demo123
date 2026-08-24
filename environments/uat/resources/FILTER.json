@@ -3126,11 +3126,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `@source==dev.resmed.ch `",
+					"definition": "filter cq `@source==(dev.resmed.ch,support-portal.resmed.com/de-ch) `",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"@source==dev.resmed.ch "
+							"@source==(dev.resmed.ch,support-portal.resmed.com/de-ch) "
 						]
 					},
 					"feature": "filter",

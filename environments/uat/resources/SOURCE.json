@@ -12975,6 +12975,7 @@
 								"patternType": "RegEx"
 							}
 						],
+						"caseSensitivePatterns": true,
 						"dataFiles": {},
 						"documentConfig": {
 							"documentProcessorConfig": {
@@ -13892,7 +13893,7 @@
 						"securityProviders": {},
 						"sourceSecurityOption": "Specified",
 						"startingAddresses": [
-							"https://support.portal.resmed.com/da-dk/"
+							"https://support-portal.resmed.com/da-dk/"
 						],
 						"userIdentities": {}
 					},
@@ -13933,6 +13934,7 @@
 								"patternType": "RegEx"
 							}
 						],
+						"caseSensitivePatterns": true,
 						"dataFiles": {},
 						"documentConfig": {
 							"documentProcessorConfig": {
@@ -14850,7 +14852,7 @@
 						"securityProviders": {},
 						"sourceSecurityOption": "Specified",
 						"startingAddresses": [
-							"https://support.portal.resmed.com/de-de/"
+							"https://support-portal.resmed.com/de-de/"
 						],
 						"userIdentities": {}
 					},
@@ -14891,6 +14893,7 @@
 								"patternType": "RegEx"
 							}
 						],
+						"caseSensitivePatterns": true,
 						"dataFiles": {},
 						"documentConfig": {
 							"documentProcessorConfig": {
@@ -15808,7 +15811,7 @@
 						"securityProviders": {},
 						"sourceSecurityOption": "Specified",
 						"startingAddresses": [
-							"https://support.portal.resmed.com/fr-fr/"
+							"https://support-portal.resmed.com/fr-fr/"
 						],
 						"userIdentities": {}
 					},
@@ -15849,6 +15852,7 @@
 								"patternType": "RegEx"
 							}
 						],
+						"caseSensitivePatterns": true,
 						"dataFiles": {},
 						"documentConfig": {
 							"documentProcessorConfig": {
@@ -16766,7 +16770,7 @@
 						"securityProviders": {},
 						"sourceSecurityOption": "Specified",
 						"startingAddresses": [
-							"https://support.portal.resmed.com/it-it/"
+							"https://support-portal.resmed.com/it-it/"
 						],
 						"userIdentities": {}
 					},

@@ -145,7 +145,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "{{ CATALOG.Dev_Global_B2B_EN_NZ_Stream_Catalog_obxhfD }}",
+							"id": "25fae869-5ff2-47bb-8337-67798848603d",
 							"name": "UAT Global B2B EN NZ Stream Catalog",
 							"sourceName": "uat-global-b2b-product-catalog"
 						},
