@@ -1,0 +1,3915 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"SETTING": [
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 3,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_US_Stream_Catalog_K0KUHl }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "commerce.catalogId_3FwWFq"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_NZ_Stream_Catalog_jw4rYp }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "commerce.catalogId_58SJtK"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 11,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_cpap_dPIF3w }}"
+				},
+				"resourceName": "commerce.catalogId_6cOLc2"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_DE_DE_Stream_Catalog_a8qyWc }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "commerce.catalogId_7tyRbP"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 13,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "commerce.catalogId_CQqdrS"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_in_LOkJUE }}"
+				},
+				"resourceName": "commerce.catalogId_FxZsnJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_US_Stream_Catalog_K0KUHl }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "commerce.catalogId_H9f8lT"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_NA_Region_Stream_Catalog_8F67h8 }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "commerce.catalogId_IEdjcY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 14,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "commerce.catalogId_IrNLMI"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_au_rV1ZTO }}"
+				},
+				"resourceName": "commerce.catalogId_NfOqQq"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "commerce.catalogId_PWtwfj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EU_Region_Stream_Catalog_wScw72 }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "commerce.catalogId_SUjgI7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 13,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "commerce.catalogId_SWodp2"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_jp_04nuYR }}"
+				},
+				"resourceName": "commerce.catalogId_TvWjkQ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EU_Region_Stream_Catalog_wScw72 }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "commerce.catalogId_XL04kI"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_APAC_Region_Stream_Catalog_PPsurw }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "commerce.catalogId_XkEO1W"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "commerce.catalogId_bTas0U"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_AU_Stream_Catalog_37mX3V }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "commerce.catalogId_d2QlKh"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 9,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "commerce.catalogId_dpIc28"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 3,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_CA_Stream_Catalog_ZZw7bL }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "commerce.catalogId_eUMzxR"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_FR_FR_Stream_Catalog_orlqVL }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "commerce.catalogId_fOw1bw"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "commerce.catalogId_jFDcy6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_NA_Region_Stream_Catalog_8F67h8 }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "commerce.catalogId_m1uS4O"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_GB_Stream_Catalog_n46shR }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "commerce.catalogId_mLHPvk"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_DE_DE_Stream_Catalog_a8qyWc }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "commerce.catalogId_nk90bv"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "commerce.catalogId_oxqaMM"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_FR_CA_Stream_Catalog_MsSvKp }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "commerce.catalogId_p2thJ7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_FR_CA_Stream_Catalog_MsSvKp }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "commerce.catalogId_pLC8dr"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "commerce.catalogId_pdoa4Q"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "commerce.catalogId_qPUwiO"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_FR_FR_Stream_Catalog_orlqVL }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "commerce.catalogId_rZ8Zce"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "commerce.catalogId_rf678p"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 14,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "commerce.catalogId_sXTbMp"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_NZ_Stream_Catalog_jw4rYp }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "commerce.catalogId_t2HoQZ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_AU_Stream_Catalog_37mX3V }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "commerce.catalogId_t4BJmY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 3,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_CA_Stream_Catalog_ZZw7bL }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "commerce.catalogId_udqc6y"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_APAC_Region_Stream_Catalog_PPsurw }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "commerce.catalogId_wmrBe1"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 4,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_B2B_EN_GB_Stream_Catalog_n46shR }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "commerce.catalogId_y5LVlL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_us_RY954A }}"
+				},
+				"resourceName": "commerce.catalogId_yan7sf"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_nz_6yJNuK }}"
+				},
+				"resourceName": "commerce.catalogId_yzQlVL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 7,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "enableDidYouMean_0EwxWt"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "enableDidYouMean_0i4tGC"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "enableDidYouMean_1nMmng"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "enableDidYouMean_2VHiVH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "enableDidYouMean_33Wid1"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "enableDidYouMean_5JPQg1"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "enableDidYouMean_5luOsa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "enableDidYouMean_7Q4aXz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "enableDidYouMean_9EsnxI"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "enableDidYouMean_BCiI02"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 4,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "enableDidYouMean_ENwJEP"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "enableDidYouMean_EQt9EB"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 4,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "enableDidYouMean_FTs0cn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 7,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "enableDidYouMean_IkFCJS"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "enableDidYouMean_L3h0SW"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "enableDidYouMean_O19ieb"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "enableDidYouMean_TI4njV"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "enableDidYouMean_TVATNA"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "enableDidYouMean_Ucxngm"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "enableDidYouMean_V4w0uJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "enableDidYouMean_VZtkt5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 7,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "enableDidYouMean_VxiLnx"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "enableDidYouMean_YekIay"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "enableDidYouMean_b5TrHi"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 4,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "enableDidYouMean_deiZTg"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "enableDidYouMean_dqByFW"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "enableDidYouMean_eLWAWl"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "enableDidYouMean_hk8PmI"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "enableDidYouMean_i4L8EC"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "enableDidYouMean_iGsX0b"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "enableDidYouMean_mTIc3V"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "enableDidYouMean_mUkLj9"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "enableDidYouMean_o3snmn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "enableDidYouMean_oDXd7q"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "enableDidYouMean_qR26uU"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "enableDidYouMean_sc6hy1"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "enableDidYouMean_tGX8j5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "enableDidYouMean_uGyqcs"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "enableDidYouMean_vnthY0"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "enableDidYouMean_vs8AaV"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "enableDidYouMean_xgAK3j"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "enableDidYouMean_zBseEi"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "enableDidYouMean_zXhyjD"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "enableDidYouMean_zyaxHB"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "enableQuerySyntax_1JRh3h"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "enableQuerySyntax_5evUJu"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 7,
+					"type": "BOOLEAN",
+					"value": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "enableQuerySyntax_6ODGXz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "enableQuerySyntax_M4owZK"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "enableQuerySyntax_QONBQI"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "enableQuerySyntax_Qcogy2"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "enableQuerySyntax_VxjA8B"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "enableQuerySyntax_XEDlcZ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "enableQuerySyntax_YBIaJA"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "enableQuerySyntax_aLFtba"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "enableQuerySyntax_b6usEJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "enableQuerySyntax_b8BZrc"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "enableQuerySyntax_f97faB"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "enableQuerySyntax_gcEIql"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "enableQuerySyntax_iiQmXH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "enableQuerySyntax_ljXdrr"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "enableQuerySyntax_lsn02c"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "enableQuerySyntax_nSRzIc"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "enableQuerySyntax_ncJnbE"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 11,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "enableQuerySyntax_oKHreq"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "enableQuerySyntax_qUhOVv"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "enableQuerySyntax_r8aLxm"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableQuerySyntax",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "enableQuerySyntax_yrVUPY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "filterField_4ecixn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "filterField_5FMIae"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "filterField_5Nh9p6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "filterField_6Jamc9"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "filterField_AnLXy7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "filterField_F6mk6b"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 2,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "filterField_GIHqyW"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "filterField_HBQhHC"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 9,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "filterField_KUtwp6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "filterField_MRHEWb"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 2,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "filterField_ONoOoz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 5,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "filterField_Pi0er2"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 2,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "filterField_QL9i6t"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "filterField_RuUYjy"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "filterField_Smds0C"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "filterField_TSWG4T"
+			},
+			{
+				"model": {
+					"description": "Product Grouping",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "filterField_V3oKa5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "filterField_VWVMo0"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "filterField_XJIKhH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "filterField_ZCw7ig"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "filterField_ZHWTVW"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "filterField_ZiWEK9"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "filterField_beQoku"
+			},
+			{
+				"model": {
+					"description": "Product Grouping",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "filterField_cUd2sl"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "filterField_eBpkkn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "filterField_ecsHTq"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "filterField_fEezDj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 8,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "filterField_j4PJ1j"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "filterField_neJ6rn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "filterField_oVVHcz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 5,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "filterField_rSExuX"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 3,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "filterField_uK8K1u"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 4,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "filterField_y6el7F"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "filterField",
+					"position": 5,
+					"type": "STRING",
+					"value": "@ec_item_group_id"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "filterField_yvagKG"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_BYQzg6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_KnJLuJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_PI2Hjx"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_ULh5Ax"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_XK6K8v"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_oTZrLa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "enableDidYouMean",
+					"position": 2,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_vRWG3d"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_AdderY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_PoR4Nj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_WYT1lH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_XKfQQg"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_oaDhgU"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_pUXRXa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_tneINs"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_OUG689"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_bLtHE9"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_drxYqT"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_gGJxRz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_lCmAn8"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_oEOvfc"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_v25CLc"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "partialMatchOptions_0ANXws"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "partialMatchOptions_0RWFle"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "partialMatchOptions_1SaJE0"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 12,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "partialMatchOptions_1g3FcL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "partialMatchOptions_1ltUm0"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "partialMatchOptions_2IBsQH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "partialMatchOptions_40ghDF"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "partialMatchOptions_5kSPip"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "partialMatchOptions_6bcXvX"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 5,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "partialMatchOptions_6gRwF5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "partialMatchOptions_9AbeiO"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "partialMatchOptions_9LHqzN"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "partialMatchOptions_9p22kr"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 5,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "partialMatchOptions_EjvFxs"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "partialMatchOptions_EvkUuj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "partialMatchOptions_Irc7fk"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 10,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "partialMatchOptions_IsDkZY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 5,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "partialMatchOptions_QCrWx7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "partialMatchOptions_Qd8LXt"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "partialMatchOptions_StEV60"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "partialMatchOptions_TJdhjO"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "partialMatchOptions_UEqdiY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "partialMatchOptions_Ueaq6B"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "partialMatchOptions_V3R2xz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "partialMatchOptions_W14kSt"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "partialMatchOptions_Y2YHeL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "partialMatchOptions_YWje6I"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "partialMatchOptions_YqZvuS"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "partialMatchOptions_dWiObU"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "partialMatchOptions_dbGuIU"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "partialMatchOptions_fE0JOk"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "partialMatchOptions_fi5kpD"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 5,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "partialMatchOptions_hkt3uB"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "partialMatchOptions_luT8yv"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "partialMatchOptions_qvCtCQ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "partialMatchOptions_rSLEBn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 10,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "50%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "partialMatchOptions_rhBIkC"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "partialMatchOptions_rqcKsM"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "partialMatchOptions_tOFtSZ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 1,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "partialMatchOptions_un9R0h"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "partialMatchOptions_viL2Wf"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 2,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "partialMatchOptions_wojlXT"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 5,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 4,
+						"thresholdToMatch": "40%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "partialMatchOptions_yM24Oj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "partialMatchOptions",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"enabled": true,
+						"minimumNumberOfKeywords": 3,
+						"thresholdToMatch": "60%"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "partialMatchOptions_ypyAEL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "queryCorrection_3bn7Ml"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "queryCorrection_44UGtv"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "queryCorrection_6IMt4u"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "queryCorrection_6SGhiG"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "queryCorrection_7ByLQm"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "queryCorrection_7pLpgn"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "queryCorrection_C10av6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "queryCorrection_CA3CMg"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "queryCorrection_FSiboa"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "queryCorrection_FZ0U2K"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "queryCorrection_GQ3jnZ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "queryCorrection_GRUryX"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "queryCorrection_IMhbd5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "queryCorrection_NxQa9s"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 11,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "queryCorrection_RQZv6c"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "queryCorrection_RgLtml"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "queryCorrection_SC5u74"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "queryCorrection_Srd6eQ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 12,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "queryCorrection_TVc7pm"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "queryCorrection_Ufh7fS"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 6,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "queryCorrection_VI1a6m"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "queryCorrection_VshUah"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "queryCorrection_W5Uc8l"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 11,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "queryCorrection_W6j50C"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 10,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "queryCorrection_XHwkbx"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "queryCorrection_Yr2iYB"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "queryCorrection_awAge7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 12,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "queryCorrection_bsM4zN"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 11,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "queryCorrection_crdCz8"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "queryCorrection_fdp8gj"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "queryCorrection_gG9FAh"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "queryCorrection_gsaaHf"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "queryCorrection_lNUBVl"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 8,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "queryCorrection_nVMQuE"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "queryCorrection_ozYYrW"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "queryCorrection_pHZjQJ"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "queryCorrection_qQEeOD"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 3,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "queryCorrection_sbvL6V"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "queryCorrection_tGusX6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 11,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "queryCorrection_tQBmwi"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 9,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "queryCorrection_tW3I7e"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "queryCorrection_wAajZ8"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 4,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "queryCorrection_xXmkj6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "queryCorrection",
+					"position": 7,
+					"type": "STRUCTURED",
+					"value": {
+						"automaticallyCorrect": "whenNoResults",
+						"enabled": true
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "queryCorrection_zoTjJw"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "wildcards_0i3BB6"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "wildcards_43GJVy"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "wildcards_8lx3Ri"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "wildcards_EKPje7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "wildcards_ITAeTL"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "wildcards_JK1tOG"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "wildcards_O4Jn58"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "wildcards_Oofvh8"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "wildcards_Q79MYz"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "wildcards_SF84qY"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 6,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "wildcards_TFHWVq"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "wildcards_VMrm7A"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "wildcards_eEairo"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "wildcards_ebxA1z"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "wildcards_hmz4cl"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 8,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "wildcards_o47guE"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "wildcards_oYRdqC"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "wildcards_pSmnaF"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "wildcards_pinUOh"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "wildcards_sLInRR"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "wildcards_uiHXYH"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 10,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "wildcards_waHlS5"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "wildcards",
+					"position": 9,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "wildcards_wpBzPr"
+			}
+		]
+	}
+}

@@ -1,0 +1,187 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"TRACKING_ID": [
+			{
+				"model": {
+					"displayName": "Default",
+					"trackingId": "default"
+				},
+				"parents": {},
+				"resourceName": "Default_3GvJHC"
+			},
+			{
+				"model": {
+					"defaultCurrency": "INR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "ROS APAC",
+					"trackingId": "ros_apac"
+				},
+				"parents": {},
+				"resourceName": "ROS_APAC_p81CgJ"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Europe/London",
+					"displayName": "ROS DE DE",
+					"trackingId": "ros_de_de"
+				},
+				"parents": {},
+				"resourceName": "ROS_DE_DE_sYp2Qt"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Australia/Sydney",
+					"displayName": "ROS EN AU",
+					"trackingId": "ros_en_au"
+				},
+				"parents": {},
+				"resourceName": "ROS_EN_AU_6FSiA8"
+			},
+			{
+				"model": {
+					"defaultCurrency": "CAD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "ROS EN CA",
+					"trackingId": "ros_en_ca"
+				},
+				"parents": {},
+				"resourceName": "ROS_EN_CA_etJ3jj"
+			},
+			{
+				"model": {
+					"defaultCurrency": "GBP",
+					"defaultTimeZone": "Europe/London",
+					"displayName": "ROS EN GB",
+					"trackingId": "ros_en_gb"
+				},
+				"parents": {},
+				"resourceName": "ROS_EN_GB_qJLboW"
+			},
+			{
+				"model": {
+					"defaultCurrency": "NZD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "ROS EN NZ",
+					"trackingId": "ros_en_nz"
+				},
+				"parents": {},
+				"resourceName": "ROS_EN_NZ_WAJJ2S"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "America/New_York",
+					"displayName": "ROS EN US",
+					"trackingId": "ros_en_us"
+				},
+				"parents": {},
+				"resourceName": "ROS_EN_US_VLqP9A"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Europe/London",
+					"displayName": "ROS EU",
+					"trackingId": "ros_eu"
+				},
+				"parents": {},
+				"resourceName": "ROS_EU_ktSLPa"
+			},
+			{
+				"model": {
+					"defaultCurrency": "CAD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "ROS FR CA",
+					"trackingId": "ros_fr_ca"
+				},
+				"parents": {},
+				"resourceName": "ROS_FR_CA_1HNcPQ"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Europe/London",
+					"displayName": "ROS FR FR",
+					"trackingId": "ros_fr_fr"
+				},
+				"parents": {},
+				"resourceName": "ROS_FR_FR_NAGvHn"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "America/New_York",
+					"displayName": "ROS NA",
+					"trackingId": "ros_na"
+				},
+				"parents": {},
+				"resourceName": "ROS_NA_jd8Zv9"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Australia/Sydney",
+					"displayName": "Shopify AU",
+					"trackingId": "shopify_en_au"
+				},
+				"parents": {},
+				"resourceName": "Shopify_AU_qngyXp"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Australia/Sydney",
+					"displayName": "Shopify CPAP AU",
+					"trackingId": "shopify_en_cpap_au"
+				},
+				"parents": {},
+				"resourceName": "Shopify_CPAP_AU_HBAbJ4"
+			},
+			{
+				"model": {
+					"defaultCurrency": "INR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "Shopify IN",
+					"trackingId": "shopify_en_in"
+				},
+				"parents": {},
+				"resourceName": "Shopify_IN_IPE4Qe"
+			},
+			{
+				"model": {
+					"defaultCurrency": "JPY",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "Shopify JP",
+					"trackingId": "shopify_en_jp"
+				},
+				"parents": {},
+				"resourceName": "Shopify_JP_WJkARt"
+			},
+			{
+				"model": {
+					"defaultCurrency": "NZD",
+					"defaultTimeZone": "America/New_York",
+					"displayName": "Shopify NZ",
+					"trackingId": "shopify_en_nz"
+				},
+				"parents": {},
+				"resourceName": "Shopify_NZ_YOB1ex"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "America/New_York",
+					"displayName": "Shopify US",
+					"trackingId": "shopify_en_us"
+				},
+				"parents": {},
+				"resourceName": "Shopify_US_jOBsMx"
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+    "orgId": "${}",
+    "resourcesToExport": {
+        "FIELD": [
+            "*"
+        ],
+        "EXTENSION": [
+            "*"
+        ],
+        "QUERY_PIPELINE": [
+            "*"
+        ],
+        "SEARCH_PAGE": [
+            "*"
+        ],
+        "ML_MODEL": [
+            "*"
+        ],
+        "SUBSCRIPTION": [
+            "*"
+        ],
+        "SOURCE": [
+            "*"
+        ],
+        "SECURITY_PROVIDER": [
+            "*"
+        ],
+        "CATALOG": [
+            "*"
+        ],
+        "TRACKING_ID": [
+            "*"
+        ],
+        "STOREFRONT_ASSOCIATION": [
+            "*"
+        ]
+    },
+    "developerNotes": "${}",
+    "includeChildrenResources": true
+}

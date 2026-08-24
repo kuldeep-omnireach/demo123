@@ -1,0 +1,3810 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"QUERY_PIPELINE": [
+			{
+				"model": {
+					"condition": {
+						"definition": "when ( $searchHub is \"dev_uat4_wordpress_resmed_com_uk\" or $searchHub is \"dev_wordpress_resmed_co_uk\" )",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"object": "searchHub"
+									},
+									"operator": "is",
+									"right": "dev_uat4_wordpress_resmed_com_uk"
+								},
+								"operator": "or",
+								"right": {
+									"left": {
+										"object": "searchHub"
+									},
+									"operator": "is",
+									"right": "dev_wordpress_resmed_co_uk"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(_searchHub_is_dev_uat4_wordpress_resmed_com_uk_or_searchHub_is_dev_wordpress_resmed_co_uk_)_5TBrIE }}"
+					},
+					"description": "Dev WordPress  (Collection & Pages)",
+					"name": "DEV WordPress Resmed",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "DEV_WordPress_Resmed_pQDhkH"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_de\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_de"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_de_S6fPBf }}"
+					},
+					"description": "Dev Support  & WordPress DE",
+					"name": "Dev Global DE Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_DE_Cross_Platform_Search_6sWrs7"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_dk\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_dk"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_dk_i3OPam }}"
+					},
+					"description": "Dev Hybris & WordPress DK (Collection & Pages)",
+					"name": "Dev Global DK Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_DK_Cross_Platform_Search_Ine7uy"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_fi\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_fi"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_fi_RXZDMy }}"
+					},
+					"description": "Dev Hybris & WordPress FI (Collection & Pages)",
+					"name": "Dev Global FI Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_FI_Cross_Platform_Search_gzKwtB"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_fr\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_fr"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_fr_zEsOMk }}"
+					},
+					"description": "Dev Support  & WordPress FR",
+					"name": "Dev Global FR Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_FR_Cross_Platform_Search_iV21tP"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_it\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_it"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_it_Q2BTpg }}"
+					},
+					"description": "Dev Support  & WordPress IT",
+					"name": "Dev Global IT Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_IT_Cross_Platform_Search_DnXZcz"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_no\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_no"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_no_rpiLt8 }}"
+					},
+					"description": "Dev Hybris & WordPress NO (Collection & Pages)",
+					"name": "Dev Global NO Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_NO_Cross_Platform_Search_q4oZ17"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_se\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_se"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_se_mg2kbU }}"
+					},
+					"description": "Dev Hybris & WordPress SE (Collection & Pages)",
+					"name": "Dev Global SE Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Dev_Global_SE_Cross_Platform_Search_C0aSB0"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_uk\"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_uk"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_uk_5WJLP6 }}"
+					},
+					"description": "Dev Hybris & WordPress UK (Collection & Pages)",
+					"name": "Dev Global UK Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Global_UK_Cross_Platform_Search_MflL2P"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_us\"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_us"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_us_eMwZ2A }}"
+					},
+					"description": "Dev Shopify  & WordPress US (Collection & Pages)",
+					"name": "Dev Global US Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "Global_US_Cross_Platform_Search_gMXovv"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_global_ch\"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_global_ch"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_global_ch_xu2mhe }}"
+					},
+					"description": "Dev Support & WordPress CH",
+					"name": "Dev Global CH Cross Platform Search",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "Global_ch_Cross_Platform_Search_oIeDZU"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"hubspot_resmed_co_in\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "hubspot_resmed_co_in"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_hubspot_resmed_co_in_DlVkrX }}"
+					},
+					"description": "Prod HubSpot (Collection & Pages)",
+					"name": "PROD Hubspot Resmed",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "PROD_Hubspot_Resmed_2tDqtc"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ( $searchHub is \"wordpress_resmed_cz\" or $searchHub is \"wordpress_resmed_ch\" or $searchHub is \"wordpress_resmed_co_uk\" or $searchHub is \"wordpress_resmed_no\" or $searchHub is \"wordpress_resmed_es\" or $searchHub is \"wordpress_resmed_fi\" or $searchHub is \"wordpress_resmed_se\" or $searchHub is \"wordpress_resmed_nl\" or $searchHub is \"wordpress_resmed_it\" or $searchHub is \"wordpress_resmed_dk\" or $searchHub is \"wordpress_resmed_pl\" or $searchHub is \"wordpress_me_resmed_com\" or $searchHub is \"wordpress_resmed_pt\" or $searchHub is \"wordpress_resmed_fr\" or $searchHub is \"wordpress_resmed_de\" or $searchHub is \"wordpress_resmed_com_en_us\" or $searchHub is \"wordpress_resmed-healthcare_de\" )",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"object": "searchHub"
+									},
+									"operator": "is",
+									"right": "wordpress_resmed_cz"
+								},
+								"operator": "or",
+								"right": {
+									"left": {
+										"left": {
+											"object": "searchHub"
+										},
+										"operator": "is",
+										"right": "wordpress_resmed_ch"
+									},
+									"operator": "or",
+									"right": {
+										"left": {
+											"left": {
+												"object": "searchHub"
+											},
+											"operator": "is",
+											"right": "wordpress_resmed_co_uk"
+										},
+										"operator": "or",
+										"right": {
+											"left": {
+												"left": {
+													"object": "searchHub"
+												},
+												"operator": "is",
+												"right": "wordpress_resmed_no"
+											},
+											"operator": "or",
+											"right": {
+												"left": {
+													"left": {
+														"object": "searchHub"
+													},
+													"operator": "is",
+													"right": "wordpress_resmed_es"
+												},
+												"operator": "or",
+												"right": {
+													"left": {
+														"left": {
+															"object": "searchHub"
+														},
+														"operator": "is",
+														"right": "wordpress_resmed_fi"
+													},
+													"operator": "or",
+													"right": {
+														"left": {
+															"left": {
+																"object": "searchHub"
+															},
+															"operator": "is",
+															"right": "wordpress_resmed_se"
+														},
+														"operator": "or",
+														"right": {
+															"left": {
+																"left": {
+																	"object": "searchHub"
+																},
+																"operator": "is",
+																"right": "wordpress_resmed_nl"
+															},
+															"operator": "or",
+															"right": {
+																"left": {
+																	"left": {
+																		"object": "searchHub"
+																	},
+																	"operator": "is",
+																	"right": "wordpress_resmed_it"
+																},
+																"operator": "or",
+																"right": {
+																	"left": {
+																		"left": {
+																			"object": "searchHub"
+																		},
+																		"operator": "is",
+																		"right": "wordpress_resmed_dk"
+																	},
+																	"operator": "or",
+																	"right": {
+																		"left": {
+																			"left": {
+																				"object": "searchHub"
+																			},
+																			"operator": "is",
+																			"right": "wordpress_resmed_pl"
+																		},
+																		"operator": "or",
+																		"right": {
+																			"left": {
+																				"left": {
+																					"object": "searchHub"
+																				},
+																				"operator": "is",
+																				"right": "wordpress_me_resmed_com"
+																			},
+																			"operator": "or",
+																			"right": {
+																				"left": {
+																					"left": {
+																						"object": "searchHub"
+																					},
+																					"operator": "is",
+																					"right": "wordpress_resmed_pt"
+																				},
+																				"operator": "or",
+																				"right": {
+																					"left": {
+																						"left": {
+																							"object": "searchHub"
+																						},
+																						"operator": "is",
+																						"right": "wordpress_resmed_fr"
+																					},
+																					"operator": "or",
+																					"right": {
+																						"left": {
+																							"left": {
+																								"object": "searchHub"
+																							},
+																							"operator": "is",
+																							"right": "wordpress_resmed_de"
+																						},
+																						"operator": "or",
+																						"right": {
+																							"left": {
+																								"left": {
+																									"object": "searchHub"
+																								},
+																								"operator": "is",
+																								"right": "wordpress_resmed_com_en_us"
+																							},
+																							"operator": "or",
+																							"right": {
+																								"left": {
+																									"object": "searchHub"
+																								},
+																								"operator": "is",
+																								"right": "wordpress_resmed-healthcare_de"
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(_searchHub_is_wordpress_resmed_cz_or_searchHub_is_wordpress_resmed_ch_or_searchHub_is_wordpress_resmed_co_uk_or_searchHub_is_wordpress_resmed_no_or_searchHub_is_wordpress_resmed_es_or_searchHub_is_wordpress_resmed_fi_or_searchHub_is_wordpress_3hN6Y9 }}"
+					},
+					"description": "Prod WordPress  (Collection & Pages)",
+					"name": "PROD  WordPress Resmed",
+					"splitTestEnabled": false,
+					"useCase": "website"
+				},
+				"parents": {},
+				"resourceName": "PROD_WordPress_Resmed_1oMrMC"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_hybris_en_uk\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_hybris_en_uk"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_hybris_en_uk)_9ziJ2m }}"
+					},
+					"description": "listing-dev_hybris_en_uk",
+					"name": "cmh-listing-dev_hybris_en_uk",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_hybris_en_uk_6n4bzQ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_apac)_RlX0wp }}"
+					},
+					"description": "listing-dev_ros_apac",
+					"name": "cmh-listing-dev_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_apac_F31NO3"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_de_de)_C5ZPkb }}"
+					},
+					"description": "listing-dev_ros_de_de",
+					"name": "cmh-listing-dev_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_de_de_R26PoL"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_au)_jS1ph4 }}"
+					},
+					"description": "listing-dev_ros_en_au",
+					"name": "cmh-listing-dev_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_en_au_UgMiv7"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_ca)_wN1yoq }}"
+					},
+					"description": "listing-dev_ros_en_ca",
+					"name": "cmh-listing-dev_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_en_ca_CEO8sB"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_gb)_qykPKt }}"
+					},
+					"description": "listing-dev_ros_en_gb",
+					"name": "cmh-listing-dev_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_en_gb_2AHGb6"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_nz)_zXKU9c }}"
+					},
+					"description": "listing-dev_ros_en_nz",
+					"name": "cmh-listing-dev_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_en_nz_4nUvGS"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_us)_nImSeP }}"
+					},
+					"description": "listing-dev_ros_en_us",
+					"name": "cmh-listing-dev_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_en_us_6JF0if"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_eu)_zxzItY }}"
+					},
+					"description": "listing-dev_ros_eu",
+					"name": "cmh-listing-dev_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_eu_hcxH6b"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_fr_ca)_QLntv5 }}"
+					},
+					"description": "listing-dev_ros_fr_ca",
+					"name": "cmh-listing-dev_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_fr_ca_HJLWOu"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_fr_fr)_aC7xVr }}"
+					},
+					"description": "listing-dev_ros_fr_fr",
+					"name": "cmh-listing-dev_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_fr_fr_cuCTzo"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_na)_W17aGk }}"
+					},
+					"description": "listing-dev_ros_na",
+					"name": "cmh-listing-dev_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_ros_na_OczvCS"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_au)_3Ap9dB }}"
+					},
+					"description": "listing-dev_shopify_en_au",
+					"name": "cmh-listing-dev_shopify_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_au_OqVok6"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_cpap_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_faabFR }}"
+					},
+					"description": "listing-dev_shopify_en_cpap_au",
+					"name": "cmh-listing-dev_shopify_en_cpap_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_cpap_au_b6Mrwv"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_in\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_in"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_in)_uDvBWd }}"
+					},
+					"description": "listing-dev_shopify_en_in",
+					"name": "cmh-listing-dev_shopify_en_in",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_in_89Sg9s"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_jp\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_jp"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_jp)_Ys8Bpt }}"
+					},
+					"description": "listing-dev_shopify_en_jp",
+					"name": "cmh-listing-dev_shopify_en_jp",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_jp_04gnpZ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_nz)_GIl1jz }}"
+					},
+					"description": "listing-dev_shopify_en_nz",
+					"name": "cmh-listing-dev_shopify_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_nz_bjXgfp"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_us)_8LXtgH }}"
+					},
+					"description": "listing-dev_shopify_en_us",
+					"name": "cmh-listing-dev_shopify_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-dev_shopify_en_us_Eaaogj"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_apac)_647wEn }}"
+					},
+					"description": "listing-qa_ros_apac",
+					"name": "cmh-listing-qa_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_apac_0NVH5y"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_de_de)_cmG9jP }}"
+					},
+					"description": "listing-qa_ros_de_de",
+					"name": "cmh-listing-qa_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_de_de_3RXzDd"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_au)_IIJGKX }}"
+					},
+					"description": "listing-qa_ros_en_au",
+					"name": "cmh-listing-qa_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_en_au_myKHje"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_ca)_lv2YRW }}"
+					},
+					"description": "listing-qa_ros_en_ca",
+					"name": "cmh-listing-qa_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_en_ca_7YFlgv"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_gb)_TOQX8t }}"
+					},
+					"description": "listing-qa_ros_en_gb",
+					"name": "cmh-listing-qa_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_en_gb_zBbFCB"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_nz)_4VqE42 }}"
+					},
+					"description": "listing-qa_ros_en_nz",
+					"name": "cmh-listing-qa_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_en_nz_aRaif2"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_us)_IiO57w }}"
+					},
+					"description": "listing-qa_ros_en_us",
+					"name": "cmh-listing-qa_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_en_us_iNerwX"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_eu)_XgquxE }}"
+					},
+					"description": "listing-qa_ros_eu",
+					"name": "cmh-listing-qa_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_eu_dbfX7z"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_fr_ca)_PIj2Fa }}"
+					},
+					"description": "listing-qa_ros_fr_ca",
+					"name": "cmh-listing-qa_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_fr_ca_kUMSWr"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_fr_fr)_6TSirr }}"
+					},
+					"description": "listing-qa_ros_fr_fr",
+					"name": "cmh-listing-qa_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_fr_fr_cSPmCC"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_na)_lNhdrC }}"
+					},
+					"description": "listing-qa_ros_na",
+					"name": "cmh-listing-qa_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-qa_ros_na_qfxAd4"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"test_catalog_ros\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Listing"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "test_catalog_ros"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_test_catalog_ros)_TRoKaJ }}"
+					},
+					"description": "listing-test_catalog_ros",
+					"name": "cmh-listing-test_catalog_ros-303f8827",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "cmh-listing-test_catalog_ros-303f8827_aES0aS"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_hybris_en_uk\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_hybris_en_uk"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_hybris_en_uk)_ArpM7q }}"
+					},
+					"description": "recommendations-dev_hybris_en_uk",
+					"name": "cmh-recommendations-dev_hybris_en_uk",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_hybris_en_uk_XiQySD"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_apac)_S0w2qx }}"
+					},
+					"description": "recommendations-dev_ros_apac",
+					"name": "cmh-recommendations-dev_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_apac_Qy8YPc"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_de_de)_mpRRIP }}"
+					},
+					"description": "recommendations-dev_ros_de_de",
+					"name": "cmh-recommendations-dev_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_de_de_1LLKbi"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_au)_V2lOlY }}"
+					},
+					"description": "recommendations-dev_ros_en_au",
+					"name": "cmh-recommendations-dev_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_en_au_ioEzd4"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_ca)_MAJIyN }}"
+					},
+					"description": "recommendations-dev_ros_en_ca",
+					"name": "cmh-recommendations-dev_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_en_ca_enA79u"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_gb)_8X14a2 }}"
+					},
+					"description": "recommendations-dev_ros_en_gb",
+					"name": "cmh-recommendations-dev_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_en_gb_wdIKXp"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_nz)_44Wmnl }}"
+					},
+					"description": "recommendations-dev_ros_en_nz",
+					"name": "cmh-recommendations-dev_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_en_nz_njSvwO"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_us)_pl6CzT }}"
+					},
+					"description": "recommendations-dev_ros_en_us",
+					"name": "cmh-recommendations-dev_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_en_us_FXwL38"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_eu)_IjkJ1S }}"
+					},
+					"description": "recommendations-dev_ros_eu",
+					"name": "cmh-recommendations-dev_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_eu_R2MFsY"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_fr_ca)_wFEuhU }}"
+					},
+					"description": "recommendations-dev_ros_fr_ca",
+					"name": "cmh-recommendations-dev_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_fr_ca_POe5ee"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_fr_fr)_Adph6f }}"
+					},
+					"description": "recommendations-dev_ros_fr_fr",
+					"name": "cmh-recommendations-dev_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_fr_fr_ndhNWt"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_na)_2YqnHT }}"
+					},
+					"description": "recommendations-dev_ros_na",
+					"name": "cmh-recommendations-dev_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_ros_na_Xj36HN"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_au)_Y3PVP2 }}"
+					},
+					"description": "recommendations-dev_shopify_en_au",
+					"name": "cmh-recommendations-dev_shopify_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_au_rV1ZTO"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_cpap_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_tKTFwv }}"
+					},
+					"description": "recommendations-dev_shopify_en_cpap_au",
+					"name": "cmh-recommendations-dev_shopify_en_cpap_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_cpap_dPIF3w"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_in\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_in"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_in)_SCoxai }}"
+					},
+					"description": "recommendations-dev_shopify_en_in",
+					"name": "cmh-recommendations-dev_shopify_en_in",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_in_LOkJUE"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_jp\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_jp"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_jp)_KqPmka }}"
+					},
+					"description": "recommendations-dev_shopify_en_jp",
+					"name": "cmh-recommendations-dev_shopify_en_jp",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_jp_04nuYR"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_nz)_5RNDEy }}"
+					},
+					"description": "recommendations-dev_shopify_en_nz",
+					"name": "cmh-recommendations-dev_shopify_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_nz_6yJNuK"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_us)_boHR5I }}"
+					},
+					"description": "recommendations-dev_shopify_en_us",
+					"name": "cmh-recommendations-dev_shopify_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-dev_shopify_en_us_RY954A"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_apac)_OiTAJ3 }}"
+					},
+					"description": "recommendations-qa_ros_apac",
+					"name": "cmh-recommendations-qa_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_apac_maEt5I"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_de_de)_fkjxER }}"
+					},
+					"description": "recommendations-qa_ros_de_de",
+					"name": "cmh-recommendations-qa_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_de_de_0BZGe4"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_au)_076kgX }}"
+					},
+					"description": "recommendations-qa_ros_en_au",
+					"name": "cmh-recommendations-qa_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_en_au_VvCkyv"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_ca)_ufBT66 }}"
+					},
+					"description": "recommendations-qa_ros_en_ca",
+					"name": "cmh-recommendations-qa_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_en_ca_TuyYYH"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_gb)_04HI06 }}"
+					},
+					"description": "recommendations-qa_ros_en_gb",
+					"name": "cmh-recommendations-qa_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_en_gb_H0hZPM"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_nz)_y4zlJn }}"
+					},
+					"description": "recommendations-qa_ros_en_nz",
+					"name": "cmh-recommendations-qa_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_en_nz_2eSGuY"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_us)_J9Kvg5 }}"
+					},
+					"description": "recommendations-qa_ros_en_us",
+					"name": "cmh-recommendations-qa_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_en_us_0GYMeN"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_eu)_lbXU85 }}"
+					},
+					"description": "recommendations-qa_ros_eu",
+					"name": "cmh-recommendations-qa_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_eu_Y2wOzV"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_fr_ca)_KIrJVb }}"
+					},
+					"description": "recommendations-qa_ros_fr_ca",
+					"name": "cmh-recommendations-qa_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_fr_ca_uxhSXp"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_fr_fr)_4eFqAo }}"
+					},
+					"description": "recommendations-qa_ros_fr_fr",
+					"name": "cmh-recommendations-qa_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_fr_fr_jPcov0"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_na)_P9Mknf }}"
+					},
+					"description": "recommendations-qa_ros_na",
+					"name": "cmh-recommendations-qa_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-qa_ros_na_LL8che"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"test_catalog_ros\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Recommendations"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "test_catalog_ros"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_test_catalog_ros)_Zqyvcr }}"
+					},
+					"description": "recommendations-test_catalog_ros",
+					"name": "cmh-recommendations-test_catalog_ros-303f8827",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "cmh-recommendations-test_catalog_ros-303f8827_YYkb1k"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_hybris_en_uk\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_hybris_en_uk"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_hybris_en_uk)_wIh7qx }}"
+					},
+					"description": "search-dev_hybris_en_uk",
+					"name": "cmh-search-dev_hybris_en_uk",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_hybris_en_uk_e66iDP"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_apac)_EvPe15 }}"
+					},
+					"description": "search-dev_ros_apac",
+					"name": "cmh-search-dev_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_apac_Y50Xdp"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_de_de)_fJeDo6 }}"
+					},
+					"description": "search-dev_ros_de_de",
+					"name": "cmh-search-dev_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_de_de_qzLRQ9"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_au)_6Lixst }}"
+					},
+					"description": "search-dev_ros_en_au",
+					"name": "cmh-search-dev_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_en_au_1gdNsJ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_ca)_Q6ONit }}"
+					},
+					"description": "search-dev_ros_en_ca",
+					"name": "cmh-search-dev_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_en_ca_m2o304"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_gb)_oy4wno }}"
+					},
+					"description": "search-dev_ros_en_gb",
+					"name": "cmh-search-dev_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_en_gb_j7JQ3v"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_nz)_hFv2dH }}"
+					},
+					"description": "search-dev_ros_en_nz",
+					"name": "cmh-search-dev_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_en_nz_oauwqD"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_en_us"
+								}
+							}
+						},
+						"id": "e9ffb3b6-3b91-439d-a44e-34f60708a42b"
+					},
+					"description": "search-dev_ros_en_us",
+					"name": "cmh-search-dev_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_en_us_pTbyXP"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_eu)_FQ5lJN }}"
+					},
+					"description": "search-dev_ros_eu",
+					"name": "cmh-search-dev_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_eu_qjYuyb"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_fr_ca)_SbOFvj }}"
+					},
+					"description": "search-dev_ros_fr_ca",
+					"name": "cmh-search-dev_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_fr_ca_Led6zT"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_fr_fr)_cBdCMX }}"
+					},
+					"description": "search-dev_ros_fr_fr",
+					"name": "cmh-search-dev_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_fr_fr_oS19ww"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_na)_6QnnvA }}"
+					},
+					"description": "search-dev_ros_na",
+					"name": "cmh-search-dev_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_ros_na_YmXqCJ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_au)_qV73v1 }}"
+					},
+					"description": "search-dev_shopify_en_au",
+					"name": "cmh-search-dev_shopify_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_au_nzO5wU"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_cpap_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_LSqH9A }}"
+					},
+					"description": "search-dev_shopify_en_cpap_au",
+					"name": "cmh-search-dev_shopify_en_cpap_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_cpap_au_CRrKl5"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_in\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_in"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_in)_UawoYm }}"
+					},
+					"description": "search-dev_shopify_en_in",
+					"name": "cmh-search-dev_shopify_en_in",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_in_9uyvjh"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_jp\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_jp"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_jp)_Xt9kV6 }}"
+					},
+					"description": "search-dev_shopify_en_jp",
+					"name": "cmh-search-dev_shopify_en_jp",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_jp_OETeOZ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_nz)_7wNTVm }}"
+					},
+					"description": "search-dev_shopify_en_nz",
+					"name": "cmh-search-dev_shopify_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_nz_UJWDq7"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "dev_shopify_en_us"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_us)_YYvaNC }}"
+					},
+					"description": "search-dev_shopify_en_us",
+					"name": "cmh-search-dev_shopify_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-dev_shopify_en_us_VfavzB"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_apac\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_apac"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_apac)_k2ArNv }}"
+					},
+					"description": "search-qa_ros_apac",
+					"name": "cmh-search-qa_ros_apac",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_apac_BRTaeH"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_de_de\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_de_de"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_de_de)_VOJfRA }}"
+					},
+					"description": "search-qa_ros_de_de",
+					"name": "cmh-search-qa_ros_de_de",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_de_de_NOGhnq"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_au\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_au"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG }}"
+					},
+					"description": "search-qa_ros_en_au",
+					"name": "cmh-search-qa_ros_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_en_au_xCquPc"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_ca)_Uo8cwG }}"
+					},
+					"description": "search-qa_ros_en_ca",
+					"name": "cmh-search-qa_ros_en_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_en_ca_5LdUdr"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_gb\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_gb"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_gb)_ue2Y5t }}"
+					},
+					"description": "search-qa_ros_en_gb",
+					"name": "cmh-search-qa_ros_en_gb",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_en_gb_fI5rjl"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_nz\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_nz"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_nz)_X76iRA }}"
+					},
+					"description": "search-qa_ros_en_nz",
+					"name": "cmh-search-qa_ros_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_en_nz_wVZS5q"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_us\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_en_us"
+								}
+							}
+						},
+						"id": "2cbf2760-91de-4317-ba8d-1dcffcd5b5cb"
+					},
+					"description": "search-qa_ros_en_us",
+					"name": "cmh-search-qa_ros_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_en_us_W8fxtg"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_eu\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_eu"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_eu)_vYz0hI }}"
+					},
+					"description": "search-qa_ros_eu",
+					"name": "cmh-search-qa_ros_eu",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_eu_pw9Xal"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_fr_ca\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_ca"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_fr_ca)_VmKJit }}"
+					},
+					"description": "search-qa_ros_fr_ca",
+					"name": "cmh-search-qa_ros_fr_ca",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_fr_ca_GoVusj"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_fr_fr\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_fr_fr"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_fr_fr)_XzBdhl }}"
+					},
+					"description": "search-qa_ros_fr_fr",
+					"name": "cmh-search-qa_ros_fr_fr",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_fr_fr_K9FbjQ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_na\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "qa_ros_na"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_na)_bcC9AO }}"
+					},
+					"description": "search-qa_ros_na",
+					"name": "cmh-search-qa_ros_na",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "cmh-search-qa_ros_na_0znJLZ"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"test_catalog_ros\")",
+						"detailed": {
+							"condition": {
+								"left": {
+									"left": {
+										"key": "commerce-api",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "Search"
+								},
+								"operator": "and",
+								"right": {
+									"left": {
+										"key": "trackingId",
+										"object": "context"
+									},
+									"operator": "is",
+									"right": "test_catalog_ros"
+								}
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_test_catalog_ros)_DIXMkg }}"
+					},
+					"description": "search-test_catalog_ros",
+					"name": "cmh-search-test_catalog_ros-303f8827",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "cmh-search-test_catalog_ros-303f8827_8SS3SC"
+			},
+			{
+				"model": {
+					"condition": {},
+					"name": "default",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "default_0ngLsX"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_hybris_en_uk\"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_hybris_en_uk"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_hybris_en_uk_l1HVAg }}"
+					},
+					"description": "Dev Hybris UK (Content)",
+					"name": "search-dev_hybris_en_uk",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_hybris_en_uk_r2xmtK"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_au\"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_au"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_au_nNaXRX }}"
+					},
+					"description": "Dev Shopify AU (Collection & Pages)",
+					"name": "search-dev_shopify_en_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_au_COBhoW"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_cpap_au\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_cpap_au"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_cpap_au_sOIU6K }}"
+					},
+					"description": "Dev Shopify CPAP AU (Collection & Pages)",
+					"name": "search-dev_shopify_en_cpap_au",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_cpap_au_zIgsOl"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_in\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_in"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_in_dbMvwb }}"
+					},
+					"description": "Dev Shopify IN (Collection & Pages)",
+					"name": "search-dev_shopify_en_in",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_in_SUCB7h"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_jp\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_jp"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_jp_W9TJsM }}"
+					},
+					"description": "Dev Shopify JP (Collection & Pages)",
+					"name": "search-dev_shopify_en_jp",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_jp_yL7oqX"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_nz\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_nz"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_nz_psppBE }}"
+					},
+					"description": "Dev Shopify NZ (Collection & Pages)",
+					"name": "search-dev_shopify_en_nz",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_nz_z0fLx0"
+			},
+			{
+				"model": {
+					"condition": {
+						"definition": "when $searchHub is \"dev_shopify_en_us\"",
+						"description": "",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "dev_shopify_en_us"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_shopify_en_us_g3S5ow }}"
+					},
+					"description": "Dev Shopify US (Collection & Pages)",
+					"name": "search-dev_shopify_en_us",
+					"splitTestEnabled": false,
+					"useCase": "ecommerce"
+				},
+				"parents": {},
+				"resourceName": "search-dev_shopify_en_us_8UCX8F"
+			}
+		]
+	}
+}

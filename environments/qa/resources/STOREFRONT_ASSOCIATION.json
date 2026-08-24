@@ -1,0 +1,789 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"STOREFRONT_ASSOCIATION": [
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Hybris_UK_DAszg3 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_hybris_en_uk_lqoRDo"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_APAC_N3ZuJl }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Dev_Global_B2B_APAC_Region_Stream_Catalog_vGv5Eo }}",
+							"name": "Dev Global B2B APAC Region Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B APAC Region Stream Catalog",
+						"country": "IN",
+						"currency": "INR",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_apac_UKJ7v6"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_DE_DE_Hrjnt8 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Dev_Global_B2B_DE_DE_Stream_Catalog_uYTlSO }}",
+							"name": "Dev Global B2B DE DE Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B DE DE Stream Catalog",
+						"country": "DE",
+						"currency": "EUR",
+						"language": "de",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_de_de_l3nLyN"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EN_AU_K4qRYd }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Dev_Global_B2B_EN_AU_Stream_Catalog_qMiq65 }}",
+							"name": "Dev Global B2B EN AU Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EN AU Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_en_au_LQ6oUf"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EN_CA_5V4e0V }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "9179c919-1f81-4b76-9023-b512d227b775",
+							"name": "Dev Global B2B EN CA Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EN CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_en_ca_1xiLnb"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EN_GB_Mu8Hke }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "7b954af1-4f55-4ef8-b293-e16478c1c386",
+							"name": "Dev Global B2B EN GB Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EN GB Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_en_gb_RRMkSZ"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EN_NZ_JyumYw }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Dev_Global_B2B_EN_NZ_Stream_Catalog_obxhfD }}",
+							"name": "Dev Global B2B EN NZ Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EN NZ Stream Catalog",
+						"country": "NZ",
+						"currency": "NZD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_en_nz_ctGyBB"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EN_US_wdqw1F }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "cd9fa13e-8ae3-401f-9275-fdb53d3c59a1",
+							"name": "Dev Global B2B EN US Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EN US Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_en_us_sqqQAY"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_EU_xo1MPU }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "cdb3538e-da3a-46e4-a484-c727f878e2a7",
+							"name": "Dev Global B2B EU Region Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B EU Region Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_eu_9BJDby"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_FR_CA_9fbu0A }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}",
+							"name": "Dev Global B2B FR CA Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B FR CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_fr_ca_2w2082"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_FR_FR_ARHKtU }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "3c0305c1-a474-4121-aec3-1b4c27868f3f",
+							"name": "Dev Global B2B FR FR Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B FR FR Stream Catalog",
+						"country": "FR",
+						"currency": "EUR",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_fr_fr_fzgYhu"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_NA_IEd7x4 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "ca97e646-772b-4cb0-86d5-1652d3350a81",
+							"name": "Dev Global B2B NA Region Stream Catalog",
+							"sourceName": "dev-global-b2b-product-catalog"
+						},
+						"catalogName": "Dev Global B2B NA Region Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_ros_na_gceUZz"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_AU_pK6Jtc }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_au_2jQLsS"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_CPAP_AU_Nfb57Z }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_cpap_au_8rgLJr"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_IN_rTSDgJ }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "IN",
+						"currency": "INR",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_in_pJyIy0"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_JP_0fOGwc }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "JP",
+						"currency": "JPY",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_jp_Gvoxg6"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_NZ_nRX3we }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "NZ",
+						"currency": "NZD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_nz_fg0LeE"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_US_vc3TKG }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "70b6903c-8332-4b09-bc27-6dbcd461f8e8",
+							"name": "Dev Global D2C Stream Catalog",
+							"sourceName": "dev-global-d2c-product-catalog"
+						},
+						"catalogName": "Dev Global D2C Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "dev_shopify_en_us_FrJTCJ"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_APAC_ap7s5z }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "21bdfdf0-1101-4d4d-8983-29b34753b44c",
+							"name": "QA Global B2B APAC Region Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B APAC Region Stream Catalog",
+						"country": "IN",
+						"currency": "INR",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_apac_JuJbx7"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_DE_DE_RpJB3s }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "56f82d82-6d39-48f6-b0b3-097d8aaad0b4",
+							"name": "QA Global B2B DE DE Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B DE DE Stream Catalog",
+						"country": "DE",
+						"currency": "EUR",
+						"language": "de",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_de_de_gduHlp"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EN_AU_tZ9Ugu }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.QA_Global_B2B_EN_AU_Stream_Catalog_B1jXpy }}",
+							"name": "QA Global B2B EN AU Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EN AU Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_en_au_9fBLpC"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EN_CA_aE6SQT }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "aa29e62f-2401-429c-b0d8-a66008755cc0",
+							"name": "QA Global B2B EN CA Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EN CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_en_ca_8GvegA"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EN_GB_nIKd47 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.QA_Global_B2B_EN_GB_Stream_Catalog_KArXox }}",
+							"name": "QA Global B2B EN GB Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EN GB Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_en_gb_ccsWO4"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EN_NZ_ZdUxWH }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i }}",
+							"name": "QA Global B2B EN NZ Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EN NZ Stream Catalog",
+						"country": "NZ",
+						"currency": "NZD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_en_nz_DMFuyX"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EN_US_oE2lML }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.QA_Global_B2B_EN_US_Stream_Catalog_RDiE6b }}",
+							"name": "QA Global B2B EN US Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EN US Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_en_us_HNbKn0"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_EU_i1mxaW }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "2d02bbf3-f871-4bc9-9de6-39c34bb7e8d8",
+							"name": "QA Global B2B EU Region Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B EU Region Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_eu_WmygFm"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_FR_CA_mdoKon }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "82097a80-65e9-4536-8c45-153996b16d32",
+							"name": "QA Global B2B FR CA Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B FR CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_fr_ca_633asw"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_FR_FR_0Jy4Md }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "82a34af0-6b5a-4093-bf0f-5a0c3491c3bc",
+							"name": "QA Global B2B FR FR Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B FR FR Stream Catalog",
+						"country": "FR",
+						"currency": "EUR",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_fr_fr_JAivWB"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.QA_ROS_NA_3wDhgd }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.QA_Global_B2B_NA_Region_Stream_Catalog_ub3Gvp }}",
+							"name": "QA Global B2B NA Region Stream Catalog",
+							"sourceName": "qa-global-b2b-product-catalog"
+						},
+						"catalogName": "QA Global B2B NA Region Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "qa_ros_na_nwDLpT"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.TEST_CATALOG_FOR_ROS_Un2aE2 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.TEST_CATALOG_ROS_Ncxiav }}",
+							"name": "TEST CATALOG ROS",
+							"sourceName": "TEST_ROS_CATALOG_SOURCE"
+						},
+						"catalogName": "TEST CATALOG ROS",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "test_catalog_ros_odQkDN"
+			}
+		]
+	}
+}

@@ -1,0 +1,451 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"STOREFRONT_ASSOCIATION": [
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_APAC_p81CgJ }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "b4bb5ba1-497e-429e-a81a-38c9133217ff",
+							"name": "Global B2B APAC Region Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B APAC Region Stream Catalog",
+						"country": "IN",
+						"currency": "INR",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_apac_XK8rOX"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_DE_DE_sYp2Qt }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a",
+							"name": "Global B2B DE DE Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B DE DE Stream Catalog",
+						"country": "DE",
+						"currency": "EUR",
+						"language": "de",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_de_de_XdXnfb"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EN_AU_6FSiA8 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Global_B2B_EN_AU_Stream_Catalog_37mX3V }}",
+							"name": "Global B2B EN AU Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EN AU Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_en_au_F9qlMv"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EN_CA_etJ3jj }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Global_B2B_EN_CA_Stream_Catalog_ZZw7bL }}",
+							"name": "Global B2B EN CA Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EN CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_en_ca_2AAumj"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EN_GB_qJLboW }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "5a076ec6-0bb7-41ee-accc-b34762a8a0df",
+							"name": "Global B2B EN GB Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EN GB Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_en_gb_BoiIzj"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EN_NZ_WAJJ2S }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Global_B2B_EN_NZ_Stream_Catalog_jw4rYp }}",
+							"name": "Global B2B EN NZ Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EN NZ Stream Catalog",
+						"country": "NZ",
+						"currency": "NZD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_en_nz_dGm4EY"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EN_US_VLqP9A }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "{{ CATALOG.Global_B2B_EN_US_Stream_Catalog_K0KUHl }}",
+							"name": "Global B2B EN US Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EN US Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_en_us_qn5ZG8"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_EU_ktSLPa }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "2d188f71-3e6f-4918-ada2-cad20c930918",
+							"name": "Global B2B EU Region Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B EU Region Stream Catalog",
+						"country": "GB",
+						"currency": "GBP",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_eu_pwEdnH"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_FR_CA_1HNcPQ }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "331ccbaf-1cac-47db-bcdc-53e76cd2aaf8",
+							"name": "Global B2B FR CA Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B FR CA Stream Catalog",
+						"country": "CA",
+						"currency": "CAD",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_fr_ca_v8lGHE"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_FR_FR_NAGvHn }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "d12441d7-87ae-4e46-9f5c-6b1f61a21c25",
+							"name": "Global B2B FR FR Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B FR FR Stream Catalog",
+						"country": "FR",
+						"currency": "EUR",
+						"language": "fr",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_fr_fr_uXtvKx"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.ROS_NA_jd8Zv9 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "373e121c-4698-4970-8759-20254d3d1bcd",
+							"name": "Global B2B NA Region Stream Catalog",
+							"sourceName": "global-b2b-product-catalog"
+						},
+						"catalogName": "Global B2B NA Region Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "ros_na_3xtFty"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_AU_qngyXp }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_au_K3t01w"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_CPAP_AU_HBAbJ4 }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "AU",
+						"currency": "AUD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_cpap_au_dO58Mq"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_IN_IPE4Qe }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "IN",
+						"currency": "INR",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_in_y9wLIp"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_JP_WJkARt }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "JP",
+						"currency": "JPY",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_jp_pRESz6"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_NZ_YOB1ex }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "NZ",
+						"currency": "NZD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_nz_ZA6VoS"
+			},
+			{
+				"model": {
+					"trackingId": "{{ TRACKING_ID.Shopify_US_jOBsMx }}",
+					"trackingIdToCatalogMapping": {
+						"catalog": {
+							"catalogConfiguration": {
+								"availability": {},
+								"product": {
+									"idField": "ec_product_id"
+								}
+							},
+							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"name": "Global D2C Stream Catalog",
+							"sourceName": "global-d2c-product-catalog"
+						},
+						"catalogName": "Global D2C Stream Catalog",
+						"country": "US",
+						"currency": "USD",
+						"language": "en",
+						"primary": true
+					},
+					"trackingIdToCatalogMappingcatalog": {}
+				},
+				"parents": {},
+				"resourceName": "shopify_en_us_6ggGk1"
+			}
+		]
+	}
+}

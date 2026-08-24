@@ -1,0 +1,33 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"THESAURUS": [
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"humi\", \"Humidifier\", \"humid\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"humi",
+							"Humidifier",
+							"humid"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "alias_humi,_Humidifier,_humid_eIm13X"
+			}
+		]
+	}
+}

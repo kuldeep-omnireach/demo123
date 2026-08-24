@@ -1,0 +1,970 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"QUERY_PIPELINE_CONDITION": [
+			{
+				"model": {
+					"definition": "when ( $searchHub is \"dev_uat4_wordpress_resmed_com_uk\" or $searchHub is \"dev_wordpress_resmed_co_uk\" )",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_(_searchHub_is_dev_uat4_wordpress_resmed_com_uk_or_searchHub_is_dev_wordpress_resmed_co_uk_)_5TBrIE"
+			},
+			{
+				"model": {
+					"definition": "when ( $searchHub is \"wordpress_resmed_cz\" or $searchHub is \"wordpress_resmed_ch\" or $searchHub is \"wordpress_resmed_co_uk\" or $searchHub is \"wordpress_resmed_no\" or $searchHub is \"wordpress_resmed_es\" or $searchHub is \"wordpress_resmed_fi\" or $searchHub is \"wordpress_resmed_se\" or $searchHub is \"wordpress_resmed_nl\" or $searchHub is \"wordpress_resmed_it\" or $searchHub is \"wordpress_resmed_dk\" or $searchHub is \"wordpress_resmed_pl\" or $searchHub is \"wordpress_me_resmed_com\" or $searchHub is \"wordpress_resmed_pt\" or $searchHub is \"wordpress_resmed_fr\" or $searchHub is \"wordpress_resmed_de\" or $searchHub is \"wordpress_resmed_com_en_us\" or $searchHub is \"wordpress_resmed-healthcare_de\" )",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_(_searchHub_is_wordpress_resmed_cz_or_searchHub_is_wordpress_resmed_ch_or_searchHub_is_wordpress_resmed_co_uk_or_searchHub_is_wordpress_resmed_no_or_searchHub_is_wordpress_resmed_es_or_searchHub_is_wordpress_resmed_fi_or_searchHub_is_wordpress_3hN6Y9"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_hybris_en_uk\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_hybris_en_uk)_9ziJ2m"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_apac)_RlX0wp"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_de_de)_C5ZPkb"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_au)_jS1ph4"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_ca)_wN1yoq"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_gb)_qykPKt"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_nz)_zXKU9c"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_en_us)_nImSeP"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_eu)_zxzItY"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_fr_ca)_QLntv5"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_fr_fr)_aC7xVr"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_ros_na)_W17aGk"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_au)_3Ap9dB"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_faabFR"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_in\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_in)_uDvBWd"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_jp\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_jp)_Ys8Bpt"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_nz)_GIl1jz"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"dev_shopify_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_dev_shopify_en_us)_8LXtgH"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_apac)_647wEn"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_de_de)_cmG9jP"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_au)_IIJGKX"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_ca)_lv2YRW"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_gb)_TOQX8t"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_nz)_4VqE42"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_en_us)_IiO57w"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_eu)_XgquxE"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_fr_ca)_PIj2Fa"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_fr_fr)_6TSirr"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"qa_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_qa_ros_na)_lNhdrC"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Listing\" and $context [trackingId] is \"test_catalog_ros\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Listing_and_context_[trackingId]_is_test_catalog_ros)_TRoKaJ"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_hybris_en_uk\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_hybris_en_uk)_ArpM7q"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_apac)_S0w2qx"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_de_de)_mpRRIP"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_au)_V2lOlY"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_ca)_MAJIyN"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_gb)_8X14a2"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_nz)_44Wmnl"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_en_us)_pl6CzT"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_eu)_IjkJ1S"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_fr_ca)_wFEuhU"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_fr_fr)_Adph6f"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_ros_na)_2YqnHT"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_au)_Y3PVP2"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_tKTFwv"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_in\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_in)_SCoxai"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_jp\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_jp)_KqPmka"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_nz)_5RNDEy"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"dev_shopify_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_dev_shopify_en_us)_boHR5I"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_apac)_OiTAJ3"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_de_de)_fkjxER"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_au)_076kgX"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_ca)_ufBT66"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_gb)_04HI06"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_nz)_y4zlJn"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_en_us)_J9Kvg5"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_eu)_lbXU85"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_fr_ca)_KIrJVb"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_fr_fr)_4eFqAo"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"qa_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_qa_ros_na)_P9Mknf"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Recommendations\" and $context [trackingId] is \"test_catalog_ros\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Recommendations_and_context_[trackingId]_is_test_catalog_ros)_Zqyvcr"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_hybris_en_uk\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_hybris_en_uk)_wIh7qx"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_apac)_EvPe15"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_de_de)_fJeDo6"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_au)_6Lixst"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_ca)_Q6ONit"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_gb)_oy4wno"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_nz)_hFv2dH"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_en_us)_DYRTs2"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_eu)_FQ5lJN"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_fr_ca)_SbOFvj"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_fr_fr)_cBdCMX"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_ros_na)_6QnnvA"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_au)_qV73v1"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_cpap_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_cpap_au)_LSqH9A"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_in\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_in)_UawoYm"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_jp\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_jp)_Xt9kV6"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_nz)_7wNTVm"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"dev_shopify_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_dev_shopify_en_us)_YYvaNC"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_apac\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_apac)_k2ArNv"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_de_de\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_de_de)_VOJfRA"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_au\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_ca)_Uo8cwG"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_gb\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_gb)_ue2Y5t"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_nz\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_nz)_X76iRA"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_en_us\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_us)_JWNSPE"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_eu\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_eu)_vYz0hI"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_fr_ca\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_fr_ca)_VmKJit"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_fr_fr\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_fr_fr)_XzBdhl"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"qa_ros_na\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_na)_bcC9AO"
+			},
+			{
+				"model": {
+					"definition": "when ($context [commerce-api] is \"Search\" and $context [trackingId] is \"test_catalog_ros\")"
+				},
+				"parents": {},
+				"resourceName": "when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_test_catalog_ros)_DIXMkg"
+			},
+			{
+				"model": {
+					"definition": "when $context [advanced_query] isPopulated",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_context_[advanced_query]_isPopulated_bxyNiG"
+			},
+			{
+				"model": {
+					"definition": "when $context [category_code] isPopulated",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_context_[category_code]_isPopulated_sh2XMR"
+			},
+			{
+				"model": {
+					"definition": "when $query matches \"regex ^\\d{3,}$\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_query_matches_regex_d3,_43ESRY"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_ch\""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_ch_xu2mhe"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_de\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_de_S6fPBf"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_dk\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_dk_i3OPam"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_fi\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_fi_RXZDMy"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_fr\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_fr_zEsOMk"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_it\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_it_Q2BTpg"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_no\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_no_rpiLt8"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_se\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_se_mg2kbU"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_uk\""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_uk_5WJLP6"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_global_us\""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_global_us_eMwZ2A"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_hybris_en_uk\""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_hybris_en_uk_l1HVAg"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_au\""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_au_nNaXRX"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_cpap_au\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_cpap_au_sOIU6K"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_in\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_in_dbMvwb"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_jp\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_jp_W9TJsM"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_nz\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_nz_psppBE"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_shopify_en_us\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_shopify_en_us_g3S5ow"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_uat4_wordpress_resmed_com_uk\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_uat4_wordpress_resmed_com_uk_ZHjogH"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"dev_wordpress_resmed_co_uk\"",
+					"description": "Dev resmed.co.uk"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_dev_wordpress_resmed_co_uk_lmGP0Q"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"hubspot_resmed_co_in\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_hubspot_resmed_co_in_DlVkrX"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_me_resmed_com\"",
+					"description": "Prod me.resmed.com"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_me_resmed_com_mhVOP6"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed-healthcare_de\"",
+					"description": ""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed-healthcare_de_tpkcpd"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_ch\"",
+					"description": "Prod resmed.ch"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_ch_VElwUh"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_co_uk\"",
+					"description": "Prod resmed.co.uk"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_co_uk_gfmXe5"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_com_en_us\"",
+					"description": "Prod resmed_com_en_us"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_com_en_us_Dfveqp"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_cz\"",
+					"description": "Prod resmed.cz"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_cz_GQKQZP"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_de\"",
+					"description": "Prod resmed.de"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_de_e6Kcn3"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_dk\"",
+					"description": "Prod resmed.dk"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_dk_diFyhj"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_es\"",
+					"description": "Prod resmed.es"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_es_szf9sv"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_fi\"",
+					"description": "Prod resmed.fi"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_fi_y8lh45"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_fr\"",
+					"description": "Prod resmed.fr"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_fr_2Uqnsg"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_it\"",
+					"description": "Prod resmed.it"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_it_AUs8Mb"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_nl\"",
+					"description": "Prod resmed.nl"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_nl_r3tJxD"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_no\"",
+					"description": "Prod resmed.no"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_no_btjjiu"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_pl\"",
+					"description": "Prod resmed.pl"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_pl_qc8uVC"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_pt\"",
+					"description": "Prod resmed.pt"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_pt_UHVMNJ"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"wordpress_resmed_se\"",
+					"description": "Prod resmed.se"
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_wordpress_resmed_se_ppoBSl"
+			}
+		]
+	}
+}

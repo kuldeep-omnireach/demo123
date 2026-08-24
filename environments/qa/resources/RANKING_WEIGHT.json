@@ -1,0 +1,57 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"RANKING_WEIGHT": [
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "rank adjacency: 3, concept: 4, docDate: 0, summary: 1, TFIDF: 3, title: 9",
+					"description": "",
+					"detailed": {
+						"TFIDF": 3,
+						"adjacency": 3,
+						"concept": 4,
+						"docDate": 0,
+						"summary": 1,
+						"title": 9
+					},
+					"feature": "rankingweight",
+					"parent": {},
+					"position": 13,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "rank_adjacency:_3,_concept:_4,_docDate:_0,_summary:_1,_TFIDF:_3,_title:_9_R0vK5t"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "rank adjacency: 3, concept: 4, docDate: 0, summary: 1, TFIDF: 3, title: 9",
+					"description": "",
+					"detailed": {
+						"TFIDF": 3,
+						"adjacency": 3,
+						"concept": 4,
+						"docDate": 0,
+						"summary": 1,
+						"title": 9
+					},
+					"feature": "rankingweight",
+					"parent": {},
+					"position": 13,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "rank_adjacency:_7,_concept:_5,_docDate:_5,_summary:_7,_TFIDF:_5,_title:_9_5Tgfxt"
+			}
+		]
+	}
+}

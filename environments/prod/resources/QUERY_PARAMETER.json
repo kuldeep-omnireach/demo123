@@ -1,0 +1,5553 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"QUERY_PARAMETER": [
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"ffbb4917-d8b0-4c13-8d1e-55306d02295c\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "ffbb4917-d8b0-4c13-8d1e-55306d02295c"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "commerce.catalogId_3FwWFq"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"f41f5ed1-179c-4dfa-8677-919b348ec986\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "f41f5ed1-179c-4dfa-8677-919b348ec986"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "commerce.catalogId_58SJtK"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_cpap_dPIF3w }}"
+				},
+				"resourceName": "commerce.catalogId_6cOLc2"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "commerce.catalogId_7tyRbP"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 13,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "commerce.catalogId_CQqdrS"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_in_LOkJUE }}"
+				},
+				"resourceName": "commerce.catalogId_FxZsnJ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"ffbb4917-d8b0-4c13-8d1e-55306d02295c\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "ffbb4917-d8b0-4c13-8d1e-55306d02295c"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "commerce.catalogId_H9f8lT"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"373e121c-4698-4970-8759-20254d3d1bcd\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "373e121c-4698-4970-8759-20254d3d1bcd"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "commerce.catalogId_IEdjcY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 14,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "commerce.catalogId_IrNLMI"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_au_rV1ZTO }}"
+				},
+				"resourceName": "commerce.catalogId_NfOqQq"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "commerce.catalogId_PWtwfj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"2d188f71-3e6f-4918-ada2-cad20c930918\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "2d188f71-3e6f-4918-ada2-cad20c930918"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "commerce.catalogId_SUjgI7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 13,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "commerce.catalogId_SWodp2"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_jp_04nuYR }}"
+				},
+				"resourceName": "commerce.catalogId_TvWjkQ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"2d188f71-3e6f-4918-ada2-cad20c930918\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "2d188f71-3e6f-4918-ada2-cad20c930918"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "commerce.catalogId_XL04kI"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"b4bb5ba1-497e-429e-a81a-38c9133217ff\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "b4bb5ba1-497e-429e-a81a-38c9133217ff"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "commerce.catalogId_XkEO1W"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "commerce.catalogId_bTas0U"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"bec65191-c3b8-4e91-aa0f-86f5a8cad9d2\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "bec65191-c3b8-4e91-aa0f-86f5a8cad9d2"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "commerce.catalogId_d2QlKh"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "commerce.catalogId_dpIc28"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"93de08ad-42eb-472f-9bc4-1778a2bd3dfd\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "93de08ad-42eb-472f-9bc4-1778a2bd3dfd"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "commerce.catalogId_eUMzxR"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"d12441d7-87ae-4e46-9f5c-6b1f61a21c25\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "d12441d7-87ae-4e46-9f5c-6b1f61a21c25"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "commerce.catalogId_fOw1bw"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "commerce.catalogId_jFDcy6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"373e121c-4698-4970-8759-20254d3d1bcd\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "373e121c-4698-4970-8759-20254d3d1bcd"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "commerce.catalogId_m1uS4O"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"5a076ec6-0bb7-41ee-accc-b34762a8a0df\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "5a076ec6-0bb7-41ee-accc-b34762a8a0df"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "commerce.catalogId_mLHPvk"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "commerce.catalogId_nk90bv"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "commerce.catalogId_oxqaMM"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"331ccbaf-1cac-47db-bcdc-53e76cd2aaf8\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "331ccbaf-1cac-47db-bcdc-53e76cd2aaf8"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "commerce.catalogId_p2thJ7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"331ccbaf-1cac-47db-bcdc-53e76cd2aaf8\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "331ccbaf-1cac-47db-bcdc-53e76cd2aaf8"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "commerce.catalogId_pLC8dr"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "commerce.catalogId_pdoa4Q"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "commerce.catalogId_qPUwiO"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"d12441d7-87ae-4e46-9f5c-6b1f61a21c25\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "d12441d7-87ae-4e46-9f5c-6b1f61a21c25"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "commerce.catalogId_rZ8Zce"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "commerce.catalogId_rf678p"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 14,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "commerce.catalogId_sXTbMp"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"f41f5ed1-179c-4dfa-8677-919b348ec986\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "f41f5ed1-179c-4dfa-8677-919b348ec986"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "commerce.catalogId_t2HoQZ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"bec65191-c3b8-4e91-aa0f-86f5a8cad9d2\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "bec65191-c3b8-4e91-aa0f-86f5a8cad9d2"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "commerce.catalogId_t4BJmY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"93de08ad-42eb-472f-9bc4-1778a2bd3dfd\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "93de08ad-42eb-472f-9bc4-1778a2bd3dfd"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "commerce.catalogId_udqc6y"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"b4bb5ba1-497e-429e-a81a-38c9133217ff\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "b4bb5ba1-497e-429e-a81a-38c9133217ff"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "commerce.catalogId_wmrBe1"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"5a076ec6-0bb7-41ee-accc-b34762a8a0df\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "5a076ec6-0bb7-41ee-accc-b34762a8a0df"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "commerce.catalogId_y5LVlL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_us_RY954A }}"
+				},
+				"resourceName": "commerce.catalogId_yan7sf"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query commerce.catalogId: \"51467fed-bfd2-4f37-8676-8f5797aba1a5\"",
+					"description": "",
+					"detailed": {
+						"commerce.catalogId": "51467fed-bfd2-4f37-8676-8f5797aba1a5"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_nz_6yJNuK }}"
+				},
+				"resourceName": "commerce.catalogId_yzQlVL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "enableDidYouMean_0EwxWt"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "enableDidYouMean_0i4tGC"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "enableDidYouMean_1nMmng"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "enableDidYouMean_2VHiVH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "enableDidYouMean_33Wid1"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "enableDidYouMean_5JPQg1"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "enableDidYouMean_5luOsa"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "enableDidYouMean_7Q4aXz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "enableDidYouMean_9EsnxI"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "enableDidYouMean_BCiI02"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "enableDidYouMean_ENwJEP"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "enableDidYouMean_EQt9EB"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "enableDidYouMean_FTs0cn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "enableDidYouMean_IkFCJS"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "enableDidYouMean_L3h0SW"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "enableDidYouMean_O19ieb"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "enableDidYouMean_TI4njV"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "enableDidYouMean_TVATNA"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "enableDidYouMean_Ucxngm"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "enableDidYouMean_V4w0uJ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "enableDidYouMean_VZtkt5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "enableDidYouMean_VxiLnx"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "enableDidYouMean_YekIay"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "enableDidYouMean_b5TrHi"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "enableDidYouMean_deiZTg"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "enableDidYouMean_dqByFW"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "enableDidYouMean_eLWAWl"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "enableDidYouMean_hk8PmI"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "enableDidYouMean_i4L8EC"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "enableDidYouMean_iGsX0b"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "enableDidYouMean_mTIc3V"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "enableDidYouMean_mUkLj9"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "enableDidYouMean_o3snmn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "enableDidYouMean_oDXd7q"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "enableDidYouMean_qR26uU"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "enableDidYouMean_sc6hy1"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "enableDidYouMean_tGX8j5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "enableDidYouMean_uGyqcs"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "enableDidYouMean_vnthY0"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "enableDidYouMean_vs8AaV"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "enableDidYouMean_xgAK3j"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "enableDidYouMean_zBseEi"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "enableDidYouMean_zXhyjD"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "enableDidYouMean_zyaxHB"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "enableQuerySyntax_1JRh3h"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "enableQuerySyntax_5evUJu"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: false",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": false
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "enableQuerySyntax_6ODGXz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "enableQuerySyntax_M4owZK"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "enableQuerySyntax_QONBQI"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "enableQuerySyntax_Qcogy2"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "enableQuerySyntax_VxjA8B"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "enableQuerySyntax_XEDlcZ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "enableQuerySyntax_YBIaJA"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "enableQuerySyntax_aLFtba"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "enableQuerySyntax_b6usEJ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "enableQuerySyntax_b8BZrc"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "enableQuerySyntax_f97faB"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "enableQuerySyntax_gcEIql"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "enableQuerySyntax_iiQmXH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "enableQuerySyntax_ljXdrr"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "enableQuerySyntax_lsn02c"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "enableQuerySyntax_nSRzIc"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "enableQuerySyntax_ncJnbE"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "enableQuerySyntax_oKHreq"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "enableQuerySyntax_qUhOVv"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "enableQuerySyntax_r8aLxm"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableQuerySyntax: true",
+					"description": "",
+					"detailed": {
+						"enableQuerySyntax": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "enableQuerySyntax_yrVUPY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "filterField_4ecixn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "filterField_5FMIae"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "filterField_5Nh9p6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "filterField_6Jamc9"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "filterField_AnLXy7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "filterField_F6mk6b"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "filterField_GIHqyW"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "filterField_HBQhHC"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "filterField_KUtwp6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "filterField_MRHEWb"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "filterField_ONoOoz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "filterField_Pi0er2"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "filterField_QL9i6t"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "filterField_RuUYjy"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "filterField_Smds0C"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "filterField_TSWG4T"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "Product Grouping",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "filterField_V3oKa5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "filterField_VWVMo0"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "filterField_XJIKhH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "filterField_ZCw7ig"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "filterField_ZHWTVW"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "filterField_ZiWEK9"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "filterField_beQoku"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "Product Grouping",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "filterField_cUd2sl"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "filterField_eBpkkn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "filterField_ecsHTq"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "filterField_fEezDj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "filterField_j4PJ1j"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "filterField_neJ6rn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "filterField_oVVHcz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "filterField_rSExuX"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "filterField_uK8K1u"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "filterField_y6el7F"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query filterField: \"@ec_item_group_id\"",
+					"description": "",
+					"detailed": {
+						"filterField": "@ec_item_group_id"
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "filterField_yvagKG"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_BYQzg6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_KnJLuJ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_PI2Hjx"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_ULh5Ax"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_XK6K8v"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_oTZrLa"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query enableDidYouMean: true",
+					"description": "",
+					"detailed": {
+						"enableDidYouMean": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_enableDidYouMean:_true_vRWG3d"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_AdderY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_PoR4Nj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_WYT1lH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_XKfQQg"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_oaDhgU"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_pUXRXa"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_partialMatchOptions:_enabled:_true,_thresholdToMatch:_60%,_minimumNumberOfKeywords:_4_tneINs"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FR_Cross_Platform_Search_iV21tP }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_OUG689"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_NO_Cross_Platform_Search_q4oZ17 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_bLtHE9"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_FI_Cross_Platform_Search_gzKwtB }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_drxYqT"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DE_Cross_Platform_Search_6sWrs7 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_gGJxRz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_IT_Cross_Platform_Search_DnXZcz }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_lCmAn8"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_DK_Cross_Platform_Search_Ine7uy }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_oEOvfc"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Dev_Global_SE_Cross_Platform_Search_C0aSB0 }}"
+				},
+				"resourceName": "override_query_queryCorrection:_enabled:_true,_automaticallyCorrect:_whenNoResults_v25CLc"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "partialMatchOptions_0ANXws"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "partialMatchOptions_0RWFle"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "partialMatchOptions_1SaJE0"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 12,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "partialMatchOptions_1g3FcL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "partialMatchOptions_1ltUm0"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "partialMatchOptions_2IBsQH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "partialMatchOptions_40ghDF"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "partialMatchOptions_5kSPip"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "partialMatchOptions_6bcXvX"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "partialMatchOptions_6gRwF5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "partialMatchOptions_9AbeiO"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "partialMatchOptions_9LHqzN"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "partialMatchOptions_9p22kr"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "partialMatchOptions_EjvFxs"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "partialMatchOptions_EvkUuj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "partialMatchOptions_Irc7fk"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "partialMatchOptions_IsDkZY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "partialMatchOptions_QCrWx7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "partialMatchOptions_Qd8LXt"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "partialMatchOptions_StEV60"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "partialMatchOptions_TJdhjO"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "partialMatchOptions_UEqdiY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "partialMatchOptions_Ueaq6B"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "partialMatchOptions_V3R2xz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "partialMatchOptions_W14kSt"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "partialMatchOptions_Y2YHeL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "partialMatchOptions_YWje6I"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "partialMatchOptions_YqZvuS"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "partialMatchOptions_dWiObU"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "partialMatchOptions_dbGuIU"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "partialMatchOptions_fE0JOk"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "partialMatchOptions_fi5kpD"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "partialMatchOptions_hkt3uB"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "partialMatchOptions_luT8yv"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "partialMatchOptions_qvCtCQ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "partialMatchOptions_rSLEBn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"50%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "50%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "partialMatchOptions_rhBIkC"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "partialMatchOptions_rqcKsM"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "partialMatchOptions_tOFtSZ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "partialMatchOptions_un9R0h"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "partialMatchOptions_viL2Wf"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 2, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 2,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "partialMatchOptions_wojlXT"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 4, \"thresholdToMatch\": \"40%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 4,
+							"thresholdToMatch": "40%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 5,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "partialMatchOptions_yM24Oj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query partialMatchOptions: {\"enabled\": true, \"minimumNumberOfKeywords\": 3, \"thresholdToMatch\": \"60%\"}",
+					"description": "",
+					"detailed": {
+						"partialMatchOptions": {
+							"enabled": true,
+							"minimumNumberOfKeywords": 3,
+							"thresholdToMatch": "60%"
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "partialMatchOptions_ypyAEL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "queryCorrection_3bn7Ml"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "queryCorrection_44UGtv"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "queryCorrection_6IMt4u"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "queryCorrection_6SGhiG"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "queryCorrection_7ByLQm"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "queryCorrection_7pLpgn"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-uat_shopify_en_in_1OLwHH }}"
+				},
+				"resourceName": "queryCorrection_C10av6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_nz_z0fLx0 }}"
+				},
+				"resourceName": "queryCorrection_CA3CMg"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "queryCorrection_FSiboa"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "queryCorrection_FZ0U2K"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
+				},
+				"resourceName": "queryCorrection_GQ3jnZ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
+				},
+				"resourceName": "queryCorrection_GRUryX"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "queryCorrection_IMhbd5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "queryCorrection_NxQa9s"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
+				},
+				"resourceName": "queryCorrection_RQZv6c"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "queryCorrection_RgLtml"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "queryCorrection_SC5u74"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "queryCorrection_Srd6eQ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 12,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
+				},
+				"resourceName": "queryCorrection_TVc7pm"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "queryCorrection_Ufh7fS"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "queryCorrection_VI1a6m"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_us_8UCX8F }}"
+				},
+				"resourceName": "queryCorrection_VshUah"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
+				},
+				"resourceName": "queryCorrection_W5Uc8l"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "queryCorrection_W6j50C"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "queryCorrection_XHwkbx"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "queryCorrection_Yr2iYB"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "queryCorrection_awAge7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 12,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_cpap_au_CRrKl5 }}"
+				},
+				"resourceName": "queryCorrection_bsM4zN"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
+				},
+				"resourceName": "queryCorrection_crdCz8"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "queryCorrection_fdp8gj"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
+				},
+				"resourceName": "queryCorrection_gG9FAh"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "queryCorrection_gsaaHf"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
+				},
+				"resourceName": "queryCorrection_lNUBVl"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "queryCorrection_nVMQuE"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "queryCorrection_ozYYrW"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
+				},
+				"resourceName": "queryCorrection_pHZjQJ"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
+				},
+				"resourceName": "queryCorrection_qQEeOD"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 3,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_ch_Cross_Platform_Search_oIeDZU }}"
+				},
+				"resourceName": "queryCorrection_sbvL6V"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
+				},
+				"resourceName": "queryCorrection_tGusX6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
+				},
+				"resourceName": "queryCorrection_tQBmwi"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "queryCorrection_tW3I7e"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "queryCorrection_wAajZ8"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 4,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
+				},
+				"resourceName": "queryCorrection_xXmkj6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query queryCorrection: {\"automaticallyCorrect\": \"whenNoResults\", \"enabled\": true}",
+					"description": "",
+					"detailed": {
+						"queryCorrection": {
+							"automaticallyCorrect": "whenNoResults",
+							"enabled": true
+						}
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 7,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "queryCorrection_zoTjJw"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
+				},
+				"resourceName": "wildcards_0i3BB6"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
+				},
+				"resourceName": "wildcards_43GJVy"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
+				},
+				"resourceName": "wildcards_8lx3Ri"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
+				},
+				"resourceName": "wildcards_EKPje7"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
+				},
+				"resourceName": "wildcards_ITAeTL"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
+				},
+				"resourceName": "wildcards_JK1tOG"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
+				},
+				"resourceName": "wildcards_O4Jn58"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "wildcards_Oofvh8"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "wildcards_Q79MYz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
+				},
+				"resourceName": "wildcards_SF84qY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 6,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "wildcards_TFHWVq"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_de_de_qzLRQ9 }}"
+				},
+				"resourceName": "wildcards_VMrm7A"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
+				},
+				"resourceName": "wildcards_eEairo"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "wildcards_ebxA1z"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "wildcards_hmz4cl"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 8,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
+				},
+				"resourceName": "wildcards_o47guE"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
+				},
+				"resourceName": "wildcards_oYRdqC"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
+				},
+				"resourceName": "wildcards_pSmnaF"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
+				},
+				"resourceName": "wildcards_pinUOh"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
+				},
+				"resourceName": "wildcards_sLInRR"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
+				},
+				"resourceName": "wildcards_uiHXYH"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
+				},
+				"resourceName": "wildcards_waHlS5"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "override query wildcards: true",
+					"description": "",
+					"detailed": {
+						"wildcards": true
+					},
+					"feature": "queryParamOverride",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
+				},
+				"resourceName": "wildcards_wpBzPr"
+			}
+		]
+	}
+}

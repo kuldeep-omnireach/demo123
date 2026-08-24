@@ -1,0 +1,393 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"CATALOG": [
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS APAC Region Product Catalog",
+					"name": "Global B2B APAC Region Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_APAC_Region_Stream_Catalog_PPsurw"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS DE DE Product Catalog",
+					"name": "Global B2B DE DE Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_DE_DE_Stream_Catalog_a8qyWc"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EN AU Product Catalog",
+					"name": "Global B2B EN AU Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EN_AU_Stream_Catalog_37mX3V"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EN CA Product Catalog",
+					"name": "Global B2B EN CA Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EN_CA_Stream_Catalog_ZZw7bL"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EN GB Product Catalog",
+					"name": "Global B2B EN GB Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EN_GB_Stream_Catalog_n46shR"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EN NZ Product Catalog",
+					"name": "Global B2B EN NZ Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EN_NZ_Stream_Catalog_jw4rYp"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EN US Product Catalog",
+					"name": "Global B2B EN US Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EN_US_Stream_Catalog_K0KUHl"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS EU Region Product Catalog",
+					"name": "Global B2B EU Region Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_EU_Region_Stream_Catalog_wScw72"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS FR CA Product Catalog",
+					"name": "Global B2B FR CA Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_FR_CA_Stream_Catalog_MsSvKp"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS FR FR Product Catalog",
+					"name": "Global B2B FR FR Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_FR_FR_Stream_Catalog_orlqVL"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_B2B_Catalog_Configuration_cUZdVV }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global B2B Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "ROS NA Region Product Catalog",
+					"name": "Global B2B NA Region Stream Catalog",
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"parents": {},
+				"resourceName": "Global_B2B_NA_Region_Stream_Catalog_8F67h8"
+			},
+			{
+				"model": {
+					"catalogConfigurationId": "{{ CATALOG_CONFIG.Global_D2C_Catalog_Configuration_4ld15k }}",
+					"catalogVersion": "V1",
+					"configuration": {
+						"availabilityFilterStrategy": "ALWAYS",
+						"catalogVersion": "V1",
+						"fieldsMapping": {
+							"ec_brand": "ec_brand",
+							"ec_category": "ec_category",
+							"ec_description": "ec_description",
+							"ec_in_stock": "ec_in_stock",
+							"ec_item_group_id": "ec_item_group_id",
+							"ec_name": "ec_name",
+							"ec_price": "ec_price",
+							"ec_rating": "ec_rating",
+							"ec_shortdesc": "ec_shortdesc"
+						},
+						"name": "Global D2C Catalog Configuration",
+						"product": {
+							"fields": [],
+							"idField": "ec_product_id",
+							"objectType": "Product"
+						}
+					},
+					"description": "Hybris & Shopify Product Catalog",
+					"name": "Global D2C Stream Catalog",
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"parents": {},
+				"resourceName": "Global_D2C_Stream_Catalog_u4uxvY"
+			}
+		]
+	}
+}

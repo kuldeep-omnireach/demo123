@@ -1,0 +1,83 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"THESAURUS": [
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"humi\", \"Humidifier\", \"humid\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"humi",
+							"Humidifier",
+							"humid"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 9,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
+				},
+				"resourceName": "alias_humi,_Humidifier,_humid_eIm13X"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "replace /^(?<term>.{3,})$/ to \"_term_*\"",
+					"description": "3 Character Search",
+					"detailed": {
+						"from": [
+							"/^(?<term>.{3,})$/"
+						],
+						"sub-feature": "replace",
+						"to": [
+							"_term_*"
+						]
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 10,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "replace_/(?<term>.3,)/_to__term_*_6bRPvX"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "replace /^(?<term>.{3,})$/ to \"_term_*\"",
+					"description": "3 Character Search",
+					"detailed": {
+						"from": [
+							"/^(?<term>.{3,})$/"
+						],
+						"sub-feature": "replace",
+						"to": [
+							"_term_*"
+						]
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 11,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
+				},
+				"resourceName": "replace_/(?<term>.3,)/_to__term_*_AndYsm"
+			}
+		]
+	}
+}
