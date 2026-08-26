@@ -249,7 +249,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "{{ CATALOG.Global_B2B_FR_FR_Stream_Catalog_orlqVL }}",
+							"id": "d12441d7-87ae-4e46-9f5c-6b1f61a21c25",
 							"name": "Global B2B FR FR Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},

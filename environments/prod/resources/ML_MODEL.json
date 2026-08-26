@@ -44,7 +44,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 2,
+					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -55,7 +55,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ACTIVE",
+					"modelActivenessState": "ARCHIVED",
 					"modelDisplayName": "ROS ART  Model",
 					"startTime": 1776413100000
 				},
@@ -65,14 +65,14 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 2,
+					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ACTIVE",
+					"modelActivenessState": "ARCHIVED",
 					"modelDisplayName": "ROS QS Model",
 					"startTime": 1776412980000
 				},
@@ -103,7 +103,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 1,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",

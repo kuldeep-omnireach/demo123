@@ -9,6 +9,38 @@
 					"rules": [
 						{
 							"content": [
+								"%[allmetadatavalues]"
+							],
+							"field": "{{ FIELD.allmetadatavalues_wZpa7r }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_allmetadatavalues_Rule:_%[allmetadatavalues]_VlTwuK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[allmetadatavalues]"
+							],
+							"field": "{{ FIELD.allmetadatavalues_wZpa7r }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
+				},
+				"resourceName": "Field:_allmetadatavalues_Rule:_%[allmetadatavalues]_qFLIXv"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
 								"%[audience]"
 							],
 							"field": "{{ FIELD.audience_oHxi69 }}"
@@ -2387,22 +2419,6 @@
 					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
 				},
 				"resourceName": "Field:_body_Rule:_%[ec_description]_3GPu3O"
-			},
-			{
-				"model": {
-					"rules": [
-						{
-							"content": [
-								"%[ec_description]"
-							],
-							"field": "{{ FIELD.body_7uoAv0 }}"
-						}
-					]
-				},
-				"parents": {
-					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
-				},
-				"resourceName": "Field:_body_Rule:_%[ec_description]_MLaG1N"
 			},
 			{
 				"model": {
@@ -9145,6 +9161,38 @@
 					"rules": [
 						{
 							"content": [
+								"%[ec_in_stock]"
+							],
+							"field": "{{ FIELD.ec_in_stock_XgBBff }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_ec_in_stock_Rule:_%[ec_in_stock]_BP2k7Y"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[ec_in_stock]"
+							],
+							"field": "{{ FIELD.ec_in_stock_XgBBff }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_ec_in_stock_Rule:_%[ec_in_stock]_zkefRF"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
 								"%[ec_item_group_id]"
 							],
 							"field": "{{ FIELD.ec_item_group_id_MZgMI7 }}"
@@ -9273,6 +9321,38 @@
 					"rules": [
 						{
 							"content": [
+								"%[ec_rating]"
+							],
+							"field": "{{ FIELD.ec_rating_wxAyiA }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_ec_rating_Rule:_%[ec_rating]_d5exno"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[ec_review_count]"
+							],
+							"field": "{{ FIELD.ec_review_count_HqfIn3 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_ec_review_count_Rule:_%[ec_review_count]_KCtvXg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
 								"%[ec_shortdesc]"
 							],
 							"field": "{{ FIELD.ec_shortdesc_7z3TIx }}"
@@ -9299,6 +9379,22 @@
 					"sourceId": "{{ SOURCE.global-b2b-product-catalog_B51h7J }}"
 				},
 				"resourceName": "Field:_ec_shortdesc_Rule:_%[ec_shortdesc]_V9B4Rg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[ec_stock_qty]"
+							],
+							"field": "{{ FIELD.ec_stock_qty_NSyBcF }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.global-d2c-product-catalog_tz6wj3 }}"
+				},
+				"resourceName": "Field:_ec_stock_qty_Rule:_%[ec_stock_qty]_u1Yrs3"
 			},
 			{
 				"model": {
@@ -33817,7 +33913,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[ec_name]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -33833,7 +33929,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[ec_name]"
+								"%[title]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -34137,7 +34233,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -34233,7 +34329,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -34297,7 +34393,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -34329,7 +34425,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -34361,7 +34457,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
