@@ -44,7 +44,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 4,
+					"daysUntilArchival": 2,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -65,7 +65,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 4,
+					"daysUntilArchival": 2,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -103,7 +103,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 3,
+					"daysUntilArchival": 1,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
