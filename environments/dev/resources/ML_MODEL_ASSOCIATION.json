@@ -260,6 +260,48 @@
 					"exclusive": false,
 					"intelligentTermDetection": false,
 					"matchAdvancedExpression": true,
+					"matchBasicExpression": false,
+					"maxRecommendations": 5,
+					"modelId": "{{ ML_MODEL.Shopify_ART_Model_BNvkhe }}",
+					"rankingModifier": 250,
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "Dev_Shopify_ART_Model_1hoRwo"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": true,
+					"matchBasicExpression": false,
+					"maxRecommendations": 5,
+					"modelId": "{{ ML_MODEL.Shopify_ART_Model_BNvkhe }}",
+					"rankingModifier": 250,
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "Dev_Shopify_ART_Model_5IYv7P"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": true,
 					"matchBasicExpression": true,
 					"maxRecommendations": 5,
 					"modelId": "{{ ML_MODEL.Shopify_ART_Model_BNvkhe }}",
@@ -290,6 +332,46 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_in_SUCB7h }}"
 				},
 				"resourceName": "Dev_Shopify_QS_Model_7BDBJI"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": false,
+					"matchBasicExpression": false,
+					"maxRecommendations": 10,
+					"modelId": "{{ ML_MODEL.Shopify_QS_Model_8aXqB8 }}",
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_us_Eaaogj }}"
+				},
+				"resourceName": "Dev_Shopify_QS_Model_DhJOi8"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": false,
+					"matchBasicExpression": false,
+					"maxRecommendations": 10,
+					"modelId": "{{ ML_MODEL.Shopify_QS_Model_8aXqB8 }}",
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_us_VfavzB }}"
+				},
+				"resourceName": "Dev_Shopify_QS_Model_fvzSoq"
 			},
 			{
 				"model": {
