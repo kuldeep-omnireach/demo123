@@ -1073,6 +1073,27 @@
 					"useAdvancedConfiguration": false
 				},
 				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
+				},
+				"resourceName": "QA_ROS_ART_Model_KSkLU6"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": true,
+					"matchAdvancedExpression": true,
+					"matchBasicExpression": true,
+					"maxRecommendations": 5,
+					"modelId": "{{ ML_MODEL.QA_ROS_ART_Model_QwkFfI }}",
+					"rankingModifier": 350,
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
 				},
 				"resourceName": "QA_ROS_ART_Model_TGzMUl"
@@ -1603,6 +1624,26 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
 				},
 				"resourceName": "QA_ROS_QS_Model_trTuEE"
+			},
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"customQueryParameters": {
+						"enableTermExpansion": false
+					},
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": false,
+					"matchBasicExpression": false,
+					"maxRecommendations": 10,
+					"modelId": "{{ ML_MODEL.QA_ROS_QS_Model_lKU2QR }}",
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
+				},
+				"resourceName": "QA_ROS_QS_Model_vlL5bQ"
 			},
 			{
 				"model": {

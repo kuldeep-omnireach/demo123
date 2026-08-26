@@ -39033,7 +39033,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39097,7 +39097,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39145,7 +39145,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39241,7 +39241,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -39257,7 +39257,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[resmed_page_title:crawler]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}

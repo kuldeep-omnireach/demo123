@@ -8,6 +8,34 @@
 				"model": {
 					"resultRanking": {
 						"condition": {
+							"reference": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG }}"
+						},
+						"defaultMatchOperator": {
+							"kind": "is"
+						},
+						"description": "",
+						"enabled": true,
+						"kind": "ranking_expression",
+						"name": "Boost device by 100",
+						"predicates": [],
+						"rankingModifier": 100,
+						"targets": [
+							{
+								"queryExpression": "@rm_p_product_type==Device"
+							}
+						],
+						"targetsMode": "simple"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
+				},
+				"resourceName": "0VRrgX"
+			},
+			{
+				"model": {
+					"resultRanking": {
+						"condition": {
 							"reference": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_us)_JWNSPE }}"
 						},
 						"defaultMatchOperator": {
@@ -31,6 +59,34 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
 				},
 				"resourceName": "4EieQ2"
+			},
+			{
+				"model": {
+					"resultRanking": {
+						"condition": {
+							"reference": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG }}"
+						},
+						"defaultMatchOperator": {
+							"kind": "is"
+						},
+						"description": "Boost last 1 year product more",
+						"enabled": true,
+						"kind": "ranking_expression",
+						"name": "Sale date boost",
+						"predicates": [],
+						"rankingModifier": 500,
+						"targets": [
+							{
+								"queryExpression": "@rm_p_sales_start_date>=now-1y"
+							}
+						],
+						"targetsMode": "advanced"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
+				},
+				"resourceName": "5KFkA2"
 			},
 			{
 				"model": {
@@ -163,27 +219,58 @@
 			{
 				"model": {
 					"resultRanking": {
+						"condition": {
+							"reference": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG }}"
+						},
 						"defaultMatchOperator": {
 							"kind": "is"
 						},
 						"description": "",
 						"enabled": true,
 						"kind": "ranking_expression",
-						"name": "Boosting Device Accessory Product Type",
+						"name": "Boost mask by 50",
 						"predicates": [],
-						"rankingModifier": 450,
+						"rankingModifier": 50,
 						"targets": [
 							{
-								"queryExpression": "@rm_p_product_type==(\"Device Accessory\",\"Mask Headgear\")"
+								"queryExpression": "@rm_p_product_type==Mask"
 							}
 						],
-						"targetsMode": "advanced"
+						"targetsMode": "simple"
 					}
 				},
 				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
 				},
-				"resourceName": "LohT10"
+				"resourceName": "Mze4g7"
+			},
+			{
+				"model": {
+					"resultRanking": {
+						"condition": {
+							"reference": "{{ QUERY_PIPELINE_CONDITION.when_(context_[commerce-api]_is_Search_and_context_[trackingId]_is_qa_ros_en_au)_N27oUG }}"
+						},
+						"defaultMatchOperator": {
+							"kind": "is"
+						},
+						"description": "",
+						"enabled": true,
+						"kind": "ranking_expression",
+						"name": "Boost accessory by 75",
+						"predicates": [],
+						"rankingModifier": 75,
+						"targets": [
+							{
+								"queryExpression": "@rm_p_product_type==Accessory"
+							}
+						],
+						"targetsMode": "simple"
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_au_xCquPc }}"
+				},
+				"resourceName": "PxcXZC"
 			},
 			{
 				"model": {
@@ -202,7 +289,7 @@
 						"rankingModifier": 75,
 						"targets": [
 							{
-								"queryExpression": "@rm_p_product_type=Accessory"
+								"queryExpression": "@rm_p_product_type==Accessory"
 							}
 						],
 						"targetsMode": "simple"
@@ -233,7 +320,7 @@
 								"queryExpression": "@rm_p_product_type=Device"
 							}
 						],
-						"targetsMode": "advanced"
+						"targetsMode": "simple"
 					}
 				},
 				"parents": {
@@ -258,7 +345,7 @@
 						"rankingModifier": 100,
 						"targets": [
 							{
-								"queryExpression": "@rm_p_product_type=Device"
+								"queryExpression": "@rm_p_product_type==Device"
 							}
 						],
 						"targetsMode": "simple"
@@ -339,7 +426,7 @@
 						"rankingModifier": 50,
 						"targets": [
 							{
-								"queryExpression": "@rm_p_product_type=Mask"
+								"queryExpression": "@rm_p_product_type==Mask"
 							}
 						],
 						"targetsMode": "simple"

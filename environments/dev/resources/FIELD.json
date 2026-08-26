@@ -260,6 +260,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "for wordpress blog categrories",
 					"facet": false,
@@ -387,6 +388,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris categorypath",
 					"facet": false,
@@ -1597,6 +1599,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -4364,6 +4367,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris pricecurrency",
 					"facet": false,
@@ -4489,6 +4493,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productavailability",
 					"facet": false,
@@ -4520,6 +4525,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productbadge",
 					"facet": false,
@@ -4551,6 +4557,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": true,
@@ -4646,6 +4653,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productdiscountpercent",
 					"facet": true,
@@ -4677,6 +4685,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productlistprice",
 					"facet": true,
@@ -4740,6 +4749,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productprice",
 					"facet": true,
@@ -4771,6 +4781,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris productrating",
 					"facet": true,
@@ -4802,6 +4813,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "hybris productsku",
 					"facet": false,
@@ -4929,6 +4941,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "Hybris reviewcount",
 					"facet": true,
@@ -5216,6 +5229,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5247,6 +5261,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5278,6 +5293,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5309,6 +5325,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5340,6 +5357,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5467,6 +5485,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5498,6 +5517,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5529,6 +5549,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5560,6 +5581,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5783,6 +5805,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5846,6 +5869,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
@@ -5877,6 +5901,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": true,

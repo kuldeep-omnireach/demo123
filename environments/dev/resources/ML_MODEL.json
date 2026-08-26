@@ -103,14 +103,13 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P3M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "QA ROS QS Model",
 					"startTime": 1786350840000
 				},
@@ -140,14 +139,14 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 1,
+					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ACTIVE",
+					"modelActivenessState": "ARCHIVED",
 					"modelDisplayName": "DEV ROS QS Model",
 					"startTime": 1776412980000
 				},
