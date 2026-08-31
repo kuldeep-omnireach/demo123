@@ -64,7 +64,7 @@ def build_commands(env_name: str):
 
     return [
         f'echo "${key_var}" | coveo auth:token',
-        f"printf 'y\\n' | coveo org:resources:pull --organization {org_id} --wait 0",
+        f"coveo org:resources:pull --organization {org_id} --overwrite --wait 0",
     ]
 
 
