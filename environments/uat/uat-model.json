@@ -1,0 +1,85 @@
+{
+  "orgId": "resmednonproduction22y0bgj47",
+  "resourcesToExport": {
+    "CATALOG_CONFIG": [
+      "*"
+    ],
+    "CATALOG": [
+      "*"
+    ],
+    "EXTENSION": [
+      "*"
+    ],
+    "FIELD": [
+      "*"
+    ],
+    "FILTER": [
+      "*"
+    ],
+    "LISTING_PAGE": [
+      "*"
+    ],
+    "MAPPING": [
+      "*"
+    ],
+    "MCP_CONFIGURATION": [
+      "*"
+    ],
+    "ML_MODEL_ASSOCIATION": [
+      "*"
+    ],
+    "ML_MODEL": [
+      "*"
+    ],
+    "QUERY_PARAMETER": [
+      "*"
+    ],
+    "QUERY_PIPELINE_CONDITION": [
+      "*"
+    ],
+    "QUERY_PIPELINE": [
+      "*"
+    ],
+    "RANKING_WEIGHT": [
+      "*"
+    ],
+    "RESULT_RANKING": [
+      "*"
+    ],
+    "SEARCH_PAGE": [
+      "*"
+    ],
+    "SECURITY_PROVIDER": [
+      "*"
+    ],
+    "SETTING": [
+      "*"
+    ],
+    "SOURCE": [
+      "*"
+    ],
+    "STATEMENT_GROUP": [
+      "*"
+    ],
+    "STOP_WORD": [
+      "*"
+    ],
+    "STOREFRONT_ASSOCIATION": [
+      "*"
+    ],
+    "SUBSCRIPTION": [
+      "*"
+    ],
+    "THESAURUS": [
+      "*"
+    ],
+    "TRACKING_ID": [
+      "*"
+    ],
+    "TRIGGER": [
+      "*"
+    ]
+  },
+  "developerNotes": "UAT-Snapshot",
+  "includeChildrenResources": true
+}

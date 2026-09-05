@@ -2896,27 +2896,6 @@
 					"useAdvancedConfiguration": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_nz_6yJNuK }}"
-				},
-				"resourceName": "Shopify_ART_Model_eAZCqg"
-			},
-			{
-				"model": {
-					"cacheMaximumAge": "PT10S",
-					"customQueryParameters": {
-						"enableTermExpansion": false
-					},
-					"enableWordCompletion": false,
-					"exclusive": false,
-					"intelligentTermDetection": false,
-					"matchAdvancedExpression": true,
-					"matchBasicExpression": true,
-					"maxRecommendations": 5,
-					"modelId": "{{ ML_MODEL.Shopify_ART_Model_BNvkhe }}",
-					"rankingModifier": 350,
-					"useAdvancedConfiguration": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_jp_yL7oqX }}"
 				},
 				"resourceName": "Shopify_ART_Model_j7UBJ1"
@@ -2941,27 +2920,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
 				},
 				"resourceName": "Shopify_ART_Model_l6h0TY"
-			},
-			{
-				"model": {
-					"cacheMaximumAge": "PT10S",
-					"customQueryParameters": {
-						"enableTermExpansion": false
-					},
-					"enableWordCompletion": false,
-					"exclusive": false,
-					"intelligentTermDetection": false,
-					"matchAdvancedExpression": true,
-					"matchBasicExpression": true,
-					"maxRecommendations": 5,
-					"modelId": "{{ ML_MODEL.Shopify_ART_Model_BNvkhe }}",
-					"rankingModifier": 350,
-					"useAdvancedConfiguration": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_au_rV1ZTO }}"
-				},
-				"resourceName": "Shopify_ART_Model_tNNWSw"
 			},
 			{
 				"model": {
@@ -3159,26 +3117,6 @@
 					"useAdvancedConfiguration": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_au_rV1ZTO }}"
-				},
-				"resourceName": "Shopify_QS_Model_uqjIpo"
-			},
-			{
-				"model": {
-					"cacheMaximumAge": "PT10S",
-					"customQueryParameters": {
-						"enableTermExpansion": false
-					},
-					"enableWordCompletion": false,
-					"exclusive": false,
-					"intelligentTermDetection": false,
-					"matchAdvancedExpression": false,
-					"matchBasicExpression": false,
-					"maxRecommendations": 10,
-					"modelId": "{{ ML_MODEL.Shopify_QS_Model_8aXqB8 }}",
-					"useAdvancedConfiguration": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.Global_US_Cross_Platform_Search_gMXovv }}"
 				},
 				"resourceName": "Shopify_QS_Model_uuTsLR"
@@ -3222,26 +3160,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_au_nzO5wU }}"
 				},
 				"resourceName": "Shopify_QS_Model_xRwQzm"
-			},
-			{
-				"model": {
-					"cacheMaximumAge": "PT10S",
-					"customQueryParameters": {
-						"enableTermExpansion": false
-					},
-					"enableWordCompletion": false,
-					"exclusive": false,
-					"intelligentTermDetection": false,
-					"matchAdvancedExpression": false,
-					"matchBasicExpression": false,
-					"maxRecommendations": 10,
-					"modelId": "{{ ML_MODEL.Shopify_QS_Model_8aXqB8 }}",
-					"useAdvancedConfiguration": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_nz_6yJNuK }}"
-				},
-				"resourceName": "Shopify_QS_Model_xdQn27"
 			},
 			{
 				"model": {

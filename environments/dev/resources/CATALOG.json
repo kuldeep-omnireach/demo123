@@ -609,7 +609,7 @@
 					},
 					"description": "TEST CATALOG ROS",
 					"name": "TEST CATALOG ROS",
-					"sourceId": "{{ SOURCE.TEST_ROS_CATALOG_SOURCE_fFhWqs }}"
+					"sourceId": "{{ SOURCE.dev-global-b2b-product-catalog_4nP70g }}"
 				},
 				"parents": {},
 				"resourceName": "TEST_CATALOG_ROS_Ncxiav"

@@ -45,7 +45,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P3M",
@@ -56,7 +55,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "WEEK",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Hybris ART Model",
 					"startTime": 1776413280000
 				},
@@ -195,6 +194,7 @@
 			{
 				"model": {
 					"commandLineParameters": [],
+					"daysUntilArchival": 4,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",

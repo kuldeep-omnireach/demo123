@@ -112,7 +112,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 12,
+					"position": 11,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_D2C_Stream_Catalog_tzD78A }}"
 				},
@@ -125,7 +125,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 11,
+					"position": 12,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_D2C_Stream_Catalog_tzD78A }}"
 				},
@@ -814,7 +814,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 7,
+					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_NA_Region_Stream_Catalog_ub3Gvp }}"
 				},
@@ -827,7 +827,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 6,
+					"position": 7,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_NA_Region_Stream_Catalog_ub3Gvp }}"
 				},
@@ -892,7 +892,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 6,
+					"position": 5,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i }}"
 				},
@@ -905,7 +905,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 5,
+					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i }}"
 				},

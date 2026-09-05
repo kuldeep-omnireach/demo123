@@ -301,16 +301,6 @@
 				},
 				"parents": {},
 				"resourceName": "QA_ROS_NA_3wDhgd"
-			},
-			{
-				"model": {
-					"defaultCurrency": "USD",
-					"defaultTimeZone": "Indian/Cocos",
-					"displayName": "TEST CATALOG FOR ROS",
-					"trackingId": "test_catalog_ros"
-				},
-				"parents": {},
-				"resourceName": "TEST_CATALOG_FOR_ROS_Un2aE2"
 			}
 		]
 	}

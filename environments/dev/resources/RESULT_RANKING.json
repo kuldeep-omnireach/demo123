@@ -74,7 +74,7 @@
 						"kind": "ranking_expression",
 						"name": "Sale date boost",
 						"predicates": [],
-						"rankingModifier": 500,
+						"rankingModifier": 0,
 						"targets": [
 							{
 								"queryExpression": "@rm_p_sales_start_date>=now-1y"
@@ -476,7 +476,7 @@
 						"kind": "ranking_expression",
 						"name": "Sale-Date-Last1year",
 						"predicates": [],
-						"rankingModifier": 500,
+						"rankingModifier": 0,
 						"targets": [
 							{
 								"queryExpression": "@rm_p_sales_start_date>=now-1y"

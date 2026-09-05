@@ -2071,11 +2071,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `(@source==(shop.resmed.com/DK/sv,resmed.dk,\"support-portal.resmed.com/da-dk\") ) OR (@ec_product_source==hybris AND @ec_country==DK)`",
+					"definition": "filter cq `(@source==(shop.resmed.com/DK,resmed.dk,\"support-portal.resmed.com/da-dk\") ) OR (@ec_product_source==hybris AND @ec_country==DK)`",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"(@source==(shop.resmed.com/DK/sv,resmed.dk,\"support-portal.resmed.com/da-dk\") ) OR (@ec_product_source==hybris AND @ec_country==DK)"
+							"(@source==(shop.resmed.com/DK,resmed.dk,\"support-portal.resmed.com/da-dk\") ) OR (@ec_product_source==hybris AND @ec_country==DK)"
 						]
 					},
 					"feature": "filter",
@@ -4780,11 +4780,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `(@source==(resmed.com/en-us,\"Resmed Support US\",dev-d2c-shopify-us) ) OR (@ec_product_source==shopify AND @ec_country==US)`",
+					"definition": "filter cq `(@source==(resmed.com/en-us,\"support.resmed.com/en-us\",dev-d2c-shopify-us) ) OR (@ec_product_source==shopify AND @ec_country==US)`",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"(@source==(resmed.com/en-us,\"Resmed Support US\",dev-d2c-shopify-us) ) OR (@ec_product_source==shopify AND @ec_country==US)"
+							"(@source==(resmed.com/en-us,\"support.resmed.com/en-us\",dev-d2c-shopify-us) ) OR (@ec_product_source==shopify AND @ec_country==US)"
 						]
 					},
 					"feature": "filter",
@@ -4801,11 +4801,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `@source==(resmed.ch,\"Resmed Support De-ch\") `",
+					"definition": "filter cq `@source==(resmed.ch,support-portal.resmed.com/de-ch) `",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"@source==(resmed.ch,\"Resmed Support De-ch\") "
+							"@source==(resmed.ch,support-portal.resmed.com/de-ch) "
 						]
 					},
 					"feature": "filter",
@@ -4885,11 +4885,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `(@source==(shop.resmed.com/GB/en,resmed.co.uk,\"Resmed support uk\") ) OR (@ec_product_source==hybris AND @ec_country==GB)`",
+					"definition": "filter cq `(@source==(shop.resmed.com/GB/en,resmed.co.uk,\"support.resmed.com/en-gb\") ) OR (@ec_product_source==hybris AND @ec_country==GB)`",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"(@source==(shop.resmed.com/GB/en,resmed.co.uk,\"Resmed support uk\") ) OR (@ec_product_source==hybris AND @ec_country==GB)"
+							"(@source==(shop.resmed.com/GB/en,resmed.co.uk,\"support.resmed.com/en-gb\") ) OR (@ec_product_source==hybris AND @ec_country==GB)"
 						]
 					},
 					"feature": "filter",
@@ -5011,11 +5011,11 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "filter cq `@source==(dev-d2c-shopify-us,resmed.com/en-us,\"Resmed Support US\") `",
+					"definition": "filter cq `@source==(dev-d2c-shopify-us,resmed.com/en-us,support.resmed.com/en-us) `",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"@source==(dev-d2c-shopify-us,resmed.com/en-us,\"Resmed Support US\") "
+							"@source==(dev-d2c-shopify-us,resmed.com/en-us,support.resmed.com/en-us) "
 						]
 					},
 					"feature": "filter",
@@ -5085,7 +5085,7 @@
 								"right": "dev_uat4_wordpress_resmed_com_uk"
 							}
 						},
-						"id": "6d3ceeb2-ea35-433b-999e-c77f53c81471"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_uat4_wordpress_resmed_com_uk_ZHjogH }}"
 					},
 					"definition": "filter cq `@source==dev.uat4.resmed.com-uk `",
 					"description": "",
@@ -5154,7 +5154,7 @@
 								"right": "wordpress_me_resmed_com"
 							}
 						},
-						"id": "bb806572-eb51-4e2a-87e2-d78809c95a57"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_me_resmed_com_mhVOP6 }}"
 					},
 					"position": 10,
 					"ready": false
@@ -5221,7 +5221,7 @@
 								"right": "wordpress_resmed-healthcare_de"
 							}
 						},
-						"id": "018787c4-7144-40e5-b80a-527c058e1a85"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed-healthcare_de_tpkcpd }}"
 					},
 					"definition": "filter cq `@source==resmed-healthcare.de`",
 					"description": "",
@@ -5268,7 +5268,7 @@
 								"right": "wordpress_resmed_ch"
 							}
 						},
-						"id": "e6429ba4-2fb2-4898-87ca-a787fb1ec527"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_ch_VElwUh }}"
 					},
 					"definition": "filter cq `@source==resmed.ch`",
 					"description": "",
@@ -5317,11 +5317,11 @@
 						},
 						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_hubspot_resmed_co_in_DlVkrX }}"
 					},
-					"definition": "filter cq `@source==\"resmed.co.in Hubspot\" `",
+					"definition": "filter cq `@source==resmed.co.in `",
 					"description": "",
 					"detailed": {
 						"expressions": [
-							"@source==\"resmed.co.in Hubspot\" "
+							"@source==resmed.co.in "
 						]
 					},
 					"feature": "filter",
@@ -5337,7 +5337,7 @@
 								"right": "hubspot_resmed_co_in"
 							}
 						},
-						"id": "89452927-e21b-4637-b6ff-279f74c7a773"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_hubspot_resmed_co_in_DlVkrX }}"
 					},
 					"position": 1,
 					"ready": false
@@ -5384,7 +5384,7 @@
 								"right": "dev_wordpress_resmed_co_uk"
 							}
 						},
-						"id": "70603864-7571-478d-8b03-9ffc146aac05"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_dev_wordpress_resmed_co_uk_lmGP0Q }}"
 					},
 					"position": 1,
 					"ready": false
@@ -5409,7 +5409,7 @@
 								"right": "wordpress_resmed_co_uk"
 							}
 						},
-						"id": "02ce7fa5-d7b9-4bf7-821d-9e45fbab9c82"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_co_uk_gfmXe5 }}"
 					},
 					"definition": "filter cq `@source==resmed.co.uk`",
 					"description": "",
@@ -5456,7 +5456,7 @@
 								"right": "wordpress_resmed_com_en_us"
 							}
 						},
-						"id": "5f8c6880-bd09-48e9-83a0-269b24c265aa"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_com_en_us_Dfveqp }}"
 					},
 					"definition": "filter cq `@source==resmed.com/en-us`",
 					"description": "",
@@ -5503,7 +5503,7 @@
 								"right": "wordpress_resmed_cz"
 							}
 						},
-						"id": "1ab6fa39-a874-49d5-a4de-2b145a47f58a"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_cz_GQKQZP }}"
 					},
 					"definition": "filter cq `@source==resmed.cz`",
 					"description": "",
@@ -5550,7 +5550,7 @@
 								"right": "wordpress_resmed_de"
 							}
 						},
-						"id": "ecab17e8-b259-44be-835b-f4833ba6c97a"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_de_e6Kcn3 }}"
 					},
 					"definition": "filter cq `@source==resmed.de`",
 					"description": "",
@@ -5597,7 +5597,7 @@
 								"right": "wordpress_resmed_es"
 							}
 						},
-						"id": "1a85c173-a951-4051-8ebd-683f38e469c7"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_es_szf9sv }}"
 					},
 					"definition": "filter cq `@source==resmed.es`",
 					"description": "",
@@ -5644,7 +5644,7 @@
 								"right": "wordpress_resmed_fi"
 							}
 						},
-						"id": "1fae36e5-fbb4-484c-a3cf-664bea102d7f"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_fi_y8lh45 }}"
 					},
 					"definition": "filter cq `@source==resmed.fi`",
 					"description": "",
@@ -5713,7 +5713,7 @@
 								"right": "wordpress_resmed_fr"
 							}
 						},
-						"id": "e88ba965-e990-4c15-a6c8-a442e0cec4f6"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_fr_2Uqnsg }}"
 					},
 					"position": 16,
 					"ready": false
@@ -5760,7 +5760,7 @@
 								"right": "wordpress_resmed_it"
 							}
 						},
-						"id": "9f05c303-99cb-45bb-b96a-0498b6bb1c77"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_it_AUs8Mb }}"
 					},
 					"position": 17,
 					"ready": false
@@ -5785,7 +5785,7 @@
 								"right": "wordpress_resmed_nl"
 							}
 						},
-						"id": "89dd7caf-b313-44e5-bab7-be739dd4cd46"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_nl_r3tJxD }}"
 					},
 					"definition": "filter cq `@source==resmed.nl`",
 					"description": "",
@@ -5854,7 +5854,7 @@
 								"right": "wordpress_resmed_no"
 							}
 						},
-						"id": "06a8ed64-95bc-41a6-902f-cb32be0a0799"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_no_btjjiu }}"
 					},
 					"position": 7,
 					"ready": false
@@ -5879,7 +5879,7 @@
 								"right": "wordpress_resmed_pl"
 							}
 						},
-						"id": "b9b67fcb-94e6-49b8-89e5-8a7de1460162"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_pl_qc8uVC }}"
 					},
 					"definition": "filter cq `@source==resmed.pl `",
 					"description": "",
@@ -5926,7 +5926,7 @@
 								"right": "wordpress_resmed_pt"
 							}
 						},
-						"id": "be110355-0f58-4c26-9574-373b9fed6b57"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_pt_UHVMNJ }}"
 					},
 					"definition": "filter cq `@source==resmed.pt`",
 					"description": "",
@@ -5973,7 +5973,7 @@
 								"right": "wordpress_resmed_se"
 							}
 						},
-						"id": "2ed950f0-9c21-46c3-bd10-38ff257c34a0"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_se_ppoBSl }}"
 					},
 					"definition": "filter cq `@source==resmed.se`",
 					"description": "",
@@ -7868,7 +7868,7 @@
 								"right": "wordpress_resmed_dk"
 							}
 						},
-						"id": "a7832b5f-3725-4d6e-ae0b-495b0ba4f26b"
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_wordpress_resmed_dk_diFyhj }}"
 					},
 					"definition": "filter dq `@source==resmed.dk`",
 					"description": "",

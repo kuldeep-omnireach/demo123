@@ -54,6 +54,7 @@ def get_env_config(env_name: str):
         "key_var": key_var,
         "env_dir": str(env_dir),
         "properties_path": str(properties_path),
+        "model_json": str(env_dir / f"{ENV_ALIASES[normalized]}-model.json")
     }
 
 
@@ -61,10 +62,11 @@ def build_commands(env_name: str):
     config = get_env_config(env_name)
     key_var = config["key_var"]
     org_id = config["org_id"]
+    model_json = config["model_json"]
 
     return [
         f'echo "${key_var}" | coveo auth:token',
-        f"coveo org:resources:pull --organization {org_id} --overwrite --wait 0",
+        f"coveo org:resources:pull --organization {org_id} --model {model_json} --overwrite --wait 0",
     ]
 
 
