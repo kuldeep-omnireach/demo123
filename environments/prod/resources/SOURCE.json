@@ -9873,7 +9873,7 @@
 							},
 							"ScrapingConfiguration": {
 								"sensitive": false,
-								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:description']/@content\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:title']/@content\"},\"ogtype\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:type']/@content\"},\"thumbnailurl\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image']/@content\"},\"ogimagealt\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image:alt']/@content\"},\"blog_categories\":{\"type\":\"XPATH\",\"path\":\"//div[contains(@class,\\\"hero-content\\\")]//div[contains(@class,\\\"wrapper-badges-breadcrumb\\\")]/span[contains(@class,\\\"single-badges-breadcrumb\\\")]/text()\"}}}]"
+								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:description']/@content\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:title']/@content\"},\"ogtype\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:type']/@content\"},\"thumbnailurl\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image']/@content\"},\"ogimagealt\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image:alt']/@content\"},\"blog_categories\":{\"type\":\"XPATH\",\"path\":\"//div[contains(@class,\\\"hero-content\\\")]//div[contains(@class,\\\"wrapper-badges-breadcrumb\\\")]/span[contains(@class,\\\"single-badges-breadcrumb\\\")]/text()\"},\"documentation\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Dokumentation' or @aria-label='Documentation']/@href\"}}}]"
 							},
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
@@ -23819,13 +23819,13 @@
 						"securityProviders": {},
 						"sourceSecurityOption": "Specified",
 						"startingAddresses": [
-							"https://shop.resmed.com/DK/sv/sitemap.xml"
+							"https://shop.resmed.com/DK/sitemap.xml"
 						],
 						"userIdentities": {}
 					},
 					"crawlerInstanceType": "Connector.Sitemap",
 					"logicalIndex": "default",
-					"name": "shop.resmed.com/DK/sv/",
+					"name": "shop.resmed.com/DK",
 					"onPremisesEnabled": false,
 					"performFieldMappingUsingAllOrigins": false,
 					"postConversionExtensions": [
@@ -23844,7 +23844,7 @@
 					"streamEnabled": false
 				},
 				"parents": {},
-				"resourceName": "shop.resmed.com/DK/sv/_lWZkEW"
+				"resourceName": "shop.resmed.com/DK_vDJyDm"
 			},
 			{
 				"model": {
@@ -27480,7 +27480,7 @@
 					},
 					"crawlerInstanceType": "Connector.Sitemap",
 					"logicalIndex": "default",
-					"name": "shop.resmed.com/SE/sv/",
+					"name": "shop.resmed.com/SE/sv",
 					"onPremisesEnabled": false,
 					"performFieldMappingUsingAllOrigins": false,
 					"postConversionExtensions": [
@@ -27499,7 +27499,7 @@
 					"streamEnabled": false
 				},
 				"parents": {},
-				"resourceName": "shop.resmed.com/SE/sv/_zSvmoN"
+				"resourceName": "shop.resmed.com/SE/sv_vY40tq"
 			},
 			{
 				"model": {

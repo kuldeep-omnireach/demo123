@@ -358,6 +358,20 @@
 				},
 				"parents": {},
 				"resourceName": "Wordpress_body_content_Vz48Y5"
+			},
+			{
+				"model": {
+					"apiVersion": "v1",
+					"content": "import json\n\nall_meta = document.DataStream('allmeta')\njson.dump(document.get_meta_data(), all_meta, indent=2)\ndocument.add_data_stream(all_meta)",
+					"description": "WordPress Title Field Troubleshooting",
+					"enabled": true,
+					"language": "PYTHON3",
+					"name": "all_meta",
+					"requiredDataStreams": [],
+					"useVault": false
+				},
+				"parents": {},
+				"resourceName": "all_meta_3pja3g"
 			}
 		]
 	}

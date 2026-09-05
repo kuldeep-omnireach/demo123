@@ -15,7 +15,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "b4bb5ba1-497e-429e-a81a-38c9133217ff",
+							"id": "{{ CATALOG.Global_B2B_APAC_Region_Stream_Catalog_PPsurw }}",
 							"name": "Global B2B APAC Region Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -41,7 +41,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "8a5f5a1f-00d1-4b6d-8cc7-4ff6a9c7352a",
+							"id": "{{ CATALOG.Global_B2B_DE_DE_Stream_Catalog_a8qyWc }}",
 							"name": "Global B2B DE DE Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -119,7 +119,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "5a076ec6-0bb7-41ee-accc-b34762a8a0df",
+							"id": "{{ CATALOG.Global_B2B_EN_GB_Stream_Catalog_n46shR }}",
 							"name": "Global B2B EN GB Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -197,7 +197,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "2d188f71-3e6f-4918-ada2-cad20c930918",
+							"id": "{{ CATALOG.Global_B2B_EU_Region_Stream_Catalog_wScw72 }}",
 							"name": "Global B2B EU Region Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -223,7 +223,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "331ccbaf-1cac-47db-bcdc-53e76cd2aaf8",
+							"id": "{{ CATALOG.Global_B2B_FR_CA_Stream_Catalog_MsSvKp }}",
 							"name": "Global B2B FR CA Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -275,7 +275,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "373e121c-4698-4970-8759-20254d3d1bcd",
+							"id": "{{ CATALOG.Global_B2B_NA_Region_Stream_Catalog_8F67h8 }}",
 							"name": "Global B2B NA Region Stream Catalog",
 							"sourceName": "global-b2b-product-catalog"
 						},
@@ -301,7 +301,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},
@@ -327,7 +327,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},
@@ -353,7 +353,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},
@@ -379,7 +379,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},
@@ -405,7 +405,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},
@@ -431,7 +431,7 @@
 									"idField": "ec_product_id"
 								}
 							},
-							"id": "51467fed-bfd2-4f37-8676-8f5797aba1a5",
+							"id": "{{ CATALOG.Global_D2C_Stream_Catalog_u4uxvY }}",
 							"name": "Global D2C Stream Catalog",
 							"sourceName": "global-d2c-product-catalog"
 						},

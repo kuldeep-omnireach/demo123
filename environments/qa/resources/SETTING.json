@@ -125,6 +125,19 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
+					"position": 12,
+					"type": "STRING",
+					"value": "{{ CATALOG.Dev_Global_D2C_Stream_Catalog_tzD78A }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_cpap_dPIF3w }}"
+				},
+				"resourceName": "commerce.catalogId_6cOLc2"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
 					"position": 11,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_D2C_Stream_Catalog_tzD78A }}"
@@ -172,6 +185,19 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
 				},
 				"resourceName": "commerce.catalogId_7tyRbP"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
+					"type": "STRING",
+					"value": "{{ CATALOG.QA_Global_B2B_FR_CA_Stream_Catalog_zjkC5s }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
+				},
+				"resourceName": "commerce.catalogId_8laYcC"
 			},
 			{
 				"model": {
@@ -269,6 +295,19 @@
 					"description": "",
 					"name": "commerce.catalogId",
 					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.QA_Global_B2B_DE_DE_Stream_Catalog_9HZfig }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
+				},
+				"resourceName": "commerce.catalogId_IZwkUt"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_DE_DE_Stream_Catalog_9HZfig }}"
 				},
@@ -606,6 +645,19 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
+					"position": 6,
+					"type": "STRING",
+					"value": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
+				},
+				"resourceName": "commerce.catalogId_p2thJ7"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
 					"position": 5,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}"
@@ -775,6 +827,19 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
+					"position": 7,
+					"type": "STRING",
+					"value": "{{ CATALOG.QA_Global_B2B_NA_Region_Stream_Catalog_ub3Gvp }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_na_0znJLZ }}"
+				},
+				"resourceName": "commerce.catalogId_vhPanN"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
 					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_APAC_Region_Stream_Catalog_vGv5Eo }}"
@@ -828,6 +893,19 @@
 					"description": "",
 					"name": "commerce.catalogId",
 					"position": 5,
+					"type": "STRING",
+					"value": "{{ CATALOG.QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i }}"
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_nz_wVZS5q }}"
+				},
+				"resourceName": "commerce.catalogId_z8X9GX"
+			},
+			{
+				"model": {
+					"description": "",
+					"name": "commerce.catalogId",
+					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.QA_Global_B2B_EN_NZ_Stream_Catalog_tWId0i }}"
 				},
@@ -1178,7 +1256,7 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 6,
+					"position": 7,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1191,7 +1269,7 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 6,
+					"position": 7,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1542,7 +1620,7 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 6,
+					"position": 7,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1555,7 +1633,7 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 6,
+					"position": 7,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1698,7 +1776,7 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 7,
+					"position": 8,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1750,7 +1828,7 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 11,
+					"position": 12,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1776,7 +1854,7 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
+					"position": 11,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1906,7 +1984,7 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
+					"position": 11,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -1971,7 +2049,7 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
+					"position": 11,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -2062,7 +2140,7 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
+					"position": 11,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -3547,7 +3625,7 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 7,
+					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
@@ -3700,7 +3778,7 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 7,
+					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
@@ -3751,7 +3829,7 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 7,
+					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
@@ -4006,7 +4084,7 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 8,
+					"position": 9,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
@@ -4584,7 +4662,7 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 7,
+					"position": 8,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
@@ -4617,7 +4695,7 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 8,
+					"position": 9,
 					"type": "STRUCTURED",
 					"value": {
 						"automaticallyCorrect": "whenNoResults",
@@ -4697,7 +4775,7 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 8,
+					"position": 9,
 					"type": "STRUCTURED",
 					"value": {
 						"automaticallyCorrect": "whenNoResults",
@@ -5017,7 +5095,7 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 8,
+					"position": 9,
 					"type": "STRUCTURED",
 					"value": {
 						"automaticallyCorrect": "whenNoResults",
@@ -5337,7 +5415,7 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 8,
+					"position": 9,
 					"type": "STRUCTURED",
 					"value": {
 						"automaticallyCorrect": "whenNoResults",
@@ -5609,7 +5687,7 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 9,
+					"position": 10,
 					"type": "STRUCTURED",
 					"value": {
 						"automaticallyCorrect": "whenNoResults",
@@ -5786,7 +5864,7 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 9,
+					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -5851,7 +5929,7 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 9,
+					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -5916,7 +5994,7 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 9,
+					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -6137,7 +6215,7 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 9,
+					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
 				},
@@ -6306,7 +6384,7 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 10,
+					"position": 11,
 					"type": "BOOLEAN",
 					"value": true
 				},

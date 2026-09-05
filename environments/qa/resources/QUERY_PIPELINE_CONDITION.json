@@ -668,14 +668,6 @@
 			},
 			{
 				"model": {
-					"definition": "when $query matches \"regex ^\\d{3,}$\"",
-					"description": ""
-				},
-				"parents": {},
-				"resourceName": "when_query_matches_regex_d3,_43ESRY"
-			},
-			{
-				"model": {
 					"definition": "when $searchHub is \"dev_global_ch\""
 				},
 				"parents": {},

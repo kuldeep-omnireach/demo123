@@ -8971,6 +8971,37 @@
 			},
 			{
 				"model": {
+					"name": "Test",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_country",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"NA"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "test001"
+						}
+					],
+					"patterns": [
+						{
+							"url": "test"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.QA_ROS_NA_3wDhgd }}"
+				},
+				"parents": {},
+				"resourceName": "Test_g8dLDW"
+			},
+			{
+				"model": {
 					"name": "Travel CPAP Machines",
 					"pageRules": [
 						{

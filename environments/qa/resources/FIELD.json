@@ -5247,7 +5247,7 @@
 					"name": "rm_p_is_recent",
 					"ranking": true,
 					"smartDateFacet": false,
-					"sort": true,
+					"sort": false,
 					"stemming": true,
 					"type": "STRING",
 					"useCacheForComputedFacet": false,
@@ -5801,6 +5801,37 @@
 				},
 				"parents": {},
 				"resourceName": "rm_p_package_quantity_aBJWKq"
+			},
+			{
+				"model": {
+					"automaticFacetsCandidate": false,
+					"dateFormat": "",
+					"description": "",
+					"facet": false,
+					"hierarchicalFacet": false,
+					"includeInQuery": true,
+					"includeInResults": true,
+					"keepAccentsDisplayValueFacet": false,
+					"keepDistinctDisplayValueFacet": false,
+					"keyValue": false,
+					"label": "",
+					"mergeWithLexicon": false,
+					"multiValueFacet": false,
+					"multiValueFacetTokenizers": ";",
+					"multilingual": false,
+					"name": "rm_p_price_list_ids",
+					"ranking": false,
+					"smartDateFacet": false,
+					"sort": false,
+					"stemming": false,
+					"type": "STRING",
+					"useCacheForComputedFacet": false,
+					"useCacheForNestedQuery": false,
+					"useCacheForNumericQuery": false,
+					"useCacheForSort": false
+				},
+				"parents": {},
+				"resourceName": "rm_p_price_list_ids_xd7TAP"
 			},
 			{
 				"model": {
