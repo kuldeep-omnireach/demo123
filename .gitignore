@@ -135,3 +135,6 @@ dmypy.json
 
 # Coveo
 **/.coveo/
+**/coveo-debug/*
+!**/coveo-debug/debug-model.json
+
