@@ -2570,6 +2570,37 @@
 			},
 			{
 				"model": {
+					"name": "Cpap devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "Cpap machines"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.DEV_Shopify_IN_rTSDgJ }}"
+				},
+				"parents": {},
+				"resourceName": "Cpap_devices_NgRvfg"
+			},
+			{
+				"model": {
 					"name": "Data Management",
 					"pageRules": [
 						{
@@ -8931,6 +8962,37 @@
 				},
 				"parents": {},
 				"resourceName": "TRAVEL_SALE_dK2S84"
+			},
+			{
+				"model": {
+					"name": "Test-Manual-Collection (sync-test-001)",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "contains",
+									"value": {
+										"type": "array",
+										"values": [
+											"APAC Pricing|All Items"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "test-manual-rule001"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/test-manual-collection"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.DEV_ROS_NA_IEd7x4 }}"
+				},
+				"parents": {},
+				"resourceName": "Test-Manual-Collection_(sync-test-001)_gKqTiZ"
 			},
 			{
 				"model": {

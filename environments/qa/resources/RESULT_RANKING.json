@@ -46,7 +46,7 @@
 						"kind": "ranking_expression",
 						"name": "Boost Mask",
 						"predicates": [],
-						"rankingModifier": 50,
+						"rankingModifier": 75,
 						"targets": [
 							{
 								"queryExpression": "@rm_p_product_type=Mask"
@@ -395,7 +395,7 @@
 						"kind": "ranking_expression",
 						"name": "Boost Accessory",
 						"predicates": [],
-						"rankingModifier": 75,
+						"rankingModifier": 50,
 						"targets": [
 							{
 								"queryExpression": "@rm_p_product_type=Accessory"

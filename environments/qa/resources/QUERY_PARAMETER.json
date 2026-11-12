@@ -27,44 +27,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query commerce.catalogId: \"82a34af0-6b5a-4093-bf0f-5a0c3491c3bc\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "82a34af0-6b5a-4093-bf0f-5a0c3491c3bc"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "commerce.catalogId_0kbX9l"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"af5f4c0c-52e8-45ed-84d7-e1004b123653\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "af5f4c0c-52e8-45ed-84d7-e1004b123653"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "commerce.catalogId_0qCQ83"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query commerce.catalogId: \"70b6903c-8332-4b09-bc27-6dbcd461f8e8\"",
 					"description": "",
 					"detailed": {
@@ -167,7 +129,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 11,
+					"position": 12,
 					"ready": false
 				},
 				"parents": {
@@ -186,7 +148,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 12,
+					"position": 11,
 					"ready": false
 				},
 				"parents": {
@@ -274,44 +236,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query commerce.catalogId: \"82097a80-65e9-4536-8c45-153996b16d32\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "82097a80-65e9-4536-8c45-153996b16d32"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "commerce.catalogId_8laYcC"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"82097a80-65e9-4536-8c45-153996b16d32\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "82097a80-65e9-4536-8c45-153996b16d32"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "commerce.catalogId_8laYcC"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query commerce.catalogId: \"56f82d82-6d39-48f6-b0b3-097d8aaad0b4\"",
 					"description": "",
 					"detailed": {
@@ -369,25 +293,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query commerce.catalogId: \"e6609a11-6177-49cd-9972-d1937e92fb2d\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "e6609a11-6177-49cd-9972-d1937e92fb2d"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "commerce.catalogId_FDl1us"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query commerce.catalogId: \"cd9fa13e-8ae3-401f-9275-fdb53d3c59a1\"",
 					"description": "",
 					"detailed": {
@@ -421,44 +326,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
 				},
 				"resourceName": "commerce.catalogId_IEdjcY"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"56f82d82-6d39-48f6-b0b3-097d8aaad0b4\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "56f82d82-6d39-48f6-b0b3-097d8aaad0b4"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "commerce.catalogId_IZwkUt"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"56f82d82-6d39-48f6-b0b3-097d8aaad0b4\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "56f82d82-6d39-48f6-b0b3-097d8aaad0b4"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "commerce.catalogId_IZwkUt"
 			},
 			{
 				"model": {
@@ -516,25 +383,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_au_rV1ZTO }}"
 				},
 				"resourceName": "commerce.catalogId_NfOqQq"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"bdd37740-a2d5-4bfe-982b-08b0766b6284\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "bdd37740-a2d5-4bfe-982b-08b0766b6284"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "commerce.catalogId_OnBnux"
 			},
 			{
 				"model": {
@@ -673,25 +521,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query commerce.catalogId: \"aa29e62f-2401-429c-b0d8-a66008755cc0\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "aa29e62f-2401-429c-b0d8-a66008755cc0"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "commerce.catalogId_Xh7Nlr"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query commerce.catalogId: \"c1068b63-a0d1-45d2-b308-bf3b26bb9e0e\"",
 					"description": "",
 					"detailed": {
@@ -744,25 +573,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
 				},
 				"resourceName": "commerce.catalogId_ajUbzX"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"21bdfdf0-1101-4d4d-8983-29b34753b44c\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "21bdfdf0-1101-4d4d-8983-29b34753b44c"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "commerce.catalogId_bSAGtJ"
 			},
 			{
 				"model": {
@@ -863,25 +673,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query commerce.catalogId: \"2d02bbf3-f871-4bc9-9de6-39c34bb7e8d8\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "2d02bbf3-f871-4bc9-9de6-39c34bb7e8d8"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "commerce.catalogId_iJQmDG"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query commerce.catalogId: \"ca97e646-772b-4cb0-86d5-1652d3350a81\"",
 					"description": "",
 					"detailed": {
@@ -946,7 +737,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 6,
+					"position": 5,
 					"ready": false
 				},
 				"parents": {
@@ -965,7 +756,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 5,
+					"position": 6,
 					"ready": false
 				},
 				"parents": {
@@ -1067,25 +858,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
 				},
 				"resourceName": "commerce.catalogId_rf678p"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query commerce.catalogId: \"bdd37740-a2d5-4bfe-982b-08b0766b6284\"",
-					"description": "",
-					"detailed": {
-						"commerce.catalogId": "bdd37740-a2d5-4bfe-982b-08b0766b6284"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "commerce.catalogId_sWXP2Z"
 			},
 			{
 				"model": {
@@ -1193,7 +965,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 6,
+					"position": 7,
 					"ready": false
 				},
 				"parents": {
@@ -1212,7 +984,7 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 7,
+					"position": 6,
 					"ready": false
 				},
 				"parents": {
@@ -1592,25 +1364,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "enableDidYouMean_BCvszW"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 4,
 					"ready": false
 				},
@@ -1725,25 +1478,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "enableDidYouMean_JKRP3i"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 8,
 					"ready": false
 				},
@@ -1801,25 +1535,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "enableDidYouMean_NbLn8Z"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 2,
 					"ready": false
 				},
@@ -1846,25 +1561,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_nz_wVZS5q }}"
 				},
 				"resourceName": "enableDidYouMean_QQ76DN"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "enableDidYouMean_T8dgQS"
 			},
 			{
 				"model": {
@@ -2086,25 +1782,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "enableDidYouMean_deAKpE"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 4,
 					"ready": false
 				},
@@ -2207,25 +1884,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
 				},
 				"resourceName": "enableDidYouMean_iGsX0b"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "enableDidYouMean_kqWOu4"
 			},
 			{
 				"model": {
@@ -2352,25 +2010,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "enableDidYouMean_ptrPgr"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 7,
 					"ready": false
 				},
@@ -2378,25 +2017,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
 				},
 				"resourceName": "enableDidYouMean_qR26uU"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "enableDidYouMean_qfl6U8"
 			},
 			{
 				"model": {
@@ -2454,44 +2074,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
 				},
 				"resourceName": "enableDidYouMean_uIZT5Q"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "enableDidYouMean_uOTYmE"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableDidYouMean: true",
-					"description": "",
-					"detailed": {
-						"enableDidYouMean": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 6,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "enableDidYouMean_vXiUWb"
 			},
 			{
 				"model": {
@@ -2827,25 +2409,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 11,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "enableQuerySyntax_7ZSXTV"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 23,
 					"ready": false
 				},
@@ -2872,63 +2435,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_gb_fI5rjl }}"
 				},
 				"resourceName": "enableQuerySyntax_D5wYJP"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 11,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "enableQuerySyntax_FY0lNV"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 11,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "enableQuerySyntax_FoEpvN"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "enableQuerySyntax_Gfib57"
 			},
 			{
 				"model": {
@@ -3002,25 +2508,6 @@
 					"ready": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "enableQuerySyntax_MF4fou"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 11,
-					"ready": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
 				},
 				"resourceName": "enableQuerySyntax_QONBQI"
@@ -3043,44 +2530,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_eu_qjYuyb }}"
 				},
 				"resourceName": "enableQuerySyntax_Qcogy2"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "enableQuerySyntax_RWLp1l"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 11,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "enableQuerySyntax_SoBD0q"
 			},
 			{
 				"model": {
@@ -3321,25 +2770,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "enableQuerySyntax_jstmCI"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 11,
 					"ready": false
 				},
@@ -3439,25 +2869,6 @@
 					"ready": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "enableQuerySyntax_paAZH9"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
 				},
 				"resourceName": "enableQuerySyntax_qUhOVv"
@@ -3480,25 +2891,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
 				},
 				"resourceName": "enableQuerySyntax_r8aLxm"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query enableQuerySyntax: true",
-					"description": "",
-					"detailed": {
-						"enableQuerySyntax": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "enableQuerySyntax_v6VlSt"
 			},
 			{
 				"model": {
@@ -3739,25 +3131,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "filterField_FP3uZK"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 2,
 					"ready": false
 				},
@@ -3860,25 +3233,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
 				},
 				"resourceName": "filterField_ONoOoz"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "filterField_OXZeTv"
 			},
 			{
 				"model": {
@@ -4169,25 +3523,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "filterField_ZtWZXn"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query filterField: \"ec_item_group_id\"",
 					"description": "Product Grouping",
 					"detailed": {
@@ -4328,44 +3663,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "filterField_hxkTeq"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "filterField_k5mMYY"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 3,
 					"ready": false
 				},
@@ -4373,25 +3670,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
 				},
 				"resourceName": "filterField_neJ6rn"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "filterField_nv3QaE"
 			},
 			{
 				"model": {
@@ -4449,44 +3727,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_fr_ca_GoVusj }}"
 				},
 				"resourceName": "filterField_pMHhDU"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "filterField_pVwgou"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "filterField_pw1m79"
 			},
 			{
 				"model": {
@@ -4560,25 +3800,6 @@
 					"ready": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "filterField_xpfHPW"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 4,
-					"ready": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
 				},
 				"resourceName": "filterField_y6el7F"
@@ -4601,25 +3822,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
 				},
 				"resourceName": "filterField_yvagKG"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query filterField: \"@ec_item_group_id\"",
-					"description": "",
-					"detailed": {
-						"filterField": "@ec_item_group_id"
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 5,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "filterField_zDga05"
 			},
 			{
 				"model": {
@@ -5203,29 +4405,6 @@
 					"ready": false
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "partialMatchOptions_4xawDI"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_de_de_NOGhnq }}"
 				},
 				"resourceName": "partialMatchOptions_54qvp2"
@@ -5252,29 +4431,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
 				},
 				"resourceName": "partialMatchOptions_5kSPip"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "partialMatchOptions_5vdgXR"
 			},
 			{
 				"model": {
@@ -5406,52 +4562,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "partialMatchOptions_AD3apj"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "partialMatchOptions_Ecu8R3"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 5,
 					"ready": false
 				},
@@ -5459,29 +4569,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_ca_m2o304 }}"
 				},
 				"resourceName": "partialMatchOptions_EjvFxs"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "partialMatchOptions_EpA7eF"
 			},
 			{
 				"model": {
@@ -5505,29 +4592,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
 				},
 				"resourceName": "partialMatchOptions_EvkUuj"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "partialMatchOptions_ExJO1F"
 			},
 			{
 				"model": {
@@ -5689,29 +4753,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_gb_j7JQ3v }}"
 				},
 				"resourceName": "partialMatchOptions_Qd8LXt"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "partialMatchOptions_RTB8GF"
 			},
 			{
 				"model": {
@@ -6280,29 +5321,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "partialMatchOptions_lGw1i3"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 6,
 					"ready": false
 				},
@@ -6384,29 +5402,6 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "partialMatchOptions_qlQru2"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
 					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"20%\", \"minimumNumberOfKeywords\": 4}",
 					"description": "",
 					"detailed": {
@@ -6471,29 +5466,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
 				},
 				"resourceName": "partialMatchOptions_rSLEBn"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query partialMatchOptions: {\"enabled\": true, \"thresholdToMatch\": \"60%\", \"minimumNumberOfKeywords\": 3}",
-					"description": "",
-					"detailed": {
-						"partialMatchOptions": {
-							"enabled": true,
-							"minimumNumberOfKeywords": 3,
-							"thresholdToMatch": "60%"
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 7,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "partialMatchOptions_rhDQ1r"
 			},
 			{
 				"model": {
@@ -6715,28 +5687,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "queryCorrection_3f9h6u"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 4,
 					"ready": false
 				},
@@ -6788,28 +5738,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
 				},
 				"resourceName": "queryCorrection_6SGhiG"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "queryCorrection_6WjPX0"
 			},
 			{
 				"model": {
@@ -7089,28 +6017,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "queryCorrection_Jy3wkC"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 3,
 					"ready": false
 				},
@@ -7118,28 +6024,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.PROD_Hubspot_Resmed_2tDqtc }}"
 				},
 				"resourceName": "queryCorrection_LmEVDJ"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "queryCorrection_MEG7eW"
 			},
 			{
 				"model": {
@@ -7206,28 +6090,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_jp_OETeOZ }}"
 				},
 				"resourceName": "queryCorrection_P9KoXT"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "queryCorrection_PtECOu"
 			},
 			{
 				"model": {
@@ -7705,28 +6567,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "queryCorrection_goovJi"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 7,
 					"ready": false
 				},
@@ -7778,28 +6618,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
 				},
 				"resourceName": "queryCorrection_iKyees"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "queryCorrection_iZQAPt"
 			},
 			{
 				"model": {
@@ -7910,72 +6728,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_gb_fI5rjl }}"
 				},
 				"resourceName": "queryCorrection_qmZYIh"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "queryCorrection_quzJ4u"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "queryCorrection_rFLqYK"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query queryCorrection: {\"enabled\": true, \"automaticallyCorrect\": \"whenNoResults\"}",
-					"description": "",
-					"detailed": {
-						"queryCorrection": {
-							"automaticallyCorrect": "whenNoResults",
-							"enabled": true
-						}
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 8,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "queryCorrection_rxQzBf"
 			},
 			{
 				"model": {
@@ -8287,25 +7039,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_apac_0NVH5y }}"
-				},
-				"resourceName": "wildcards_7KvUcs"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 9,
 					"ready": false
 				},
@@ -8344,44 +7077,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_eu_dbfX7z }}"
-				},
-				"resourceName": "wildcards_BSLl35"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_ca_7YFlgv }}"
-				},
-				"resourceName": "wildcards_CvXXwL"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 11,
 					"ready": false
 				},
@@ -8408,25 +7103,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
 				},
 				"resourceName": "wildcards_EKPje7"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_ca_kUMSWr }}"
-				},
-				"resourceName": "wildcards_GwiMXg"
 			},
 			{
 				"model": {
@@ -8484,63 +7160,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_nz_oauwqD }}"
 				},
 				"resourceName": "wildcards_JK1tOG"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_fr_fr_cSPmCC }}"
-				},
-				"resourceName": "wildcards_JLae0p"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_de_de_3RXzDd }}"
-				},
-				"resourceName": "wildcards_KYzzZG"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 10,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_na_qfxAd4 }}"
-				},
-				"resourceName": "wildcards_MEQuR9"
 			},
 			{
 				"model": {
@@ -8629,25 +7248,6 @@
 					},
 					"feature": "queryParamOverride",
 					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_au_myKHje }}"
-				},
-				"resourceName": "wildcards_QJwpBK"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
 					"position": 10,
 					"ready": false
 				},
@@ -8655,25 +7255,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_eu_pw9Xal }}"
 				},
 				"resourceName": "wildcards_QpEIa1"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_gb_zBbFCB }}"
-				},
-				"resourceName": "wildcards_RlYYoI"
 			},
 			{
 				"model": {
@@ -8864,25 +7445,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
 				},
 				"resourceName": "wildcards_hmz4cl"
-			},
-			{
-				"model": {
-					"childrenCount": 0,
-					"condition": {},
-					"definition": "override query wildcards: true",
-					"description": "",
-					"detailed": {
-						"wildcards": true
-					},
-					"feature": "queryParamOverride",
-					"parent": {},
-					"position": 9,
-					"ready": false
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-qa_ros_en_nz_aRaif2 }}"
-				},
-				"resourceName": "wildcards_l060ZS"
 			},
 			{
 				"model": {
