@@ -1,12 +1,17 @@
-
-name: Coveo Daily Backup
+name: Coveo Environment Backup
 
 on:
-  schedule:
-    # 5:00 PM IST = 11:30 AM UTC
-    - cron: '30 11 * * *'
-
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Select Coveo environment to back up'
+        required: true
+        type: choice
+        options:
+          - DEV
+          - QA
+          - UAT
+          - PRD
 
 permissions:
   contents: write
@@ -16,29 +21,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
-      - name: Checkout Repository
+
+      # 1. Checkout application repository
+      - name: Checkout Application Repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup Python
+      # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # Step 3: Setup Node.js for Coveo CLI
+      # 3. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
-      # Step 4: Install Coveo CLI
+      # 4. Install Coveo CLI
       - name: Install Coveo CLI
         run: |
           npm install -g @coveo/cli
           coveo --version
 
-      # Step 5: Install Python dependencies
+      # 5. Install Python dependencies
       - name: Install Dependencies
         working-directory: src/scripts
         run: |
@@ -46,30 +52,77 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      # Step 6: Run backup script
+      # 6. Run Coveo backup
       - name: Run Coveo Backup
         working-directory: src/scripts
         env:
           DEV_DEPLOYMENT_KEY: ${{ secrets.DEV_DEPLOYMENT_KEY }}
+          QA_DEPLOYMENT_KEY: ${{ secrets.QA_DEPLOYMENT_KEY }}
+          UAT_DEPLOYMENT_KEY: ${{ secrets.UAT_DEPLOYMENT_KEY }}
+          PRD_DEPLOYMENT_KEY: ${{ secrets.PRD_DEPLOYMENT_KEY }}
         run: |
-          python3 pull_changes.py DEV
+          echo "Starting backup for ${{ inputs.environment }}"
 
-      # Step 7: Commit backup files
-      - name: Commit Coveo Backup
+          python3 pull_changes.py "${{ inputs.environment }}"
+
+      # 7. Verify generated backup
+      - name: Verify Backup Files
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
         run: |
+          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+
+          echo "Checking backup for $ENVIRONMENT"
+
+          if [ ! -d "environments/$ENV_LOWER/resources" ]; then
+            echo "ERROR: Backup directory not found!"
+            exit 1
+          fi
+
+          find "environments/$ENV_LOWER/resources" -type f
+
+      # 8. Checkout dedicated backup branch
+      - name: Checkout Backup Branch
+        uses: actions/checkout@v4
+        with:
+          ref: coveo-backups
+          path: backup-repo
+          persist-credentials: true
+
+      # 9. Copy environment backup
+      - name: Store Environment Backup
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+
+          mkdir -p "backup-repo/environments/$ENV_LOWER/resources"
+
+          cp -a "environments/$ENV_LOWER/resources/." \
+            "backup-repo/environments/$ENV_LOWER/resources/"
+
+          echo "Backup copied to coveo-backups/environments/$ENV_LOWER/resources"
+
+      # 10. Commit and push backup
+      - name: Commit Coveo Backup
+        working-directory: backup-repo
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          echo "Checking Coveo backup changes..."
-
-          git status --short
-
-          git add -A environments/dev/resources/
+          git add -A "environments/$ENV_LOWER/resources/"
 
           if ! git diff --cached --quiet; then
-            git commit -m "Automated Coveo DEV backup - $(date +'%Y-%m-%d')"
-            git push
+            git commit -m "Coveo $ENVIRONMENT backup - $(date +'%Y-%m-%d')"
+
+            git push origin HEAD:coveo-backups
+
+            echo "Backup successfully pushed!"
           else
-            echo "No changes detected in Coveo DEV resources."
+            echo "No changes detected for $ENVIRONMENT."
           fi
 
