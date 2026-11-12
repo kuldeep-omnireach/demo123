@@ -37065,7 +37065,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[ogtitle]"
+								"%[pagetitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -37401,7 +37401,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[ogtitle]"
+								"%[pagetitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
