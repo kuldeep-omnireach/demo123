@@ -348,6 +348,20 @@
 			{
 				"model": {
 					"apiVersion": "v1",
+					"content": "import html as _html\n\n_BRAND_SUFFIXES = ('resmed uk', 'resmed shop uk')\n\ndef _clean_title(raw):\n    cleaned = _html.unescape(str(raw)).strip()\n    if not cleaned:\n        return cleaned\n    parts = [p.strip() for p in cleaned.split('|')]\n    kept = [p for p in parts if p and not any(s in p.lower() for s in _BRAND_SUFFIXES)]\n    return ' | '.join(kept)\n\nfor key in ('pagetitle', 'ogtitle'):\n    val = document.get_meta_data_value(key)\n    if val:\n        raw = val[0] if isinstance(val, (list, tuple)) else val\n        cleaned = _clean_title(raw)\n        if cleaned:\n            document.add_meta_data({'title': cleaned})\n            log('Title set from %s: %s' % (key, cleaned), 'Normal')\n            break",
+					"description": "",
+					"enabled": true,
+					"language": "PYTHON3",
+					"name": "Wordpress Remed Title Post Processing",
+					"requiredDataStreams": [],
+					"useVault": false
+				},
+				"parents": {},
+				"resourceName": "Wordpress_Remed_Title_Post_Processing_7iz33y"
+			},
+			{
+				"model": {
+					"apiVersion": "v1",
 					"content": "import re\r\n\r\n# Get body_content metadata\r\nbody_values = document.get_meta_data_value(\"body_content\")\r\n\r\ndef clean_html(text):\r\n    return re.sub(r'<[^>]+>', '', str(text)).strip()\r\n\r\ndef clean_title(text):\r\n    clean = clean_html(text)\r\n    if '|' in clean:\r\n        clean = clean.split('|')[0].strip()\r\n    return clean\r\n\r\nif body_values and len(body_values) > 0:\r\n    first_value = clean_title(body_values[0])\r\n    if first_value:\r\n        document.add_meta_data({\"body_content\": first_value})",
 					"description": "Extracts h1, h2 tags only in the page and adds in Quick View",
 					"enabled": true,
