@@ -1,10 +1,11 @@
+
 name: Coveo Environment Backup
 
 on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Select Coveo environment to back up'
+        description: "Select Coveo environment to back up"
         required: true
         type: choice
         options:
@@ -22,21 +23,24 @@ jobs:
 
     steps:
 
-      # 1. Checkout application repository
-      - name: Checkout Application Repository
+      # 1. Checkout main branch (Python script and environment models)
+      - name: Checkout Main Branch
         uses: actions/checkout@v4
+        with:
+          ref: main
+          path: source-repo
 
       # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       # 3. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
 
       # 4. Install Coveo CLI
       - name: Install Coveo CLI
@@ -46,40 +50,46 @@ jobs:
 
       # 5. Install Python dependencies
       - name: Install Dependencies
-        working-directory: src/scripts
+        working-directory: source-repo/src/scripts
         run: |
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
 
-      # 6. Run Coveo backup
+      # 6. Execute backup script
       - name: Run Coveo Backup
-        working-directory: src/scripts
+        working-directory: source-repo/src/scripts
         env:
           DEV_DEPLOYMENT_KEY: ${{ secrets.DEV_DEPLOYMENT_KEY }}
           QA_DEPLOYMENT_KEY: ${{ secrets.QA_DEPLOYMENT_KEY }}
           UAT_DEPLOYMENT_KEY: ${{ secrets.UAT_DEPLOYMENT_KEY }}
           PRD_DEPLOYMENT_KEY: ${{ secrets.PRD_DEPLOYMENT_KEY }}
+          SELECTED_ENV: ${{ inputs.environment }}
         run: |
-          echo "Starting backup for ${{ inputs.environment }}"
-
-          python3 pull_changes.py "${{ inputs.environment }}"
+          echo "Starting Coveo backup for $SELECTED_ENV"
+          python3 pull_changes.py "$SELECTED_ENV"
 
       # 7. Verify generated backup
-      - name: Verify Backup Files
+      - name: Verify Backup
         env:
-          ENVIRONMENT: ${{ inputs.environment }}
+          SELECTED_ENV: ${{ inputs.environment }}
         run: |
-          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
 
-          echo "Checking backup for $ENVIRONMENT"
+          SOURCE_DIR="source-repo/environments/$ENV_LOWER/resources"
 
-          if [ ! -d "environments/$ENV_LOWER/resources" ]; then
-            echo "ERROR: Backup directory not found!"
+          if [ ! -d "$SOURCE_DIR" ]; then
+            echo "ERROR: Backup directory not found: $SOURCE_DIR"
             exit 1
           fi
 
-          find "environments/$ENV_LOWER/resources" -type f
+          if [ -z "$(find "$SOURCE_DIR" -type f -print -quit)" ]; then
+            echo "ERROR: No backup files generated"
+            exit 1
+          fi
+
+          echo "Backup files:"
+          find "$SOURCE_DIR" -type f
 
       # 8. Checkout dedicated backup branch
       - name: Checkout Backup Branch
@@ -89,27 +99,29 @@ jobs:
           path: backup-repo
           persist-credentials: true
 
-      # 9. Copy environment backup
-      - name: Store Environment Backup
+      # 9. Copy backup to selected environment folder
+      - name: Copy Backup Files
         env:
-          ENVIRONMENT: ${{ inputs.environment }}
+          SELECTED_ENV: ${{ inputs.environment }}
         run: |
-          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
 
-          mkdir -p "backup-repo/environments/$ENV_LOWER/resources"
+          SOURCE_DIR="source-repo/environments/$ENV_LOWER/resources"
+          TARGET_DIR="backup-repo/environments/$ENV_LOWER/resources"
 
-          cp -a "environments/$ENV_LOWER/resources/." \
-            "backup-repo/environments/$ENV_LOWER/resources/"
+          mkdir -p "$TARGET_DIR"
 
-          echo "Backup copied to coveo-backups/environments/$ENV_LOWER/resources"
+          rsync -a --delete "$SOURCE_DIR/" "$TARGET_DIR/"
+
+          echo "Backup copied to $TARGET_DIR"
 
       # 10. Commit and push backup
       - name: Commit Coveo Backup
         working-directory: backup-repo
         env:
-          ENVIRONMENT: ${{ inputs.environment }}
+          SELECTED_ENV: ${{ inputs.environment }}
         run: |
-          ENV_LOWER=$(echo "$ENVIRONMENT" | tr '[:upper:]' '[:lower:]')
+          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -117,12 +129,10 @@ jobs:
           git add -A "environments/$ENV_LOWER/resources/"
 
           if ! git diff --cached --quiet; then
-            git commit -m "Coveo $ENVIRONMENT backup - $(date +'%Y-%m-%d')"
-
+            git commit -m "Coveo $SELECTED_ENV backup - $(date -u +'%Y-%m-%d')"
             git push origin HEAD:coveo-backups
-
             echo "Backup successfully pushed!"
           else
-            echo "No changes detected for $ENVIRONMENT."
+            echo "No changes detected for $SELECTED_ENV."
           fi
 
