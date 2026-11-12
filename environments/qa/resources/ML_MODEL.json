@@ -7,7 +7,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -18,7 +17,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Hubspot ART model",
 					"startTime": 1780414020000
 				},
@@ -65,14 +64,13 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P3M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "WEEK",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Hybris QS Model",
 					"startTime": 1776413220000
 				},
@@ -193,7 +191,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 1,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",

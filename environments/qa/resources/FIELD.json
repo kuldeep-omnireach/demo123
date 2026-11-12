@@ -5805,6 +5805,7 @@
 			{
 				"model": {
 					"automaticFacetsCandidate": false,
+					"automaticFacetsCandidateTags": [],
 					"dateFormat": "",
 					"description": "",
 					"facet": false,
