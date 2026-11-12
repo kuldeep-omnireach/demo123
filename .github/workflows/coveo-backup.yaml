@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: "Select Coveo environment to back up"
+        description: "Select Coveo environment"
         required: true
         type: choice
         options:
@@ -14,8 +14,20 @@ on:
           - UAT
           - PRD
 
+  schedule:
+    # PROD: Every day at 4:30 AM IST
+    - cron: '0 23 * * *'
+
+    # DEV, QA, UAT: Monday, Wednesday, Friday, Sunday at 4:30 AM IST
+    - cron: '0 23 * * 0,2,4,6'
+
 permissions:
   contents: write
+
+# Prevent simultaneous pushes to the backup branch
+concurrency:
+  group: coveo-backup-branch
+  cancel-in-progress: false
 
 jobs:
   backup:
@@ -23,7 +35,7 @@ jobs:
 
     steps:
 
-      # 1. Checkout main branch (Python script and environment models)
+      # 1. Checkout main branch
       - name: Checkout Main Branch
         uses: actions/checkout@v4
         with:
@@ -56,42 +68,33 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      # 6. Execute backup script
-      - name: Run Coveo Backup
-        working-directory: source-repo/src/scripts
+      # 6. Determine environments to execute
+      - name: Select Backup Environments
+        id: selection
         env:
-          DEV_DEPLOYMENT_KEY: ${{ secrets.DEV_DEPLOYMENT_KEY }}
-          QA_DEPLOYMENT_KEY: ${{ secrets.QA_DEPLOYMENT_KEY }}
-          UAT_DEPLOYMENT_KEY: ${{ secrets.UAT_DEPLOYMENT_KEY }}
-          PRD_DEPLOYMENT_KEY: ${{ secrets.PRD_DEPLOYMENT_KEY }}
-          SELECTED_ENV: ${{ inputs.environment }}
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL_ENV: ${{ inputs.environment }}
         run: |
-          echo "Starting Coveo backup for $SELECTED_ENV"
-          python3 pull_changes.py "$SELECTED_ENV"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            ENVIRONMENTS="$MANUAL_ENV"
 
-      # 7. Verify generated backup
-      - name: Verify Backup
-        env:
-          SELECTED_ENV: ${{ inputs.environment }}
-        run: |
-          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
+          elif [ "$SCHEDULE" = "0 23 * * *" ]; then
+            ENVIRONMENTS="PRD"
 
-          SOURCE_DIR="source-repo/environments/$ENV_LOWER/resources"
+          elif [ "$SCHEDULE" = "0 23 * * 0,2,4,6" ]; then
+            ENVIRONMENTS="DEV QA UAT"
 
-          if [ ! -d "$SOURCE_DIR" ]; then
-            echo "ERROR: Backup directory not found: $SOURCE_DIR"
+          else
+            echo "Unknown trigger"
             exit 1
           fi
 
-          if [ -z "$(find "$SOURCE_DIR" -type f -print -quit)" ]; then
-            echo "ERROR: No backup files generated"
-            exit 1
-          fi
+          echo "environments=$ENVIRONMENTS" >> "$GITHUB_OUTPUT"
 
-          echo "Backup files:"
-          find "$SOURCE_DIR" -type f
+          echo "Selected environments: $ENVIRONMENTS"
 
-      # 8. Checkout dedicated backup branch
+      # 7. Checkout backup branch
       - name: Checkout Backup Branch
         uses: actions/checkout@v4
         with:
@@ -99,40 +102,147 @@ jobs:
           path: backup-repo
           persist-credentials: true
 
-      # 9. Copy backup to selected environment folder
-      - name: Copy Backup Files
+      # 8. Execute backups and update logs
+      - name: Run Environment Backups
         env:
-          SELECTED_ENV: ${{ inputs.environment }}
+          DEV_DEPLOYMENT_KEY: ${{ secrets.DEV_DEPLOYMENT_KEY }}
+          QA_DEPLOYMENT_KEY: ${{ secrets.QA_DEPLOYMENT_KEY }}
+          UAT_DEPLOYMENT_KEY: ${{ secrets.UAT_DEPLOYMENT_KEY }}
+          PRD_DEPLOYMENT_KEY: ${{ secrets.PRD_DEPLOYMENT_KEY }}
+          ENVIRONMENTS: ${{ steps.selection.outputs.environments }}
         run: |
-          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
+          set +e
 
-          SOURCE_DIR="source-repo/environments/$ENV_LOWER/resources"
-          TARGET_DIR="backup-repo/environments/$ENV_LOWER/resources"
+          FAILED=0
 
-          mkdir -p "$TARGET_DIR"
+          for ENV in $ENVIRONMENTS; do
 
-          rsync -a --delete "$SOURCE_DIR/" "$TARGET_DIR/"
+            ENV_LOWER=$(echo "$ENV" | tr '[:upper:]' '[:lower:]')
 
-          echo "Backup copied to $TARGET_DIR"
+            SOURCE_DIR="source-repo/environments/$ENV_LOWER/resources"
+            TARGET_DIR="backup-repo/environments/$ENV_LOWER/resources"
+            LOG_FILE="environments/$ENV_LOWER/backup.log"
 
-      # 10. Commit and push backup
-      - name: Commit Coveo Backup
-        working-directory: backup-repo
-        env:
-          SELECTED_ENV: ${{ inputs.environment }}
-        run: |
-          ENV_LOWER=$(echo "$SELECTED_ENV" | tr '[:upper:]' '[:lower:]')
+            echo "=================================="
+            echo "Starting $ENV backup"
+            echo "=================================="
+
+            mkdir -p "backup-repo/environments/$ENV_LOWER"
+
+            START_TIME=$(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M:%S IST')
+
+            STATUS="FAILED"
+            DETAILS="Backup execution failed"
+
+            # Execute Python backup
+            (
+              cd source-repo/src/scripts &&
+              python3 pull_changes.py "$ENV"
+            )
+
+            SCRIPT_EXIT=$?
+
+            if [ "$SCRIPT_EXIT" -eq 0 ]; then
+
+              if [ -d "$SOURCE_DIR" ] &&
+                 [ -n "$(find "$SOURCE_DIR" -type f -print -quit)" ]; then
+
+                mkdir -p "$TARGET_DIR"
+
+                # Synchronize resource files
+                rsync -a --delete "$SOURCE_DIR/" "$TARGET_DIR/"
+                RSYNC_EXIT=$?
+
+                if [ "$RSYNC_EXIT" -eq 0 ]; then
+
+                  # Stage resource changes
+                  git -C backup-repo add -A \
+                    "environments/$ENV_LOWER/resources/"
+
+                  if git -C backup-repo diff --cached --quiet -- \
+                    "environments/$ENV_LOWER/resources/"; then
+
+                    STATUS="SUCCESS - NO CHANGES"
+                    DETAILS="Coveo resources are identical to previous backup."
+
+                  else
+
+                    STATUS="SUCCESS - CHANGES DETECTED"
+
+                    DETAILS="Changed files:"
+
+                    CHANGE_LIST=$(git -C backup-repo diff \
+                      --cached --name-status -- \
+                      "environments/$ENV_LOWER/resources/")
+
+                    DETAILS="$DETAILS
+          $CHANGE_LIST"
+
+                  fi
+
+                else
+                  STATUS="FAILED"
+                  DETAILS="Resource synchronization failed."
+                  FAILED=1
+                fi
+
+              else
+                STATUS="FAILED"
+                DETAILS="Backup directory missing or empty."
+                FAILED=1
+              fi
+
+            else
+              STATUS="FAILED"
+              DETAILS="Python backup script failed with exit code $SCRIPT_EXIT."
+              FAILED=1
+            fi
+
+            # Mark script or synchronization failures
+            if [ "$SCRIPT_EXIT" -ne 0 ]; then
+              FAILED=1
+            fi
+
+            # Append result to environment-specific log
+            {
+              echo ""
+              echo "========================================"
+              echo "Backup execution: $START_TIME"
+              echo "Environment: $ENV"
+              echo "Status: $STATUS"
+              echo "$DETAILS"
+              echo "========================================"
+            } >> "backup-repo/$LOG_FILE"
+
+            echo "$ENV result: $STATUS"
+
+            # Stage log file
+            git -C backup-repo add "$LOG_FILE"
+
+          done
+
+          # Commit all environment changes and logs
+          cd backup-repo
 
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add -A "environments/$ENV_LOWER/resources/"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
           if ! git diff --cached --quiet; then
-            git commit -m "Coveo $SELECTED_ENV backup - $(date -u +'%Y-%m-%d')"
+
+            git commit -m "Coveo environment backups - $(TZ=Asia/Kolkata date +'%Y-%m-%d')"
+
             git push origin HEAD:coveo-backups
-            echo "Backup successfully pushed!"
+
+            echo "Backup files and logs pushed successfully."
+
           else
-            echo "No changes detected for $SELECTED_ENV."
+            echo "No backup or log changes to commit."
+          fi
+
+          # Fail workflow if any environment backup failed
+          if [ "$FAILED" -ne 0 ]; then
+            echo "One or more environment backups failed."
+            exit 1
           fi
 
