@@ -1977,6 +1977,100 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {
+						"definition": "when $context [price_list_id] isPopulated",
+						"description": "pricelist condition",
+						"detailed": {
+							"condition": {
+								"left": {
+									"key": "price_list_id",
+									"object": "context"
+								},
+								"operator": "isPopulated"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_context_[price_list_id]_isPopulated_YlycNk }}"
+					},
+					"definition": "filter aq `@rm_p_price_list_ids = $context.price_list_id`",
+					"description": "aq param for price list filtration",
+					"detailed": {
+						"expressions": [
+							"@rm_p_price_list_ids = $context.price_list_id"
+						]
+					},
+					"feature": "filter",
+					"parent": {
+						"definition": "when $context [price_list_id] isPopulated",
+						"description": "pricelist condition",
+						"detailed": {
+							"condition": {
+								"left": {
+									"key": "price_list_id",
+									"object": "context"
+								},
+								"operator": "isPopulated"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_context_[price_list_id]_isPopulated_YlycNk }}"
+					},
+					"position": 12,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
+				},
+				"resourceName": "filter_aq_`@rm_p_price_list_ids_=_context.price_list_id`_MYF7nO"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {
+						"definition": "when $context [price_list_id] isPopulated",
+						"description": "pricelist condition",
+						"detailed": {
+							"condition": {
+								"left": {
+									"key": "price_list_id",
+									"object": "context"
+								},
+								"operator": "isPopulated"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_context_[price_list_id]_isPopulated_YlycNk }}"
+					},
+					"definition": "filter aq `@rm_p_price_list_ids = $context.price_list_id`",
+					"description": "aq param for price list filtration",
+					"detailed": {
+						"expressions": [
+							"@rm_p_price_list_ids = $context.price_list_id"
+						]
+					},
+					"feature": "filter",
+					"parent": {
+						"definition": "when $context [price_list_id] isPopulated",
+						"description": "pricelist condition",
+						"detailed": {
+							"condition": {
+								"left": {
+									"key": "price_list_id",
+									"object": "context"
+								},
+								"operator": "isPopulated"
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_context_[price_list_id]_isPopulated_YlycNk }}"
+					},
+					"position": 16,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
+				},
+				"resourceName": "filter_aq_`@rm_p_price_list_ids_=_context.price_list_id`_aezOPF"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {
 						"definition": "when $context [advanced_query] isPopulated",
 						"description": "",
 						"detailed": {

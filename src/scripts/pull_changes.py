@@ -26,10 +26,13 @@ def get_env_config(env_name: str):
         valid = ", ".join(sorted(ENV_ALIASES))
         raise ValueError(f"Unsupported environment '{env_name}'. Choose one of: {valid}")
 
-    env_dir = ENVIRONMENTS_DIR / ENV_ALIASES[normalized]
+    folder = ENV_ALIASES[normalized] #new change
+    env_dir = ENVIRONMENTS_DIR / folder
     properties_path = env_dir / "env.properties"
+    model_json = env_dir / f"{folder}-model.json"
 
-    if not properties_path.exists():
+
+    if not properties_path.is_file():
         raise FileNotFoundError(f"Environment properties file not found: {properties_path}")
 
     org_id = None
@@ -45,46 +48,113 @@ def get_env_config(env_name: str):
     if not org_id:
         raise ValueError(f"No orgId found in {properties_path}")
 
+    if not model_json.is_file():
+        raise FileNotFoundError(
+            f"Snapshot model file not found: {model_json}"
+        )
+
     key_var = ENV_KEY_VARS[normalized]
     env_dir = ENVIRONMENTS_DIR / ENV_ALIASES[normalized]
     return {
         "env": normalized,
-        "folder": ENV_ALIASES[normalized],
+        "folder": folder,
         "org_id": org_id,
         "key_var": key_var,
-        "env_dir": str(env_dir),
-        "properties_path": str(properties_path),
-        "model_json": str(env_dir / f"{ENV_ALIASES[normalized]}-model.json")
+        "env_dir": str(env_dir.resolve()),
+        "properties_path": str(properties_path.resolve()),
+        "model_json": str(model_json.resolve())
     }
 
+#new fucntion to authenticate with Coveo using the token
+def authenticate(token: str, env_dir: str):
+    print("Authenticating with Coveo...")
 
-def build_commands(env_name: str):
-    config = get_env_config(env_name)
-    key_var = config["key_var"]
-    org_id = config["org_id"]
-    model_json = config["model_json"]
+    result = subprocess.run(
+        ["coveo", "auth:token", "--stdin"],
+        input=token + "\n",
+        text=True,
+        check=False,
+        cwd=env_dir,
+    )
 
-    return [
-        f'echo "${key_var}" | coveo auth:token',
-        f"coveo org:resources:pull --organization {org_id} --model {model_json} --overwrite --wait 0",
+    if result.returncode != 0:
+        raise RuntimeError(
+            "Coveo authentication failed. "
+            "Resource pull was not started."
+        )
+
+    print("Coveo authentication successful.")
+
+#new Function to pull resources
+def pull_resources(config: dict):
+    command = [
+        "coveo",
+        "org:resources:pull",
+        "--organization",
+        config["org_id"],
+        "--model",
+        config["model_json"],
+        "--overwrite",
+        "--wait",
+        "0",
     ]
+
+    print(
+        f"Pulling Coveo resources for "
+        f"{config['env']} ({config['org_id']})..."
+    )
+
+    result = subprocess.run(
+        command,
+        check=False,
+        cwd=config["env_dir"],
+    )
+
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"Resource pull failed for environment {config['env']}."
+        )
+
+    print(f"Resource pull completed for {config['env']}.")
+
+# def build_commands(env_name: str):
+#     config = get_env_config(env_name)
+#     key_var = config["key_var"]
+#     org_id = config["org_id"]
+#     model_json = config["model_json"]
+
+#     return [
+#         f'echo "${key_var}" | coveo auth:token',
+#         f"coveo org:resources:pull --organization {org_id} --model {model_json} --overwrite --wait 0",
+#     ]
 
 
 def run_env_pull(env_name: str):
     config = get_env_config(env_name)
     key_var = config["key_var"]
-    env_dir = config["env_dir"]
+    token = os.getenv(key_var)
+    #new change
+    if not token or not token.strip():
+        raise RuntimeError(
+            f"Missing or empty environment variable: {key_var}"
+        )
 
-    if not os.getenv(key_var):
-        raise RuntimeError(f"Missing required environment variable: {key_var}")
+    token = token.strip() #new change
 
-    commands = build_commands(env_name)
+    authenticate(token, config["env_dir"]) #new change
 
-    for command in commands:
-        print(f"$ {command}")
-        result = subprocess.run(command, shell=True, check=False, cwd=env_dir)
-        if result.returncode != 0:
-            raise subprocess.CalledProcessError(result.returncode, command)
+    pull_resources(config) #new Change
+
+    # if not os.getenv(key_var):
+    #     raise RuntimeError(f"Missing required environment variable: {key_var}")
+
+    # commands = build_commands(env_name)
+
+    # for command in commands:
+    #     print(f"$ {command}")
+    #     result = subprocess.run(command, shell=True, check=False, cwd=env_dir)
+    #     if result.returncode != 0:
+    #         raise subprocess.CalledProcessError(result.returncode, command)
 
     return config
 

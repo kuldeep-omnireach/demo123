@@ -828,10 +828,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -843,10 +839,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -1762,10 +1754,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -1777,10 +1765,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -2691,10 +2675,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -2706,10 +2686,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -3618,10 +3594,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -3633,10 +3605,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -4551,10 +4519,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -4566,10 +4530,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -5484,10 +5444,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -5499,10 +5455,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -8002,10 +7954,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -8017,10 +7965,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -8929,10 +8873,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -8944,10 +8884,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -10629,10 +10565,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -10644,10 +10576,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -11640,10 +11568,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -11655,10 +11579,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -12561,10 +12481,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -12576,10 +12492,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -13472,25 +13384,17 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
 							},
 							"ScrapingConfiguration": {
 								"sensitive": false,
-								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"thumbnailurl\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image']/@content\"},\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:description']/@content\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:title']/@content\"},\"ogtype\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:type']/@content\"},\"ogimagealt\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image:alt']/@content\"},\"buy_now_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Buy now' or @aria-label=' Buy now']/@href\"},\"documentation_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Document center' or @aria-label=' Document center']/@href\"},\"videos_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Watch now' or @aria-label='Videos']/@href\"},\"blog_categories\":{\"type\":\"XPATH\",\"path\":\"//div[contains(@class,\\\"hero-content\\\")]//div[contains(@class,\\\"wrapper-badges-breadcrumb\\\")]/span[contains(@class,\\\"single-badges-breadcrumb\\\")]/text()\"}}}]"
+								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"},{\"type\":\"XPATH\",\"path\":\"//a[contains(@rel, 'noopener') and @*[contains(., '>')]]\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"thumbnailurl\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image']/@content\"},\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:description']/@content\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//h1[contains(concat(' ',normalize-space(@class),' '),' title ')]/text() | //h1[contains(@class,'article-title')]/text()[not(//h1[contains(concat(' ',normalize-space(@class),' '),' title ')])] | //h1/text()[not(//h1[contains(concat(' ',normalize-space(@class),' '),' title ')]) and not(//h1[contains(@class,'article-title')])] | //meta[@property='og:title']/@content[not(//h1)] | //title/text()[not(//h1) and not(//meta[@property='og:title'])]\"},\"ogtype\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:type']/@content\"},\"ogimagealt\":{\"type\":\"XPATH\",\"path\":\"//meta[@property='og:image:alt']/@content\"},\"buy_now_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Buy now' or @aria-label=' Buy now']/@href\"},\"documentation_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Document center' or @aria-label=' Document center']/@href\"},\"videos_wp\":{\"type\":\"XPATH\",\"path\":\"//main//a[@aria-label='Watch now' or @aria-label='Videos']/@href\"},\"blog_categories\":{\"type\":\"XPATH\",\"path\":\"//div[contains(@class,\\\"hero-content\\\")]//div[contains(@class,\\\"wrapper-badges-breadcrumb\\\")]/span/a[contains(@class,\\\"single-badges-breadcrumb\\\")]/text()\"}}}]"
 							},
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -14402,10 +14306,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -14417,10 +14317,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -15323,10 +15219,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -15338,10 +15230,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -16249,10 +16137,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -16264,10 +16148,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -17175,10 +17055,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -17190,10 +17066,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -18101,10 +17973,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -18116,10 +17984,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -19027,10 +18891,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -19042,10 +18902,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -19953,10 +19809,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -19968,10 +19820,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -20879,10 +20727,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -20894,10 +20738,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -21805,10 +21645,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -21820,10 +21656,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -22731,10 +22563,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -22746,10 +22574,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -23657,10 +23481,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -23672,10 +23492,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -24583,10 +24399,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -24598,10 +24410,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -25514,10 +25322,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -25529,10 +25333,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -26435,10 +26235,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -26450,10 +26246,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -27349,10 +27141,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -27364,10 +27152,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -28262,25 +28046,17 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
 							},
 							"ScrapingConfiguration": {
 								"sensitive": false,
-								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"schemaorg\":{\"type\":\"XPATH\",\"path\":\"//script[@type='application/ld+json']\"},\"yotpobottomline\":{\"type\":\"XPATH\",\"path\":\"(//button[contains(@class,'yotpo-sr-bottom-line-summary')]/@aria-label)[1]\"},\"domlistprice\":{\"type\":\"XPATH\",\"path\":\"(//*[self::del or self::s or self::strike or contains(@class,'strike') or contains(@class,'old-price') or contains(@class,'was-price') or contains(@class,'crossed')]//text()[normalize-space()])[1]\"},\"dombadge\":{\"type\":\"XPATH\",\"path\":\"(//*[contains(@class,'product-badge') or contains(@class,'product-label') or contains(@class,'product-flag') or contains(@class,'bestseller')]//text()[normalize-space()])[1]\"}}}]"
+								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"schemaorg\":{\"type\":\"XPATH\",\"path\":\"//script[@type='application/ld+json']\"},\"yotpobottomline\":{\"type\":\"XPATH\",\"path\":\"(//button[contains(@class,'yotpo-sr-bottom-line-summary')]/@aria-label)[1]\"},\"domlistprice\":{\"type\":\"XPATH\",\"path\":\"domlistprice (//*[self::del or self::s or self::strike or contains(@class,'strike') or contains(@class,'old-price') or contains(@class,'was-price') or contains(@class,'crossed')]//text()[normalize-space()])[1]\"},\"dombadge\":{\"type\":\"XPATH\",\"path\":\"(//*[contains(@class,'product-badge') or contains(@class,'product-label') or contains(@class,'product-flag') or contains(@class,'bestseller')]//text()[normalize-space()])[1]\"},\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"(//meta[@name='description'][normalize-space(@content)]/@content | //meta[@property='og:description'][normalize-space(@content)]/@content | //h1[normalize-space()]/text())[1]\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//h1/text() | //meta[@property='og:title']/@content[not(//h1)] | //title/text()[not(//h1) and not(//meta[@property='og:title'])]\"}}}]"
 							},
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -29176,10 +28952,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -29191,10 +28963,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -30090,10 +29858,6 @@
 								"sensitive": false,
 								"value": "false"
 							},
-							"ReadTimeout": {
-								"sensitive": false,
-								"value": "300"
-							},
 							"RequestsIntervalInMs": {
 								"sensitive": false,
 								"value": "1000"
@@ -30105,10 +29869,6 @@
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,
 								"value": "MultiMatch"
-							},
-							"ServicePrincipalNames": {
-								"sensitive": false,
-								"value": ""
 							},
 							"SkipOnSitemapError": {
 								"sensitive": false,
@@ -35859,7 +35619,7 @@
 							},
 							"ScrapingConfiguration": {
 								"sensitive": false,
-								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@name='description']/@content\"}}}]"
+								"value": "[{\"name\":\"[Default Coveo web scraping configuration]\",\"exclude\":[{\"type\":\"CSS\",\"path\":\"script\"},{\"type\":\"CSS\",\"path\":\"noscript\"},{\"type\":\"CSS\",\"path\":\"iframe\"},{\"type\":\"CSS\",\"path\":\"menu\"},{\"type\":\"CSS\",\"path\":\"nav\"},{\"type\":\"CSS\",\"path\":\"header\"},{\"type\":\"CSS\",\"path\":\"footer\"},{\"type\":\"CSS\",\"path\":\"video\"},{\"type\":\"CSS\",\"path\":\"audio\"},{\"type\":\"CSS\",\"path\":\".menu\"},{\"type\":\"CSS\",\"path\":\".nav\"},{\"type\":\"CSS\",\"path\":\".navigation\"},{\"type\":\"CSS\",\"path\":\".navbar\"},{\"type\":\"CSS\",\"path\":\".nav-bar\"},{\"type\":\"CSS\",\"path\":\".head\"},{\"type\":\"CSS\",\"path\":\".header\"},{\"type\":\"CSS\",\"path\":\".foot\"},{\"type\":\"CSS\",\"path\":\".footer\"},{\"type\":\"CSS\",\"path\":\".sidebar\"},{\"type\":\"CSS\",\"path\":\".sidenav\"},{\"type\":\"CSS\",\"path\":\".banner\"},{\"type\":\"CSS\",\"path\":\".ad\"},{\"type\":\"CSS\",\"path\":\".advert\"},{\"type\":\"CSS\",\"path\":\".advertisement\"},{\"type\":\"CSS\",\"path\":\".adsbygoogle\"},{\"type\":\"CSS\",\"path\":\".popup\"},{\"type\":\"CSS\",\"path\":\".modal\"}],\"for\":{\"urls\":[\".*\"]},\"metadata\":{\"ogdescription\":{\"type\":\"XPATH\",\"path\":\"//meta[@name='description']/@content\"},\"ogtitle\":{\"type\":\"XPATH\",\"path\":\"//h2[contains(@class,'heading-lg')]/p/text() | //title/text()[not(//h2[contains(@class,'heading-lg')]/p)]\"}}}]"
 							},
 							"ScrapingMatchingStrategy": {
 								"sensitive": false,

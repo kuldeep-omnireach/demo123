@@ -1,0 +1,8255 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"LISTING_PAGE": [
+			{
+				"model": {
+					"name": "APAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"APAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/apap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "APAP_Machines_qVRRTJ"
+			},
+			{
+				"model": {
+					"name": "AYO",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AYO"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/ayo"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "AYO_EpzLDc"
+			},
+			{
+				"model": {
+					"name": "AYO",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AYO"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/ayo"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "AYO_JXLHsX"
+			},
+			{
+				"model": {
+					"name": "AYO",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AYO"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/ayo"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "AYO_RJ9p4T"
+			},
+			{
+				"model": {
+					"name": "Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Accessories_HC5pIf"
+			},
+			{
+				"model": {
+					"name": "Adaptive Sound Technologies Inc.",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Adaptive Sound Technologies Inc."
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/adaptive-sound-technologies-inc"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Adaptive_Sound_Technologies_Inc._lcP9gK"
+			},
+			{
+				"model": {
+					"name": "Adaptive Sound Technologies Inc",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Adaptive Sound Technologies Inc"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/adaptive-sound-technologies-inc"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Adaptive_Sound_Technologies_Inc_SswzPw"
+			},
+			{
+				"model": {
+					"name": "Adaptive Sound Technologies Inc",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Adaptive Sound Technologies Inc"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/adaptive-sound-technologies-inc"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Adaptive_Sound_Technologies_Inc_gA3A2p"
+			},
+			{
+				"model": {
+					"name": "AirAvant Medical",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirAvant Medical"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airavant-medical"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "AirAvant_Medical_jtLUTY"
+			},
+			{
+				"model": {
+					"name": "AirFit F20",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit F20"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-f20"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_F20_FEGxdR"
+			},
+			{
+				"model": {
+					"name": "AirFit F30i",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit F30i"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-f30i"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_F30i_Jtpza2"
+			},
+			{
+				"model": {
+					"name": "AirFit F40",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit F40"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-f40"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_F40_5HotXw"
+			},
+			{
+				"model": {
+					"name": "AirFit N20",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit N20"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-n20"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_N20_Aofhuk"
+			},
+			{
+				"model": {
+					"name": "AirFit N30",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit N30"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-n30"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_N30_jLV2Zz"
+			},
+			{
+				"model": {
+					"name": "AirFit N30i",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit N30i"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-n30i"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_N30i_1yAx4c"
+			},
+			{
+				"model": {
+					"name": "AirFit P10",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit P10"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-p10"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_P10_RiaSjT"
+			},
+			{
+				"model": {
+					"name": "AirFit P30i",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit P30i"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-p30i"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_P30i_fNOYPR"
+			},
+			{
+				"model": {
+					"name": "AirFit X30i",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirFit X30i"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airfit-x30i"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirFit_X30i_kcJ90I"
+			},
+			{
+				"model": {
+					"name": "AirSense 11 Device",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirSense 11 Device"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airsense-11-device"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "AirSense_11_Device_BEp2oA"
+			},
+			{
+				"model": {
+					"name": "AirSense 11",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirSense 11"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airsense-11"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "AirSense_11_ps25Ql"
+			},
+			{
+				"model": {
+					"name": "AirSense 11",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirSense 11"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airsense-11"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirSense_11_vMmiJP"
+			},
+			{
+				"model": {
+					"name": "AirTouch F20",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirTouch F20"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airtouch-f20"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirTouch_F20_RIHHhP"
+			},
+			{
+				"model": {
+					"name": "AirTouch N20",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirTouch N20"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airtouch-n20"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirTouch_N20_ddRCVe"
+			},
+			{
+				"model": {
+					"name": "AirTouch N30i",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"AirTouch N30i"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airtouch-n30i"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "AirTouch_N30i_00zQRQ"
+			},
+			{
+				"model": {
+					"name": "Airavant Medical",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Airavant Medical"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airavant-medical"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Airavant_Medical_Fn9Vzc"
+			},
+			{
+				"model": {
+					"name": "Airavant Medical",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Airavant Medical"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airavant-medical"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Airavant_Medical_dihYHq"
+			},
+			{
+				"model": {
+					"name": "All Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"All Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "All_Products_BOGYPZ"
+			},
+			{
+				"model": {
+					"name": "All Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"All Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "All_Products_baBtYH"
+			},
+			{
+				"model": {
+					"name": "All Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"All Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "All_Products_x06daF"
+			},
+			{
+				"model": {
+					"name": "Apnea Sciences Corporation",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Apnea Sciences Corporation"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/apnea-sciences-corporation"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Apnea_Sciences_Corporation_gNkhL4"
+			},
+			{
+				"model": {
+					"name": "Apnea Sciences Corporation",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Apnea Sciences Corporation"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/apnea-sciences-corporation"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Apnea_Sciences_Corporation_qMVcu6"
+			},
+			{
+				"model": {
+					"name": "Apnea Sciences Corporation",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Apnea Sciences Corporation"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/apnea-sciences-corporation"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Apnea_Sciences_Corporation_zTzncw"
+			},
+			{
+				"model": {
+					"name": "Auto Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Auto Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colelciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines-auto-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Auto_Machines_658c62"
+			},
+			{
+				"model": {
+					"name": "Automatic Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Automatic Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-apap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Automatic_Machines_bJnZoi"
+			},
+			{
+				"model": {
+					"name": "Bambi",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bambi"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bambi"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Bambi_JdNfPV"
+			},
+			{
+				"model": {
+					"name": "Bambi",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bambi"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bambi"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Bambi_XSYjYM"
+			},
+			{
+				"model": {
+					"name": "Batteries and Power",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Batteries and Power"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-batteries-and-power"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Batteries_and_Power_7JRor4"
+			},
+			{
+				"model": {
+					"name": "Batteries and Power",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Batteries and Power"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-batteries-and-power"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Batteries_and_Power_H8a4Ln"
+			},
+			{
+				"model": {
+					"name": "Batteries and Power Supply",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Batteries and Power Supply"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/batteries-power-supply"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Batteries_and_Power_Supply_YS3c5F"
+			},
+			{
+				"model": {
+					"name": "Best Sellers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Best Sellers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/best-sellers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Best_Sellers_ncqbPg"
+			},
+			{
+				"model": {
+					"name": "Bestseller",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bestseller"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bestseller"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Bestseller_3ILAUI"
+			},
+			{
+				"model": {
+					"name": "Bestsellers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bestsellers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bestsellers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Bestsellers_OITc2E"
+			},
+			{
+				"model": {
+					"name": "Bestsellers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bestsellers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bestsellers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Bestsellers_RSopEB"
+			},
+			{
+				"model": {
+					"name": "Bi-Levels and BiPaP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bi-Levels and BiPaP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/bi-levels-and-bipaps"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Bi-Levels_and_BiPaP_Machines_lbp8Mo"
+			},
+			{
+				"model": {
+					"name": "Bilevels And Bipaps",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bilevels And Bipaps"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines-bilevels-and-bipaps"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Bilevels_And_Bipaps_0EfCZC"
+			},
+			{
+				"model": {
+					"name": "Bilevels and Bipaps",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Bilevels and Bipaps"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-bipap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Bilevels_and_Bipaps_wF4Vtf"
+			},
+			{
+				"model": {
+					"name": "Black Friday Sale",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Black Friday Sale"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/black-friday"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Black_Friday_Sale_LWVWX4"
+			},
+			{
+				"model": {
+					"name": "BlockBlueLight",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"BlockBlueLight"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/blockbluelight"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "BlockBlueLight_dc3SP0"
+			},
+			{
+				"model": {
+					"name": "BlockBlueLight",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"BlockBlueLight"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/blockbluelight"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "BlockBlueLight_jOjItu"
+			},
+			{
+				"model": {
+					"name": "BlockBlueLight",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"BlockBlueLight"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/blockbluelight"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "BlockBlueLight_jWQeAK"
+			},
+			{
+				"model": {
+					"name": "Blue Light Glasses",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Blue Light Glasses"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-blue-light-glasses"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Blue_Light_Glasses_XgTOl9"
+			},
+			{
+				"model": {
+					"name": "Boxing Day",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Boxing Day"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/boxing-day"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Boxing_Day_Gmw5QY"
+			},
+			{
+				"model": {
+					"name": "CPAP & Bi-Level Rental",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP & Bi-Level Rental"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-bi-level-rental"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_&_Bi-Level_Rental_Vrrk4z"
+			},
+			{
+				"model": {
+					"name": "CPAP Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Accessories_pM5qsL"
+			},
+			{
+				"model": {
+					"name": "CPAP Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Accessories_wP7biP"
+			},
+			{
+				"model": {
+					"name": "CPAP Alternatives",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Alternatives"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-alternatives"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Alternatives_G9b6Id"
+			},
+			{
+				"model": {
+					"name": "CPAP Bag",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Bag"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-cpap-bag"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Bag_ImtbbE"
+			},
+			{
+				"model": {
+					"name": "CPAP Bags",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Bags"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "Collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-bags"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Bags_NCD5aQ"
+			},
+			{
+				"model": {
+					"name": "CPAP Bags",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Bags"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-bags"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Bags_xTwVyR"
+			},
+			{
+				"model": {
+					"name": "CPAP Cleaning",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Cleaning"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-cleaning"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Cleaning_5jvif8"
+			},
+			{
+				"model": {
+					"name": "CPAP Filters",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Filters"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-filters"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Filters_MeFxia"
+			},
+			{
+				"model": {
+					"name": "CPAP Filters",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Filters"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-filters"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Filters_q7S8pT"
+			},
+			{
+				"model": {
+					"name": "CPAP Hire",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Hire"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-hire"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Hire_gOvF6z"
+			},
+			{
+				"model": {
+					"name": "CPAP Humidifiers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Humidifiers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-humidifiers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Humidifiers_AgWo7M"
+			},
+			{
+				"model": {
+					"name": "CPAP Humidifiers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Humidifiers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-humidifiers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Humidifiers_qt36pm"
+			},
+			{
+				"model": {
+					"name": "CPAP Machine Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machine Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-cpap-machine-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Machine_Parts_0NYbKP"
+			},
+			{
+				"model": {
+					"name": "CPAP Machine Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machine Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "Collection Condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-machine-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Machine_Parts_oWV8y6"
+			},
+			{
+				"model": {
+					"name": "CPAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Machines_MmbSEd"
+			},
+			{
+				"model": {
+					"name": "CPAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Machines_X8c3T2"
+			},
+			{
+				"model": {
+					"name": "CPAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Machines_yJ3KJp"
+			},
+			{
+				"model": {
+					"name": "CPAP Mask Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Mask Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-mask-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Mask_Accessories_8U4tKe"
+			},
+			{
+				"model": {
+					"name": "CPAP Mask Cushions",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Mask Cushions"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-mask-cushions"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Mask_Cushions_BbQlXQ"
+			},
+			{
+				"model": {
+					"name": "CPAP Mask Headgear",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Mask Headgear"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-mask-headgear"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Mask_Headgear_C1K530"
+			},
+			{
+				"model": {
+					"name": "CPAP Mask Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Mask Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-mask-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Mask_Parts_8e4XA3"
+			},
+			{
+				"model": {
+					"name": "CPAP Mask Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Mask Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-cpap-mask-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Mask_Parts_lblhaG"
+			},
+			{
+				"model": {
+					"name": "CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Masks_OctkdP"
+			},
+			{
+				"model": {
+					"name": "CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Masks_Yl4PPg"
+			},
+			{
+				"model": {
+					"name": "CPAP Masks for Women",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Masks for Women"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colelction condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-for-women"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Masks_for_Women_Y1zpb0"
+			},
+			{
+				"model": {
+					"name": "CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Masks_xdYHKX"
+			},
+			{
+				"model": {
+					"name": "CPAP Pillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Pillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-cpap-pillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Pillows_SmI5No"
+			},
+			{
+				"model": {
+					"name": "CPAP Trials",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Trials"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-trial"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Trials_lq2RKN"
+			},
+			{
+				"model": {
+					"name": "CPAP Tubing",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"CPAP Tubing"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-tubing"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "CPAP_Tubing_wOz5S1"
+			},
+			{
+				"model": {
+					"name": "Chin Strap",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Chin Strap"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-chin-strap"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Chin_Strap_AsAcue"
+			},
+			{
+				"model": {
+					"name": "Chin Straps",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Chin Straps"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-solutions-chin-straps"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Chin_Straps_OlcD7T"
+			},
+			{
+				"model": {
+					"name": "Chinstraps",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Chinstraps"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/chinstraps"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Chinstraps_jgMR6E"
+			},
+			{
+				"model": {
+					"name": "Cleaning",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Cleaning"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-cleaning"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Cleaning_FSlHeH"
+			},
+			{
+				"model": {
+					"name": "Cleaning",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Cleaning"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cleaning"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Cleaning_e1tvAp"
+			},
+			{
+				"model": {
+					"name": "Combo Offers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Combo Offers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/combo-offers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Combo_Offers_UcbsQQ"
+			},
+			{
+				"model": {
+					"name": "Comfort Bedding",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Comfort Bedding"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-comfort-bedding"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Comfort_Bedding_4ORpDs"
+			},
+			{
+				"model": {
+					"name": "Data Management",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Data Management"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-data-management"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Data_Management_1xiJII"
+			},
+			{
+				"model": {
+					"name": "Data Management",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Data Management"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-data-management"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Data_Management_Q1VyIX"
+			},
+			{
+				"model": {
+					"name": "Data Management",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Data Management"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/data-management"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Data_Management_nG03eU"
+			},
+			{
+				"model": {
+					"name": "Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Devices_1Uj98J"
+			},
+			{
+				"model": {
+					"name": "Distributed by ResMed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Distributed by ResMed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/distributed-by-resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Distributed_by_ResMed_VquGcG"
+			},
+			{
+				"model": {
+					"name": "Distributed by ResMed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Distributed by ResMed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/distributed-by-resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Distributed_by_ResMed_aAuSPZ"
+			},
+			{
+				"model": {
+					"name": "Distributed by Resmed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Distributed by Resmed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/distributed-by-resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Distributed_by_Resmed_NdP6Vn"
+			},
+			{
+				"model": {
+					"name": "DoDow",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"DoDow"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/dodow"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "DoDow_jlZDUC"
+			},
+			{
+				"model": {
+					"name": "DoDow",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"DoDow"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/dodow"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "DoDow_lSEcpe"
+			},
+			{
+				"model": {
+					"name": "DoDow",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"DoDow"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/dodow"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "DoDow_owOohs"
+			},
+			{
+				"model": {
+					"name": "Dreampad",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Dreampad"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/dreampad"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Dreampad_LMHCYD"
+			},
+			{
+				"model": {
+					"name": "EOFY SALE 2",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EOFY SALE 2"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/eofy-sale-2"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "EOFY_SALE_2_MeolSh"
+			},
+			{
+				"model": {
+					"name": "EOFY SALE 3",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EOFY SALE 3"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/eofy-sale-3"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "EOFY_SALE_3_iYqGL1"
+			},
+			{
+				"model": {
+					"name": "EOFY SALE CPAP",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EOFY SALE CPAP"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/eofy-sale-cpap"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "EOFY_SALE_CPAP_8gZpmd"
+			},
+			{
+				"model": {
+					"name": "EOFY Sale",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EOFY Sale"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/eofy-sale"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "EOFY_Sale_xpMGQB"
+			},
+			{
+				"model": {
+					"name": "EPAP Device",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EPAP Device"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-solutions-epap-device"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "EPAP_Device_oiZXEB"
+			},
+			{
+				"model": {
+					"name": "EPAP Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EPAP Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-epap-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "EPAP_Devices_4RhiFB"
+			},
+			{
+				"model": {
+					"name": "EPAP Therapy",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"EPAP Therapy"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/epap-therapy"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "EPAP_Therapy_0AEYEU"
+			},
+			{
+				"model": {
+					"name": "Embr Labs",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Embr Labs"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/embr-labs"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Embr_Labs_HFl5Yt"
+			},
+			{
+				"model": {
+					"name": "Fall Asleep Faster",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fall Asleep Faster"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-fall-asleep-faster"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Fall_Asleep_Faster_Io826i"
+			},
+			{
+				"model": {
+					"name": "Fall Asleep Faster",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fall Asleep Faster"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/fall-asleep-faster"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Fall_Asleep_Faster_TkrZzB"
+			},
+			{
+				"model": {
+					"name": "Feather & Seed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Feather & Seed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/feather-seed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Feather_&_Seed_2g6DDk"
+			},
+			{
+				"model": {
+					"name": "Feather & Seed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Feather & Seed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/feather-seed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Feather_&_Seed_lpbtBm"
+			},
+			{
+				"model": {
+					"name": "Filters",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Filters"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-filters"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Filters_nMvSlX"
+			},
+			{
+				"model": {
+					"name": "Fisher & Paykel",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fisher & Paykel"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/fisher-paykel"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Fisher_&_Paykel_B8isy4"
+			},
+			{
+				"model": {
+					"name": "Fisher & Paykel",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fisher & Paykel"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/fisher-paykel"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Fisher_&_Paykel_cK73hE"
+			},
+			{
+				"model": {
+					"name": "Fixed Pressure CPAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fixed Pressure CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/fixed-pressure-cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Fixed_Pressure_CPAP_Machines_EmtTYr"
+			},
+			{
+				"model": {
+					"name": "Fixed Pressure Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fixed Pressure Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-fixed-pressure-cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Fixed_Pressure_Machines_DHr1W7"
+			},
+			{
+				"model": {
+					"name": "Fixed Pressure Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Fixed Pressure Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines-fixed-pressure-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Fixed_Pressure_Machines_j0HY1d"
+			},
+			{
+				"model": {
+					"name": "Floton",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Floton"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/floton"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Floton_WQSuX6"
+			},
+			{
+				"model": {
+					"name": "Full Face CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Full Face CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/full-face-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Full_Face_CPAP_Masks_2V2lmN"
+			},
+			{
+				"model": {
+					"name": "Full Face Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Full Face Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-full-face-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Full_Face_Masks_JrbjvY"
+			},
+			{
+				"model": {
+					"name": "Full Face Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Full Face Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-full-face-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Full_Face_Masks_lJMrdY"
+			},
+			{
+				"model": {
+					"name": "Glasses",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Glasses"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/glasses"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Glasses_pUg0qX"
+			},
+			{
+				"model": {
+					"name": "Glasses",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Glasses"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-glasses"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Glasses_w0IvgT"
+			},
+			{
+				"model": {
+					"name": "Good Sleep Co",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Good Sleep Co"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/good-sleep-co"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Good_Sleep_Co_TWi5ee"
+			},
+			{
+				"model": {
+					"name": "Good Sleep Co",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Good Sleep Co"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colelction condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/good-sleep-co"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Good_Sleep_Co_WLz5Yp"
+			},
+			{
+				"model": {
+					"name": "Home Sleep Tests",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Home Sleep Tests"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/home-sleep-tests"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Home_Sleep_Tests_CDqU2h"
+			},
+			{
+				"model": {
+					"name": "Home Sleep Tests",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Home Sleep Tests"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/home-sleep-tests"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Home_Sleep_Tests_nzuqvr"
+			},
+			{
+				"model": {
+					"name": "Home page",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Home page"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/frontpage"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Home_page_AZCXpd"
+			},
+			{
+				"model": {
+					"name": "Home page",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Home page"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/frontpage"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Home_page_DyQbl0"
+			},
+			{
+				"model": {
+					"name": "Home page",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Home page"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/frontpage"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Home_page_LSVPbr"
+			},
+			{
+				"model": {
+					"name": "Humidifier Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Humidifier Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/humidifier-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Humidifier_Parts_ltoCUS"
+			},
+			{
+				"model": {
+					"name": "Humidifier Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Humidifier Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-humidifier-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Humidifier_Parts_rEzx10"
+			},
+			{
+				"model": {
+					"name": "Insomnia",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Insomnia"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/insomnia"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Insomnia_fUi7OJ"
+			},
+			{
+				"model": {
+					"name": "Light Therapy",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Light Therapy"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-light-therapy"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Light_Therapy_0GWhCf"
+			},
+			{
+				"model": {
+					"name": "Lighting",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Lighting"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-lighting"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Lighting_Fz32qi"
+			},
+			{
+				"model": {
+					"name": "Lighting",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Lighting"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/lighting"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Lighting_hUNhCQ"
+			},
+			{
+				"model": {
+					"name": "Luxe Bags",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Luxe Bags"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/luxe-bags"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Luxe_Bags_OxLPYi"
+			},
+			{
+				"model": {
+					"name": "Machine Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Machine Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/machine-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Machine_Accessories_Zd47hj"
+			},
+			{
+				"model": {
+					"name": "Manual test",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Manual test"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/manual-test"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Manual_test_lW4snG"
+			},
+			{
+				"model": {
+					"name": "Mask Headgear",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Mask Headgear"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/mask-headgear"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Mask_Headgear_Wqvp0e"
+			},
+			{
+				"model": {
+					"name": "Mask Headgear",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Mask Headgear"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-mask-headgear"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Mask_Headgear_ktc2Fq"
+			},
+			{
+				"model": {
+					"name": "Mask Parts",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Mask Parts"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditon"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/mask-parts"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Mask_Parts_XhpJn8"
+			},
+			{
+				"model": {
+					"name": "Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Masks_dJMeBl"
+			},
+			{
+				"model": {
+					"name": "MedCline",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"MedCline"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/medcline"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "MedCline_a1BUpG"
+			},
+			{
+				"model": {
+					"name": "MedCline",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"MedCline"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/medcline"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "MedCline_bvS4W8"
+			},
+			{
+				"model": {
+					"name": "MedCline",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"MedCline"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/medcline"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "MedCline_xvpOwu"
+			},
+			{
+				"model": {
+					"name": "Meta Core Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Meta Core Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/meta-core-products"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Meta_Core_Products_SNIxgj"
+			},
+			{
+				"model": {
+					"name": "Nasal CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/nasal-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_CPAP_Masks_JDBfz5"
+			},
+			{
+				"model": {
+					"name": "Nasal Cradle CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Cradle CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/nasal-cradle-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Cradle_CPAP_Masks_ouLUul"
+			},
+			{
+				"model": {
+					"name": "Nasal Cradle Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Cradle Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-nasal-cradle-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Cradle_Masks_p8Wx7a"
+			},
+			{
+				"model": {
+					"name": "Nasal Cradle Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Cradle Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-nasal-cradle-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Cradle_Masks_uYfJ8F"
+			},
+			{
+				"model": {
+					"name": "Nasal Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-nasal-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Devices_mrzGWZ"
+			},
+			{
+				"model": {
+					"name": "Nasal Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-nasal-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Masks_ZNFkLI"
+			},
+			{
+				"model": {
+					"name": "Nasal Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-nasal-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Masks_c0sUMa"
+			},
+			{
+				"model": {
+					"name": "Nasal Pillow Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Pillow Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-nasal-pillow-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Pillow_Masks_bTEw4g"
+			},
+			{
+				"model": {
+					"name": "Nasal Pillow Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Pillow Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-nasal-pillow-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Pillow_Masks_jOSVIg"
+			},
+			{
+				"model": {
+					"name": "Nasal Pillows CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Nasal Pillows CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/nasal-pillows-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Nasal_Pillows_CPAP_Masks_i8lPzA"
+			},
+			{
+				"model": {
+					"name": "Neptune Blanket",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Neptune Blanket"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/neptune-blanket"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Neptune_Blanket_4BWkUN"
+			},
+			{
+				"model": {
+					"name": "Neptune Blanket",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Neptune Blanket"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/neptune-blanket"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Neptune_Blanket_VdmPbx"
+			},
+			{
+				"model": {
+					"name": "Neptune Blanket",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Neptune Blanket"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/neptune-blanket"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Neptune_Blanket_XP5UlS"
+			},
+			{
+				"model": {
+					"name": "New",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"New"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/new"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "New_6a4R6V"
+			},
+			{
+				"model": {
+					"name": "New",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"New"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/new"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "New_FjMux8"
+			},
+			{
+				"model": {
+					"name": "New",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"New"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/new"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "New_P7d0lZ"
+			},
+			{
+				"model": {
+					"name": "NightShift",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"NightShift"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/night-shift"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "NightShift_JTTXTo"
+			},
+			{
+				"model": {
+					"name": "NightShift",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"NightShift"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/nightshift"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "NightShift_Y2oQRB"
+			},
+			{
+				"model": {
+					"name": "NightShift",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"NightShift"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/nightshift"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "NightShift_qCZQrb"
+			},
+			{
+				"model": {
+					"name": "Non-magnetic CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Non-magnetic CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/non-magnetic-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Non-magnetic_CPAP_Masks_ByF4Yb"
+			},
+			{
+				"model": {
+					"name": "Non-magnetic Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Non-magnetic Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/non-magnetic-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Non-magnetic_Masks_5Gcuj8"
+			},
+			{
+				"model": {
+					"name": "Offers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Offers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/offers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Offers_dLRZq9"
+			},
+			{
+				"model": {
+					"name": "OptiPillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"OptiPillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/optipillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "OptiPillows_1im5LS"
+			},
+			{
+				"model": {
+					"name": "OptiPillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"OptiPillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/optipillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "OptiPillows_ajebTW"
+			},
+			{
+				"model": {
+					"name": "Optipillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Optipillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/optipillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Optipillows_dhbV5G"
+			},
+			{
+				"model": {
+					"name": "Oral Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Oral Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-alternatives-oral-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Oral_Devices_XkvBIS"
+			},
+			{
+				"model": {
+					"name": "Other",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Other"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/other"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Other_BUKHeG"
+			},
+			{
+				"model": {
+					"name": "Other",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Other"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/other"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Other_PgcrD1"
+			},
+			{
+				"model": {
+					"name": "Other",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Other"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/other-brands"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Other_p8ajUz"
+			},
+			{
+				"model": {
+					"name": "Our Current Offers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Our Current Offers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/offers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Our_Current_Offers_u9H3ji"
+			},
+			{
+				"model": {
+					"name": "Paediatric Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Paediatric Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-cpap-masks-for-kids"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Paediatric_Masks_GoTKy9"
+			},
+			{
+				"model": {
+					"name": "Pediatric Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Pediatric Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-masks-pediatric-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Pediatric_Masks_goKrgu"
+			},
+			{
+				"model": {
+					"name": "Philips Respironics",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Philips Respironics"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/philips-respironics"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Philips_Respironics_xteJO1"
+			},
+			{
+				"model": {
+					"name": "Philips Respironics",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Philips Respironics"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/philips-respironics"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Philips_Respironics_zc0EJM"
+			},
+			{
+				"model": {
+					"name": "Pillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Pillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-pillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Pillows_2ZKWv8"
+			},
+			{
+				"model": {
+					"name": "Pillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Pillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-pillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Pillows_jZ95tr"
+			},
+			{
+				"model": {
+					"name": "Pillows",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Pillows"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/pillows"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Pillows_zSHebV"
+			},
+			{
+				"model": {
+					"name": "Popular Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Popular Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/frontpage"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Popular_Products_jlFRUc"
+			},
+			{
+				"model": {
+					"name": "Pre-Bedtime Aids",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Pre-Bedtime Aids"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-nutrients-drops"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Pre-Bedtime_Aids_fwtMdt"
+			},
+			{
+				"model": {
+					"name": "Re-Timer",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Re-Timer"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/re-timer"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Re-Timer_P2GE6S"
+			},
+			{
+				"model": {
+					"name": "ReTimer",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"ReTimer"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/retimer"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "ReTimer_Mv9qqF"
+			},
+			{
+				"model": {
+					"name": "ReTimer",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"ReTimer"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/retimer"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "ReTimer_YMZwzq"
+			},
+			{
+				"model": {
+					"name": "RemZzzs",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"RemZzzs"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/remzzzs"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "RemZzzs_2TtNyG"
+			},
+			{
+				"model": {
+					"name": "RemZzzs",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"RemZzzs"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/remzzzs"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "RemZzzs_cn35ip"
+			},
+			{
+				"model": {
+					"name": "RemZzzs",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"RemZzzs"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collecitojn condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/remzzzs"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "RemZzzs_gPG6Wl"
+			},
+			{
+				"model": {
+					"name": "ResMed AirFit & Airtouch Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"ResMed AirFit & Airtouch Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/resmed-airfit-airtouch-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "ResMed_AirFit_&_Airtouch_Masks_96xIIQ"
+			},
+			{
+				"model": {
+					"name": "ResMed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"ResMed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "ResMed_BIFQP1"
+			},
+			{
+				"model": {
+					"name": "ResMed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"ResMed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "ResMed_pEqCkv"
+			},
+			{
+				"model": {
+					"name": "Resmed CPAP Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Resmed CPAP Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/resmed-cpap-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Resmed_CPAP_Masks_601Sv3"
+			},
+			{
+				"model": {
+					"name": "Resmed",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Resmed"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/resmed"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Resmed_YRyhvl"
+			},
+			{
+				"model": {
+					"name": "Sale",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sale"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sale"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sale_Vuwftz"
+			},
+			{
+				"model": {
+					"name": "Seatec",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Seatec"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/seatec"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Seatec_KSrFYt"
+			},
+			{
+				"model": {
+					"name": "Seatec",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Seatec"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/seatec"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Seatec_cMSzAn"
+			},
+			{
+				"model": {
+					"name": "Seatec",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Seatec"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/seatec"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Seatec_uJ0TKn"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Connectors & Tubing",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Connectors & Tubing"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-connectors-tubing"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Connectors_&_Tubing_tq8DAn"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Converters and Power Supply",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Converters and Power Supply"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-converters-power-supply"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Converters_and_Power_Supply_XEmh10"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Device + Mask Pack Bundles",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Device + Mask Pack Bundles"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-device-mask-pack-bundles"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Device_+_Mask_Pack_Bundles_OTxR7b"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/shop-airmini-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Devices_rCCXQx"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Ez2WMc"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Filters & Humidifiers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Filters & Humidifiers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-filters-humidifiers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Filters_&_Humidifiers_WDyXcj"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Mask Kits",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Mask Kits"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-mask-kits"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Mask_Kits_0satwa"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Mask Set Up Packs & Kits",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Mask Set Up Packs & Kits"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/shop-airmini-mask-set-up-packs-kits"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Mask_Set_Up_Packs_&_Kits_HZEsrJ"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Mask Setup Packs",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Mask Setup Packs"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-mask-setup-packs"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Mask_Setup_Packs_NceMS7"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Parts & Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Parts & Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-airmini-parts-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Parts_&_Accessories_mr1zFA"
+			},
+			{
+				"model": {
+					"name": "Shop AirMini Travel Bags",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirMini Travel Bags"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/airmini-travel-bags"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirMini_Travel_Bags_0jetOe"
+			},
+			{
+				"model": {
+					"name": "Shop AirSense Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirSense Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/shop-airsense-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirSense_Devices_VTFQq5"
+			},
+			{
+				"model": {
+					"name": "Shop AirTouch F30i Clear",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop AirTouch F30i Clear"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/shop-airtouch-f30i-clear"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_AirTouch_F30i_Clear_mBKBc9"
+			},
+			{
+				"model": {
+					"name": "Shop Black Friday Sale Up to 25% off AirMini",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Black Friday Sale Up to 25% off AirMini"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/shop-black-friday-sale"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Black_Friday_Sale_Up_to_25%_off_AirMini_g4c2kX"
+			},
+			{
+				"model": {
+					"name": "Shop CPAP Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop CPAP Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-cpap-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_CPAP_Accessories_SFyojD"
+			},
+			{
+				"model": {
+					"name": "Shop CPAP Devices",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop CPAP Devices"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-cpap-devices"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_CPAP_Devices_hsPpxE"
+			},
+			{
+				"model": {
+					"name": "Shop CPAP Travel Bags",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop CPAP Travel Bags"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/travel-bags"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_CPAP_Travel_Bags_86v2Ui"
+			},
+			{
+				"model": {
+					"name": "Shop Connectors & Tubing",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Connectors & Tubing"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/connectors-tubing"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Connectors_&_Tubing_1dyOWG"
+			},
+			{
+				"model": {
+					"name": "Shop Cushions",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Cushions"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-cushions"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Cushions_zoWeSN"
+			},
+			{
+				"model": {
+					"name": "Shop Device Accessories",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Device Accessories"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-device-accessories"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Device_Accessories_o9FrNX"
+			},
+			{
+				"model": {
+					"name": "Shop Filters & Humidifiers",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Filters & Humidifiers"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/humidifiers"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Filters_&_Humidifiers_i9WnUE"
+			},
+			{
+				"model": {
+					"name": "Shop Full Face Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Full Face Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-full-face-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Full_Face_Masks_tx2Vaq"
+			},
+			{
+				"model": {
+					"name": "Shop Headgear",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Headgear"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-headgear"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Headgear_MIrKWM"
+			},
+			{
+				"model": {
+					"name": "Shop Mask Frame Systems Elbows & Vents",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Mask Frame Systems Elbows & Vents"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/mask-frame-systems-elbows-vents"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Mask_Frame_Systems_Elbows_&_Vents_gjPITe"
+			},
+			{
+				"model": {
+					"name": "Shop Mask Pads & Clips",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Mask Pads & Clips"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/mask-pads-clips"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Mask_Pads_&_Clips_u00wve"
+			},
+			{
+				"model": {
+					"name": "Shop Mask Systems",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Mask Systems"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-mask-systems"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Mask_Systems_bjp8mI"
+			},
+			{
+				"model": {
+					"name": "Shop Most Popular",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Most Popular"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/best-sellers-1"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Most_Popular_qem42k"
+			},
+			{
+				"model": {
+					"name": "Shop Nasal Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Nasal Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-nasal-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Nasal_Masks_EnHDWm"
+			},
+			{
+				"model": {
+					"name": "Shop Nasal Pillows Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Shop Nasal Pillows Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/all-nasal-pillow-masks"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "Shop_Nasal_Pillows_Masks_fjwVNT"
+			},
+			{
+				"model": {
+					"name": "Side Sleeping Aids",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Side Sleeping Aids"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-side-sleeping-aids"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Side_Sleeping_Aids_fRM0xF"
+			},
+			{
+				"model": {
+					"name": "Side sleeping aids",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Side sleeping aids"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-solutions-side-sleeping-aids"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Side_sleeping_aids_2dbR1O"
+			},
+			{
+				"model": {
+					"name": "Sleep Drops",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Drops"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-drops"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Drops_eaofxK"
+			},
+			{
+				"model": {
+					"name": "Sleep Eye Mask",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Eye Mask"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-sleep-eye-mask"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Eye_Mask_xWIERl"
+			},
+			{
+				"model": {
+					"name": "Sleep Health & Tests",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Health & Tests"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-tests"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Health_&_Tests_1E53GN"
+			},
+			{
+				"model": {
+					"name": "Sleep Health",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Health"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Health_PbSNyH"
+			},
+			{
+				"model": {
+					"name": "Sleep Health",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Health"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Health_gum4RN"
+			},
+			{
+				"model": {
+					"name": "Sleep Health",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Health"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Health_z8DKJx"
+			},
+			{
+				"model": {
+					"name": "Sleep Tests",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Tests"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-tests-and-trackers-sleep-tests"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Tests_YPNhzA"
+			},
+			{
+				"model": {
+					"name": "Sleep Wellness",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep Wellness"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-wellness"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_IN_W9cEzx }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_Wellness_0aNLEF"
+			},
+			{
+				"model": {
+					"name": "Sleep apnea",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleep apnea"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sleep_apnea_pPEITf"
+			},
+			{
+				"model": {
+					"name": "Sleeping Aids",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleeping Aids"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleeping-aids"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Sleeping_Aids_kIefol"
+			},
+			{
+				"model": {
+					"name": "Sleeping Eye Mask and Sleep Masks",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Sleeping Eye Mask and Sleep Masks"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/eye-mask-for-sleep"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Sleeping_Eye_Mask_and_Sleep_Masks_KTdSL8"
+			},
+			{
+				"model": {
+					"name": "Smart Nora Inc.",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Smart Nora Inc."
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/smart-nora-inc"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Smart_Nora_Inc._m7foIN"
+			},
+			{
+				"model": {
+					"name": "Smart Nora Inc.",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Smart Nora Inc."
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/smart-nora-inc"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Smart_Nora_Inc._y0vJdi"
+			},
+			{
+				"model": {
+					"name": "SnoreMender",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"SnoreMender"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "colleciton condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoremender"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "SnoreMender_6gTFBd"
+			},
+			{
+				"model": {
+					"name": "Snoring",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Snoring"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Snoring_3XWq5Z"
+			},
+			{
+				"model": {
+					"name": "Snoring Mouth Guard",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Snoring Mouth Guard"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-mouth-guard"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Snoring_Mouth_Guard_2auqvk"
+			},
+			{
+				"model": {
+					"name": "Snoring Solutions",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Snoring Solutions"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-solutions"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Snoring_Solutions_cB6SqW"
+			},
+			{
+				"model": {
+					"name": "Snoring Treatments",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Snoring Treatments"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-treatments"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Snoring_Treatments_bovPrw"
+			},
+			{
+				"model": {
+					"name": "Swanwick Sleep",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Swanwick Sleep"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/swanwick-sleep"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Swanwick_Sleep_WOaaoh"
+			},
+			{
+				"model": {
+					"name": "Swanwick Sleep",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Swanwick Sleep"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/swanwick-sleep"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Swanwick_Sleep_h7MGN7"
+			},
+			{
+				"model": {
+					"name": "Swanwick Sleep",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Swanwick Sleep"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/swanwick-sleep"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Swanwick_Sleep_nsRBqm"
+			},
+			{
+				"model": {
+					"name": "Track Your Sleep",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Track Your Sleep"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/snoring-track-your-sleep"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Track_Your_Sleep_0EfTtF"
+			},
+			{
+				"model": {
+					"name": "Travel CPAP Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Travel CPAP Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/travel-cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Travel_CPAP_Machines_t5B7As"
+			},
+			{
+				"model": {
+					"name": "Travel Sized Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Travel Sized Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-machines-travel-sized-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Travel_Sized_Machines_kr3a1Z"
+			},
+			{
+				"model": {
+					"name": "Travel Sized Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Travel Sized Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection conditions"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-apnea-travel-cpap-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Travel_Sized_Machines_wUzZvC"
+			},
+			{
+				"model": {
+					"name": "Tubing",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Tubing"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/cpap-accessories-tubing"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Tubing_D6xBUv"
+			},
+			{
+				"model": {
+					"name": "Tubing",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Tubing"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/tubing"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "Tubing_hr8jhv"
+			},
+			{
+				"model": {
+					"name": "Warranty Products",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Warranty Products"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/warranty-products"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "Warranty_Products_j81oct"
+			},
+			{
+				"model": {
+					"name": "Weighted Blanket",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"Weighted Blanket"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-weighted-blanket"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "Weighted_Blanket_1dqiab"
+			},
+			{
+				"model": {
+					"name": "White Noise Machines",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"White Noise Machines"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/sleep-health-white-noise-machines"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_CPAP_AU_CQClME }}"
+				},
+				"parents": {},
+				"resourceName": "White_Noise_Machines_z9iBi0"
+			},
+			{
+				"model": {
+					"name": "World Sleep Day Sale",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"World Sleep Day Sale"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/world-sleep-day-sale"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_AU_9YeC21 }}"
+				},
+				"parents": {},
+				"resourceName": "World_Sleep_Day_Sale_fgig1f"
+			},
+			{
+				"model": {
+					"name": "World Sleep Day",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"World Sleep Day"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/world-sleep-day"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_US_i8ZqDW }}"
+				},
+				"parents": {},
+				"resourceName": "World_Sleep_Day_anW6ea"
+			},
+			{
+				"model": {
+					"name": "mementor",
+					"pageRules": [
+						{
+							"filters": [
+								{
+									"fieldName": "ec_category",
+									"operator": "isExactly",
+									"value": {
+										"type": "array",
+										"values": [
+											"mementor"
+										]
+									}
+								}
+							],
+							"locales": [],
+							"name": "collection condition"
+						}
+					],
+					"patterns": [
+						{
+							"url": "/collections/mementor"
+						}
+					],
+					"trackingId": "{{ TRACKING_ID.UAT_Shopify_NZ_NTgBsA }}"
+				},
+				"parents": {},
+				"resourceName": "mementor_e1JFZQ"
+			}
+		]
+	}
+}

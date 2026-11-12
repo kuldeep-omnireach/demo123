@@ -1,0 +1,167 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"ML_MODEL": [
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "topclicks",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P3M",
+					"extraConfig": {
+						"commerceSupport": {
+							"enabled": true
+						}
+					},
+					"intervalTime": 1,
+					"intervalUnit": "WEEK",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "Dev Hybris ART Model",
+					"startTime": 1776413280000
+				},
+				"parents": {},
+				"resourceName": "Hybris_ART_Model_TEWqJ1"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "querysuggest",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P3M",
+					"extraConfig": {},
+					"intervalTime": 1,
+					"intervalUnit": "WEEK",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "Dev Hybris QS Model",
+					"startTime": 1776413220000
+				},
+				"parents": {},
+				"resourceName": "Hybris_QS_Model_VhU3DA"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "topclicks",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"commerceSupport": {
+							"enabled": true
+						}
+					},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "UAT ROS ART  Model",
+					"startTime": 1776413100000
+				},
+				"parents": {},
+				"resourceName": "ROS_ART_Model_5iQGhA"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "querysuggest",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "UAT ROS QS Model",
+					"startTime": 1776412980000
+				},
+				"parents": {},
+				"resourceName": "ROS_QS_Model_QdsxbY"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "topclicks",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"commerceSupport": {
+							"enabled": true
+						},
+						"testConfiguration": true
+					},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "UAT Shopify ART Model",
+					"startTime": 1775823660000
+				},
+				"parents": {},
+				"resourceName": "Shopify_ART_Model_BNvkhe"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "querysuggest",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"testConfiguration": true
+					},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "UAT Shopify QS Model",
+					"startTime": 1775823540000
+				},
+				"parents": {},
+				"resourceName": "Shopify_QS_Model_8aXqB8"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "querysuggest",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"testConfiguration": true
+					},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "Dev Wordpres QS Model",
+					"startTime": 1775530500000
+				},
+				"parents": {},
+				"resourceName": "Wordpres_QS_Model_KbQZks"
+			},
+			{
+				"model": {
+					"commandLineParameters": [],
+					"daysUntilArchival": 0,
+					"engineId": "topclicks",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"commerceSupport": {
+							"enabled": false
+						},
+						"testConfiguration": true
+					},
+					"intervalTime": 1,
+					"intervalUnit": "DAY",
+					"modelActivenessState": "ARCHIVED",
+					"modelDisplayName": "Dev Wordpress ART Model",
+					"startTime": 1775530620000
+				},
+				"parents": {},
+				"resourceName": "Wordpress_ART_Model_mVIWtW"
+			}
+		]
+	}
+}

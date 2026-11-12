@@ -668,6 +668,14 @@
 			},
 			{
 				"model": {
+					"definition": "when $context [price_list_id] isPopulated",
+					"description": "pricelist condition"
+				},
+				"parents": {},
+				"resourceName": "when_context_[price_list_id]_isPopulated_YlycNk"
+			},
+			{
+				"model": {
 					"definition": "when $searchHub is \"dev_global_ch\""
 				},
 				"parents": {},

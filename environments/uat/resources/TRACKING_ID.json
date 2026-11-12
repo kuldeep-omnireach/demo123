@@ -1,0 +1,187 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"TRACKING_ID": [
+			{
+				"model": {
+					"displayName": "Default",
+					"trackingId": "default"
+				},
+				"parents": {},
+				"resourceName": "Default_haN5Hm"
+			},
+			{
+				"model": {
+					"defaultCurrency": "INR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS APAC",
+					"trackingId": "uat_ros_apac"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_APAC_0f0WS2"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS DE DE",
+					"trackingId": "uat_ros_de_de"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_DE_DE_IktS1E"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EN AU",
+					"trackingId": "uat_ros_en_au"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EN_AU_ckaCj7"
+			},
+			{
+				"model": {
+					"defaultCurrency": "CAD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EN CA",
+					"trackingId": "uat_ros_en_ca"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EN_CA_yZEG8x"
+			},
+			{
+				"model": {
+					"defaultCurrency": "GBP",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EN GB",
+					"trackingId": "uat_ros_en_gb"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EN_GB_OlOn62"
+			},
+			{
+				"model": {
+					"defaultCurrency": "NZD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EN NZ",
+					"trackingId": "uat_ros_en_nz"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EN_NZ_4RFSsM"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EN US",
+					"trackingId": "uat_ros_en_us"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EN_US_YsTQhE"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS EU",
+					"trackingId": "uat_ros_eu"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_EU_tt3yAI"
+			},
+			{
+				"model": {
+					"defaultCurrency": "CAD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS FR CA",
+					"trackingId": "uat_ros_fr_ca"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_FR_CA_PRAeZj"
+			},
+			{
+				"model": {
+					"defaultCurrency": "EUR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS FR FR",
+					"trackingId": "uat_ros_fr_fr"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_FR_FR_OhiebA"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT ROS NA",
+					"trackingId": "uat_ros_na"
+				},
+				"parents": {},
+				"resourceName": "UAT_ROS_NA_Ho9m57"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify AU",
+					"trackingId": "uat_shopify_en_au"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_AU_9YeC21"
+			},
+			{
+				"model": {
+					"defaultCurrency": "AUD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify CPAP AU",
+					"trackingId": "uat_shopify_en_cpap_au"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_CPAP_AU_CQClME"
+			},
+			{
+				"model": {
+					"defaultCurrency": "INR",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify IN",
+					"trackingId": "uat_shopify_en_in"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_IN_W9cEzx"
+			},
+			{
+				"model": {
+					"defaultCurrency": "JPY",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify JP",
+					"trackingId": "uat_shopify_en_jp"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_JP_7dk7ba"
+			},
+			{
+				"model": {
+					"defaultCurrency": "NZD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify NZ",
+					"trackingId": "uat_shopify_en_nz"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_NZ_NTgBsA"
+			},
+			{
+				"model": {
+					"defaultCurrency": "USD",
+					"defaultTimeZone": "Asia/Calcutta",
+					"displayName": "UAT Shopify US",
+					"trackingId": "uat_shopify_en_us"
+				},
+				"parents": {},
+				"resourceName": "UAT_Shopify_US_i8ZqDW"
+			}
+		]
+	}
+}

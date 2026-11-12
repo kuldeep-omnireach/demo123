@@ -8,6 +8,31 @@
 				"model": {
 					"childrenCount": 0,
 					"condition": {},
+					"definition": "alias \"cushion\", \"nasal cradle\", \"nasal pillow\", \"pillow cushion\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"cushion",
+							"nasal cradle",
+							"nasal pillow",
+							"pillow cushion"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 21,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_cushion,_nasal_cradle,_nasal_pillow,_pillow_cushion_ZlQWuk"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
 					"definition": "alias \"humi\", \"Humidifier\", \"humid\"",
 					"description": "",
 					"detailed": {
@@ -27,6 +52,194 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.DEV_WordPress_Resmed_pQDhkH }}"
 				},
 				"resourceName": "alias_humi,_Humidifier,_humid_eIm13X"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"mask\", \"starter pack\", \"mask system\", \"complete mask system\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"mask",
+							"starter pack",
+							"mask system",
+							"complete mask system"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 16,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_mask,_starter_pack,_mask_system,_complete_mask_system_Uratd3"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"s10\", \"air10\", \"airsense10\", \"airsense 10\", \"aircurve10\", \"aircurve 10\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"s10",
+							"air10",
+							"airsense10",
+							"airsense 10",
+							"aircurve10",
+							"aircurve 10"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 19,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_s10,_air10,_airsense10,_airsense_10,_aircurve10,_aircurve_10_sdrB7A"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"s11\", \"airsense11\", \"airsense 11\", \"air11\", \"aircurve 11\", \"aircurve11\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"s11",
+							"airsense11",
+							"airsense 11",
+							"air11",
+							"aircurve 11",
+							"aircurve11"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 18,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_s11,_airsense11,_airsense_11,_air11,_aircurve_11,_aircurve11_Ig6QME"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"tri\", \"tripack\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"tri",
+							"tripack"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 20,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_tri,_tripack_mQMQQY"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "alias \"tubing\", \"climateline\", \"slimline\", \"climatelineair\", \"climatelineair oxy\", \"tube\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"tubing",
+							"climateline",
+							"slimline",
+							"climatelineair",
+							"climatelineair oxy",
+							"tube"
+						],
+						"sub-feature": "alias"
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 17,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "alias_tubing,_climateline,_slimline,_climatelineair,_climatelineair_oxy,_tube_b13S6r"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "expand \"cpap\", \"cpap machine\", \"cpap device\" to \"airsense\", \"elite\", \"airsense 11\", \"airsense 10\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"cpap",
+							"cpap machine",
+							"cpap device"
+						],
+						"sub-feature": "expand",
+						"to": [
+							"airsense",
+							"elite",
+							"airsense 11",
+							"airsense 10"
+						]
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 15,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "expand_cpap,_cpap_machine,_cpap_device_to_airsense,_elite,_airsense_11,_airsense_10_1TFnF8"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {},
+					"definition": "expand \"pillow\" to \"cushion\", \"nasal pillow\", \"p10\", \"p30\", \"p30i\"",
+					"description": "",
+					"detailed": {
+						"from": [
+							"pillow"
+						],
+						"sub-feature": "expand",
+						"to": [
+							"cushion",
+							"nasal pillow",
+							"p10",
+							"p30",
+							"p30i"
+						]
+					},
+					"feature": "thesaurus",
+					"parent": {},
+					"position": 22,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-qa_ros_en_us_W8fxtg }}"
+				},
+				"resourceName": "expand_pillow_to_cushion,_nasal_pillow,_p10,_p30,_p30i_HV0znm"
 			}
 		]
 	}

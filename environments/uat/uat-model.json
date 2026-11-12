@@ -22,12 +22,6 @@
     "MAPPING": [
       "*"
     ],
-    "MCP_CONFIGURATION": [
-      "*"
-    ],
-    "ML_MODEL_ASSOCIATION": [
-      "*"
-    ],
     "ML_MODEL": [
       "*"
     ],

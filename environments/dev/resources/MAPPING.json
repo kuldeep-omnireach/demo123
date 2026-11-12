@@ -37401,7 +37401,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[ogtitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -37481,7 +37481,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[ogtitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}

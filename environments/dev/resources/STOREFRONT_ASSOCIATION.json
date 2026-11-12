@@ -22,8 +22,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "GB",
 						"currency": "GBP",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -48,8 +47,7 @@
 						"catalogName": "Dev Global B2B APAC Region Stream Catalog",
 						"country": "IN",
 						"currency": "INR",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -74,8 +72,7 @@
 						"catalogName": "Dev Global B2B DE DE Stream Catalog",
 						"country": "DE",
 						"currency": "EUR",
-						"language": "de",
-						"primary": true
+						"language": "de"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -100,8 +97,7 @@
 						"catalogName": "Dev Global B2B EN AU Stream Catalog",
 						"country": "AU",
 						"currency": "AUD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -126,8 +122,7 @@
 						"catalogName": "Dev Global B2B EN CA Stream Catalog",
 						"country": "CA",
 						"currency": "CAD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -152,8 +147,7 @@
 						"catalogName": "Dev Global B2B EN GB Stream Catalog",
 						"country": "GB",
 						"currency": "GBP",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -178,8 +172,7 @@
 						"catalogName": "Dev Global B2B EN NZ Stream Catalog",
 						"country": "NZ",
 						"currency": "NZD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -204,8 +197,7 @@
 						"catalogName": "Dev Global B2B EN US Stream Catalog",
 						"country": "US",
 						"currency": "USD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -230,8 +222,7 @@
 						"catalogName": "Dev Global B2B EU Region Stream Catalog",
 						"country": "GB",
 						"currency": "GBP",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -256,8 +247,7 @@
 						"catalogName": "Dev Global B2B FR CA Stream Catalog",
 						"country": "CA",
 						"currency": "CAD",
-						"language": "fr",
-						"primary": true
+						"language": "fr"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -282,8 +272,7 @@
 						"catalogName": "Dev Global B2B FR FR Stream Catalog",
 						"country": "FR",
 						"currency": "EUR",
-						"language": "fr",
-						"primary": true
+						"language": "fr"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -308,8 +297,7 @@
 						"catalogName": "Dev Global B2B NA Region Stream Catalog",
 						"country": "US",
 						"currency": "USD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -334,8 +322,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "AU",
 						"currency": "AUD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -360,8 +347,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "AU",
 						"currency": "AUD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -386,8 +372,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "IN",
 						"currency": "INR",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -412,8 +397,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "JP",
 						"currency": "JPY",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -438,8 +422,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "NZ",
 						"currency": "NZD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -464,8 +447,7 @@
 						"catalogName": "Dev Global D2C Stream Catalog",
 						"country": "US",
 						"currency": "USD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -490,8 +472,7 @@
 						"catalogName": "QA Global B2B APAC Region Stream Catalog",
 						"country": "IN",
 						"currency": "INR",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -516,8 +497,7 @@
 						"catalogName": "QA Global B2B DE DE Stream Catalog",
 						"country": "DE",
 						"currency": "EUR",
-						"language": "de",
-						"primary": true
+						"language": "de"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -542,8 +522,7 @@
 						"catalogName": "QA Global B2B EN AU Stream Catalog",
 						"country": "AU",
 						"currency": "AUD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -568,8 +547,7 @@
 						"catalogName": "QA Global B2B EN CA Stream Catalog",
 						"country": "CA",
 						"currency": "CAD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -594,8 +572,7 @@
 						"catalogName": "QA Global B2B EN GB Stream Catalog",
 						"country": "GB",
 						"currency": "GBP",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -620,8 +597,7 @@
 						"catalogName": "QA Global B2B EN NZ Stream Catalog",
 						"country": "NZ",
 						"currency": "NZD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -646,8 +622,7 @@
 						"catalogName": "QA Global B2B EN US Stream Catalog",
 						"country": "US",
 						"currency": "USD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -672,8 +647,7 @@
 						"catalogName": "QA Global B2B EU Region Stream Catalog",
 						"country": "GB",
 						"currency": "GBP",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -698,8 +672,7 @@
 						"catalogName": "QA Global B2B FR CA Stream Catalog",
 						"country": "CA",
 						"currency": "CAD",
-						"language": "fr",
-						"primary": true
+						"language": "fr"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -724,8 +697,7 @@
 						"catalogName": "QA Global B2B FR FR Stream Catalog",
 						"country": "FR",
 						"currency": "EUR",
-						"language": "fr",
-						"primary": true
+						"language": "fr"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
@@ -750,8 +722,7 @@
 						"catalogName": "QA Global B2B NA Region Stream Catalog",
 						"country": "US",
 						"currency": "USD",
-						"language": "en",
-						"primary": true
+						"language": "en"
 					},
 					"trackingIdToCatalogMappingcatalog": {}
 				},
