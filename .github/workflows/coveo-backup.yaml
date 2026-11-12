@@ -52,17 +52,21 @@ jobs:
           python3 pull_changes.py DEV
 
       # Step 7: Commit backup files
-      - name: Commit Backup
+      - name: Commit Coveo Backup
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add src/scripts/
+          echo "Checking Coveo backup changes..."
+
+          git status --short
+
+          git add -A environments/dev/resources/
 
           if ! git diff --cached --quiet; then
-            git commit -m "Automated Coveo DEV backup"
+            git commit -m "Automated Coveo DEV backup - $(date +'%Y-%m-%d')"
             git push
           else
-            echo "No backup changes found"
+            echo "No changes detected in Coveo DEV resources."
           fi
 
