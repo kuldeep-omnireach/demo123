@@ -118,7 +118,7 @@
 						"rankingModifier": 250,
 						"targets": [
 							{
-								"queryExpression": "@source==resmed.co.uk"
+								"queryExpression": "@source==(resmed.co.uk,dev.resmed.co.uk)"
 							}
 						],
 						"targetsMode": "simple"

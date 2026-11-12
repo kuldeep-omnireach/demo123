@@ -1,0 +1,20 @@
+
+========================================
+Backup time: 2026-11-12 18:30:05 IST
+Environment: UAT
+Status: SUCCESS - CHANGES DETECTED
+Changed files:
+M	environments/uat/resources/EXTENSION.json
+M	environments/uat/resources/FIELD.json
+M	environments/uat/resources/FILTER.json
+M	environments/uat/resources/MAPPING.json
+M	environments/uat/resources/ML_MODEL.json
+M	environments/uat/resources/ML_MODEL_ASSOCIATION.json
+M	environments/uat/resources/QUERY_PARAMETER.json
+M	environments/uat/resources/QUERY_PIPELINE.json
+M	environments/uat/resources/QUERY_PIPELINE_CONDITION.json
+M	environments/uat/resources/RESULT_RANKING.json
+M	environments/uat/resources/SETTING.json
+M	environments/uat/resources/SOURCE.json
+M	environments/uat/resources/STOREFRONT_ASSOCIATION.json
+========================================

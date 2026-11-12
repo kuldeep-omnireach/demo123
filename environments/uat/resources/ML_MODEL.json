@@ -7,7 +7,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P3M",
@@ -18,7 +17,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "WEEK",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Hybris ART Model",
 					"startTime": 1776413280000
 				},
@@ -28,14 +27,13 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P3M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "WEEK",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Hybris QS Model",
 					"startTime": 1776413220000
 				},
@@ -45,7 +43,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -56,7 +53,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "UAT ROS ART  Model",
 					"startTime": 1776413100000
 				},
@@ -66,14 +63,13 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
 					"extraConfig": {},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "UAT ROS QS Model",
 					"startTime": 1776412980000
 				},
@@ -83,7 +79,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -95,7 +90,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "UAT Shopify ART Model",
 					"startTime": 1775823660000
 				},
@@ -105,7 +100,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -114,7 +108,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "UAT Shopify QS Model",
 					"startTime": 1775823540000
 				},
@@ -124,7 +118,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "querysuggest",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -133,7 +126,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Wordpres QS Model",
 					"startTime": 1775530500000
 				},
@@ -143,7 +136,6 @@
 			{
 				"model": {
 					"commandLineParameters": [],
-					"daysUntilArchival": 0,
 					"engineId": "topclicks",
 					"exportOffset": "PT0S",
 					"exportPeriod": "P1M",
@@ -155,7 +147,7 @@
 					},
 					"intervalTime": 1,
 					"intervalUnit": "DAY",
-					"modelActivenessState": "ARCHIVED",
+					"modelActivenessState": "ACTIVE",
 					"modelDisplayName": "Dev Wordpress ART Model",
 					"startTime": 1775530620000
 				},

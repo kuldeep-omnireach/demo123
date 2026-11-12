@@ -288,6 +288,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_author_Rule:_%[author:crawler]_05hcCT"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[author:crawler]"
+							],
+							"field": "{{ FIELD.author_S49Hy5 }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.de_hJmilg }}"
 				},
 				"resourceName": "Field:_author_Rule:_%[author:crawler]_075wd0"
@@ -1056,6 +1072,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_authorloginname_Rule:_%[authorloginname]_ndiyTu"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[authorloginname]"
+							],
+							"field": "{{ FIELD.authorloginname_qlM9br }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.devx.resmed-healthcare.de_pMiJSv }}"
 				},
 				"resourceName": "Field:_authorloginname_Rule:_%[authorloginname]_oXpl5f"
@@ -1360,6 +1392,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_bcc_Rule:_%[bcc]_Sp9gOD"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[bcc]"
+							],
+							"field": "{{ FIELD.bcc_cIxLZY }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/fr-fr_ts2hWh }}"
 				},
 				"resourceName": "Field:_bcc_Rule:_%[bcc]_T3gZgC"
@@ -1625,6 +1673,22 @@
 					"rules": [
 						{
 							"content": [
+								"%[blog_categories]"
+							],
+							"field": "{{ FIELD.blog_categories_YN1mrX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.dev.resmed.co.uk_QXirV0 }}"
+				},
+				"resourceName": "Field:_blog_categories_Rule:_%[blog_categories]_rrqpdt"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
 								"%[ec_description]"
 							],
 							"field": "{{ FIELD.body_7uoAv0 }}"
@@ -1635,6 +1699,22 @@
 					"sourceId": "{{ SOURCE.uat-global-b2b-product-catalog_9HLwN9 }}"
 				},
 				"resourceName": "Field:_body_Rule:_%[ec_description]_Qar9yt"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[ogdescription]"
+							],
+							"field": "{{ FIELD.body_7uoAv0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_body_Rule:_%[ogdescription]_2Q6GMb"
 			},
 			{
 				"model": {
@@ -2336,6 +2416,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_cc_Rule:_%[cc]_XO0SSb"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cc]"
+							],
+							"field": "{{ FIELD.cc_sBjfSs }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.ch_NVQO7R }}"
 				},
 				"resourceName": "Field:_cc_Rule:_%[cc]_Ycoj9E"
@@ -2864,6 +2960,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_clickableuri_Rule:_%[clickableuri]_hpwS6y"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[clickableuri]"
+							],
+							"field": "{{ FIELD.clickableuri_RF5vmZ }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/it-it_6E64Sj }}"
 				},
 				"resourceName": "Field:_clickableuri_Rule:_%[clickableuri]_k42Kje"
@@ -3296,6 +3408,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[company]_me5SFU"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[company]"
+							],
+							"field": "{{ FIELD.company_lc7aUC }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.ch_NVQO7R }}"
 				},
 				"resourceName": "Field:_company_Rule:_%[company]_nITOeb"
@@ -3523,6 +3651,22 @@
 					"sourceId": "{{ SOURCE.dev.resmed.ch_NVQO7R }}"
 				},
 				"resourceName": "Field:_company_Rule:_%[o]_Ckmx9k"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[o]"
+							],
+							"field": "{{ FIELD.company_lc7aUC }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[o]_DXOOTN"
 			},
 			{
 				"model": {
@@ -4240,6 +4384,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_connectortype_Rule:_%[connectortype]_p1FW0a"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[connectortype]"
+							],
+							"field": "{{ FIELD.connectortype_4sbskM }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-au_sRNN0r }}"
 				},
 				"resourceName": "Field:_connectortype_Rule:_%[connectortype]_p3kHWs"
@@ -4448,6 +4608,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_country_Rule:_%[country]_Tz7MEp"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[country]"
+							],
+							"field": "{{ FIELD.country_UO5X5x }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev-master.resmed.com/en-us_IxnIbO }}"
 				},
 				"resourceName": "Field:_country_Rule:_%[country]_UUqvXU"
@@ -4627,6 +4803,22 @@
 					"sourceId": "{{ SOURCE.dev-qa-master.resmed.com_vwDD6w }}"
 				},
 				"resourceName": "Field:_countryname_Rule:_%[countryname]_KDcONW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[countryname]"
+							],
+							"field": "{{ FIELD.countryname_us0wK1 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_countryname_Rule:_%[countryname]_L549AZ"
 			},
 			{
 				"model": {
@@ -5184,6 +5376,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_date_Rule:_%[date]_s6tZp5"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[date]"
+							],
+							"field": "{{ FIELD.date_vDnAGT }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.de_hJmilg }}"
 				},
 				"resourceName": "Field:_date_Rule:_%[date]_wADyQq"
@@ -5251,6 +5459,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/DK_waYP71 }}"
 				},
 				"resourceName": "Field:_date_Rule:_%[date]_zfFNt5"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[datebucket]"
+							],
+							"field": "{{ FIELD.datebucket_PRpZzm }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_datebucket_Rule:_%[datebucket]_4KHKe7"
 			},
 			{
 				"model": {
@@ -5968,6 +6192,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_documenttype_Rule:_%[documenttype]_FQo9iM"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[documenttype]"
+							],
+							"field": "{{ FIELD.documenttype_1DeoZ8 }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.shop.resmed.com/FI/fi_1hmvzk }}"
 				},
 				"resourceName": "Field:_documenttype_Rule:_%[documenttype]_MKhEIm"
@@ -6603,7 +6843,7 @@
 							"content": [
 								"%[ec_product_name_commercial]"
 							],
-							"field": "{{ FIELD.ec_product_name_commercial_a3zLJ1 }}"
+							"field": "{{ FIELD.ec_product_name_commercial_xSYcgx }}"
 						}
 					]
 				},
@@ -7203,6 +7443,22 @@
 					"sourceId": "{{ SOURCE.uat-global-d2c-product-catalog_pbFlgR }}"
 				},
 				"resourceName": "Field:_ec_thumbnails_Rule:_%[ec_thumbnails]_ypvyrN"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fax]"
+							],
+							"field": "{{ FIELD.fax_Yx0NBp }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_fax_Rule:_%[fax]_10VzvG"
 			},
 			{
 				"model": {
@@ -7824,6 +8080,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_fileextension_Rule:_%[fileextension]_N0xVLa"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fileextension]"
+							],
+							"field": "{{ FIELD.fileextension_pHEW9X }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.fi_XKUyly }}"
 				},
 				"resourceName": "Field:_fileextension_Rule:_%[fileextension]_PhPCge"
@@ -8259,6 +8531,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/fr-fr_ts2hWh }}"
 				},
 				"resourceName": "Field:_filename_Rule:_%[filename]_EmChz5"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filename]"
+							],
+							"field": "{{ FIELD.filename_lTJLMe }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_filename_Rule:_%[filename]_Hame3a"
 			},
 			{
 				"model": {
@@ -8768,6 +9056,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_filetype_Rule:_%[filetype]_XqNSjg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filetype]"
+							],
+							"field": "{{ FIELD.filetype_34w9mP }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.co.uk_QXirV0 }}"
 				},
 				"resourceName": "Field:_filetype_Rule:_%[filetype]_aOahR8"
@@ -9232,6 +9536,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_firstname_Rule:_%[firstname]_YNDPqv"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[firstname]"
+							],
+							"field": "{{ FIELD.firstname_Cp4Chb }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-in_y3cJ3B }}"
 				},
 				"resourceName": "Field:_firstname_Rule:_%[firstname]_bhgxnG"
@@ -9587,6 +9907,22 @@
 					"sourceId": "{{ SOURCE.support.resmed.com/nb-no_q7k5ee }}"
 				},
 				"resourceName": "Field:_folders_Rule:_%[folders]_CRaJqx"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[folders]"
+							],
+							"field": "{{ FIELD.folders_Ow6m33 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_folders_Rule:_%[folders]_HQafvR"
 			},
 			{
 				"model": {
@@ -10112,6 +10448,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_foldingchild_Rule:_%[coveo_foldingchild]_KM2OpS"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingchild]"
+							],
+							"field": "{{ FIELD.foldingchild_eq2myi }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.fi_XKUyly }}"
 				},
 				"resourceName": "Field:_foldingchild_Rule:_%[coveo_foldingchild]_QLur7a"
@@ -10592,6 +10944,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_foldingcollection_Rule:_%[coveo_foldingcollection]_ae9uwi"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingcollection]"
+							],
+							"field": "{{ FIELD.foldingcollection_ThUM2J }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-us_dmvUIk }}"
 				},
 				"resourceName": "Field:_foldingcollection_Rule:_%[coveo_foldingcollection]_cUyKAn"
@@ -10835,6 +11203,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/it-it_6E64Sj }}"
 				},
 				"resourceName": "Field:_foldingparent_Rule:_%[coveo_foldingparent]_89kLgN"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingparent]"
+							],
+							"field": "{{ FIELD.foldingparent_PSnJZ4 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_foldingparent_Rule:_%[coveo_foldingparent]_8HLjyf"
 			},
 			{
 				"model": {
@@ -11267,6 +11651,22 @@
 					"sourceId": "{{ SOURCE.dev.resmed.de_hJmilg }}"
 				},
 				"resourceName": "Field:_from_Rule:_%[from]_BLr776"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[from]"
+							],
+							"field": "{{ FIELD.from_JOOOax }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_from_Rule:_%[from]_BokKzj"
 			},
 			{
 				"model": {
@@ -11811,6 +12211,22 @@
 					"sourceId": "{{ SOURCE.dev.resmed.ch_NVQO7R }}"
 				},
 				"resourceName": "Field:_fullname_Rule:_%[fullname]_6oBuoE"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fullname]"
+							],
+							"field": "{{ FIELD.fullname_iEvj2V }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_fullname_Rule:_%[fullname]_770Lny"
 			},
 			{
 				"model": {
@@ -12400,6 +12816,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_homephone_Rule:_%[homephone]_XfHLh5"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[homephone]"
+							],
+							"field": "{{ FIELD.homephone_tioK5z }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.shop.resmed.com/FI/fi_1hmvzk }}"
 				},
 				"resourceName": "Field:_homephone_Rule:_%[homephone]_blcz9T"
@@ -12912,6 +13344,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_language_Rule:_%[language]_WGxGMU"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[language]"
+							],
+							"field": "{{ FIELD.language_sCacON }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.de_hJmilg }}"
 				},
 				"resourceName": "Field:_language_Rule:_%[language]_WweVJk"
@@ -13027,6 +13475,22 @@
 					"sourceId": "{{ SOURCE.devx.resmed-healthcare.de_pMiJSv }}"
 				},
 				"resourceName": "Field:_language_Rule:_%[language]_pPH1Z6"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[languagename]"
+							],
+							"field": "{{ FIELD.languagename_HiFsvf }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_languagename_Rule:_%[languagename]_1EQzh2"
 			},
 			{
 				"model": {
@@ -13379,6 +13843,22 @@
 					"sourceId": "{{ SOURCE.support.resmed.com/nb-no_q7k5ee }}"
 				},
 				"resourceName": "Field:_lastname_Rule:_%[lastname]_B8xCvW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[lastname]"
+							],
+							"field": "{{ FIELD.lastname_hJqb2k }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_lastname_Rule:_%[lastname]_BdchpT"
 			},
 			{
 				"model": {
@@ -13936,6 +14416,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_location_Rule:_%[location]_MN7FfG"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[location]"
+							],
+							"field": "{{ FIELD.location_qs4XxW }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.co.uk_QXirV0 }}"
 				},
 				"resourceName": "Field:_location_Rule:_%[location]_REWejn"
@@ -14179,6 +14675,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/it-it_6E64Sj }}"
 				},
 				"resourceName": "Field:_location_Rule:_%[location]_yOgc8l"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[manager]"
+							],
+							"field": "{{ FIELD.manager_teybNC }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_manager_Rule:_%[manager]_0GolLH"
 			},
 			{
 				"model": {
@@ -15008,6 +15520,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_middlename_Rule:_%[middlename]_pXViFQ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[middlename]"
+							],
+							"field": "{{ FIELD.middlename_6ZsvKd }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/it-it_6E64Sj }}"
 				},
 				"resourceName": "Field:_middlename_Rule:_%[middlename]_rFAR2F"
@@ -15408,6 +15936,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[cellphone]_mDNkkj"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cellphone]"
+							],
+							"field": "{{ FIELD.mobilephone_BP157H }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-us_dmvUIk }}"
 				},
 				"resourceName": "Field:_mobilephone_Rule:_%[cellphone]_oNp68Z"
@@ -15571,6 +16115,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/fr-fr_ts2hWh }}"
 				},
 				"resourceName": "Field:_mobilephone_Rule:_%[mobile]_63DqNx"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobile]"
+							],
+							"field": "{{ FIELD.mobilephone_BP157H }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobile]_9upGOC"
 			},
 			{
 				"model": {
@@ -16336,6 +16896,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobilephone]_nR4Eal"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobilephone]"
+							],
+							"field": "{{ FIELD.mobilephone_BP157H }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.co.uk_QXirV0 }}"
 				},
 				"resourceName": "Field:_mobilephone_Rule:_%[mobilephone]_o7AhUx"
@@ -16816,6 +17392,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_mobileuri_Rule:_%[mobileuri]_jTrCnr"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobileuri]"
+							],
+							"field": "{{ FIELD.mobileuri_Wgw1Gg }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-us_dmvUIk }}"
 				},
 				"resourceName": "Field:_mobileuri_Rule:_%[mobileuri]_mfv4S6"
@@ -17168,6 +17760,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_month_Rule:_%[month]_nfMveS"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[month]"
+							],
+							"field": "{{ FIELD.month_Ce9TKD }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.shop.resmed.com/GB/en_yjkI6G }}"
 				},
 				"resourceName": "Field:_month_Rule:_%[month]_phaNmS"
@@ -17443,6 +18051,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/GB/en_yjkI6G }}"
 				},
 				"resourceName": "Field:_objecttype_Rule:_%[objecttype]_HGXgbw"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[objecttype]"
+							],
+							"field": "{{ FIELD.objecttype_j5AsZ7 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_objecttype_Rule:_%[objecttype]_LIQDRD"
 			},
 			{
 				"model": {
@@ -17859,6 +18483,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/de-de_cvkWsX }}"
 				},
 				"resourceName": "Field:_office_Rule:_%[office]_QVepz2"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[office]"
+							],
+							"field": "{{ FIELD.office_BZnm6N }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_office_Rule:_%[office]_V1KmVf"
 			},
 			{
 				"model": {
@@ -19216,6 +19856,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_parents_Rule:_%[parents]_t2KSWr"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[parents]"
+							],
+							"field": "{{ FIELD.parents_lUO9lb }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support.resmed.com/sv-se_cvZB40 }}"
 				},
 				"resourceName": "Field:_parents_Rule:_%[parents]_wtkZ4x"
@@ -19347,6 +20003,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/FI/fi_1hmvzk }}"
 				},
 				"resourceName": "Field:_permanentid_Rule:_%[permanentid]_3gYKUH"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[permanentid]"
+							],
+							"field": "{{ FIELD.permanentid_rz2QgE }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_permanentid_Rule:_%[permanentid]_4gM8KF"
 			},
 			{
 				"model": {
@@ -20195,6 +20867,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/fr-fr_ts2hWh }}"
 				},
 				"resourceName": "Field:_printableuri_Rule:_%[printableuri]_nRlVnq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[printableuri]"
+							],
+							"field": "{{ FIELD.printableuri_1d60lv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_printableuri_Rule:_%[printableuri]_nsTgvN"
 			},
 			{
 				"model": {
@@ -21248,6 +21936,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_relatedlink_Rule:_%[coveo_externalurl]_7VLDeC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_externalurl]"
+							],
+							"field": "{{ FIELD.relatedlink_D9d3dz }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support.resmed.com/sv-se_cvZB40 }}"
 				},
 				"resourceName": "Field:_relatedlink_Rule:_%[coveo_externalurl]_88Mv3X"
@@ -22195,6 +22899,22 @@
 					"sourceId": "{{ SOURCE.support.resmed.com/fi-fi_Y9ISMR }}"
 				},
 				"resourceName": "Field:_site_Rule:_%[site]_tdZR0l"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[site]"
+							],
+							"field": "{{ FIELD.site_bm4ct5 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_site_Rule:_%[site]_u8l9ey"
 			},
 			{
 				"model": {
@@ -23968,6 +24688,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_size_Rule:_%[size]_trOgqs"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[size]"
+							],
+							"field": "{{ FIELD.size_OD9g9C }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/fr-fr_ts2hWh }}"
 				},
 				"resourceName": "Field:_size_Rule:_%[size]_u9asNz"
@@ -24115,6 +24851,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/DK_waYP71 }}"
 				},
 				"resourceName": "Field:_sourcetype_Rule:_%[sourcetype]_E9si3Z"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[sourcetype]"
+							],
+							"field": "{{ FIELD.sourcetype_UGR5J2 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_sourcetype_Rule:_%[sourcetype]_HQWFrM"
 			},
 			{
 				"model": {
@@ -24704,6 +25456,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_subject_Rule:_%[subject]_a4vUFb"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[subject]"
+							],
+							"field": "{{ FIELD.subject_POjYl1 }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev.resmed.ch_NVQO7R }}"
 				},
 				"resourceName": "Field:_subject_Rule:_%[subject]_d1R5zW"
@@ -25257,7 +26025,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[ogtitle]"
+								"%[pagetitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -25497,7 +26265,7 @@
 					"rules": [
 						{
 							"content": [
-								"%[title:crawler]"
+								"%[pagetitle]"
 							],
 							"field": "{{ FIELD.title_Vjcrc0 }}"
 						}
@@ -25651,6 +26419,22 @@
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-cpap-au_GhHUSy }}"
 				},
 				"resourceName": "Field:_title_Rule:_%[title:crawler]_sRYdTq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[ogtitle]"
+							],
+							"field": "{{ FIELD.title_Vjcrc0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_title_Rule:_%[title:crawler]_vnqHU2"
 			},
 			{
 				"model": {
@@ -25843,6 +26627,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/DK_waYP71 }}"
 				},
 				"resourceName": "Field:_to_Rule:_%[to]_NFDT1P"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[to]"
+							],
+							"field": "{{ FIELD.to_q3zjwK }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_to_Rule:_%[to]_PZ49Zo"
 			},
 			{
 				"model": {
@@ -26211,6 +27011,22 @@
 					"sourceId": "{{ SOURCE.shop.resmed.com/SE/sv_adKR74 }}"
 				},
 				"resourceName": "Field:_workemail_Rule:_%[workemail]_AZiciI"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workemail]"
+							],
+							"field": "{{ FIELD.workemail_bYF66h }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_workemail_Rule:_%[workemail]_AjmzvV"
 			},
 			{
 				"model": {
@@ -26816,6 +27632,22 @@
 					]
 				},
 				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_workphone_Rule:_%[workphone]_MFYkly"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workphone]"
+							],
+							"field": "{{ FIELD.workphone_uXvNfw }}"
+						}
+					]
+				},
+				"parents": {
 					"sourceId": "{{ SOURCE.dev-qa-master.resmed.com_vwDD6w }}"
 				},
 				"resourceName": "Field:_workphone_Rule:_%[workphone]_NWlBPi"
@@ -27123,6 +27955,22 @@
 					"sourceId": "{{ SOURCE.support-portal.resmed.com/da-dk_sf5dp1 }}"
 				},
 				"resourceName": "Field:_worktitle_Rule:_%[worktitle]_ERMGDP"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[worktitle]"
+							],
+							"field": "{{ FIELD.worktitle_ODlrxh }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_worktitle_Rule:_%[worktitle]_Fen5iI"
 			},
 			{
 				"model": {
@@ -27875,6 +28723,22 @@
 					"sourceId": "{{ SOURCE.uat-d2c-shopify-cpap-au_GhHUSy }}"
 				},
 				"resourceName": "Field:_year_Rule:_%[year]_teAnoq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[year]"
+							],
+							"field": "{{ FIELD.year_OLIm0U }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.support.resmed.com/en-gb_xZSTJs }}"
+				},
+				"resourceName": "Field:_year_Rule:_%[year]_xz3a7P"
 			},
 			{
 				"model": {
