@@ -18,6 +18,9 @@ on:
           - UAT
           - PRD
 
+  repository_dispatch:
+    types: [coveo-backup]
+  
   schedule:
     - cron: '17,27,37 16 * * *'
       timezone: 'Asia/Kolkata'
