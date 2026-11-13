@@ -15,8 +15,8 @@ on:
           - PRD
 
   schedule:
-    # Every day at 4:30 AM IST
-    - cron: '*/15 * * * *'
+    - cron: '30 15 * * *'
+      timezone: 'Asia/Kolkata'
 
 permissions:
   contents: write
