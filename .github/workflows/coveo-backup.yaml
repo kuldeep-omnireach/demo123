@@ -2,6 +2,10 @@
 name: Coveo Environment Backup
 
 on:
+  push:
+    branches:
+      -  coveo-backups
+  
   workflow_dispatch:
     inputs:
       environment:
