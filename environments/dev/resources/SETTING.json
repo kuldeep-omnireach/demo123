@@ -502,7 +502,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 5,
+					"position": 6,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}"
 				},
@@ -515,7 +515,7 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 6,
+					"position": 5,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}"
 				},

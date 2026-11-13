@@ -5,3 +5,12 @@ Environment: DEV
 Status: SUCCESS - NO CHANGES
 Coveo resources are identical to previous backup.
 ========================================
+
+========================================
+Backup time: 2026-11-13 14:55:50 IST
+Environment: DEV
+Status: SUCCESS - CHANGES DETECTED
+Changed files:
+M	environments/dev/resources/QUERY_PARAMETER.json
+M	environments/dev/resources/SETTING.json
+========================================
