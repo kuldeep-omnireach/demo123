@@ -8,19 +8,6 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 3,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EN_US_Stream_Catalog_nM6qsa }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "commerce.catalogId_3FwWFq"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
 					"position": 4,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_EN_NZ_Stream_Catalog_obxhfD }}"
@@ -47,19 +34,6 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 4,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_DE_DE_Stream_Catalog_uYTlSO }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "commerce.catalogId_7tyRbP"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
 					"position": 5,
 					"type": "STRING",
 					"value": "{{ CATALOG.UAT_Global_D2C_Stream_Catalog_WoU9mj }}"
@@ -81,19 +55,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
 				},
 				"resourceName": "commerce.catalogId_H9f8lT"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 6,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_NA_Region_Stream_Catalog_Pu6XcR }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "commerce.catalogId_IEdjcY"
 			},
 			{
 				"model": {
@@ -159,19 +120,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-recommendations-dev_shopify_en_jp_04nuYR }}"
 				},
 				"resourceName": "commerce.catalogId_TvWjkQ"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 6,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EU_Region_Stream_Catalog_WB89D0 }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "commerce.catalogId_XL04kI"
 			},
 			{
 				"model": {
@@ -294,19 +242,6 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 4,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EN_GB_Stream_Catalog_BTya29 }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "commerce.catalogId_mLHPvk"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
 					"position": 3,
 					"type": "STRING",
 					"value": "{{ CATALOG.Dev_Global_B2B_DE_DE_Stream_Catalog_uYTlSO }}"
@@ -346,19 +281,6 @@
 				"model": {
 					"description": "",
 					"name": "commerce.catalogId",
-					"position": 5,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_FR_CA_Stream_Catalog_FBZfa4 }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "commerce.catalogId_pLC8dr"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
 					"position": 7,
 					"type": "STRING",
 					"value": "{{ CATALOG.UAT_Global_D2C_Stream_Catalog_WoU9mj }}"
@@ -387,77 +309,12 @@
 					"name": "commerce.catalogId",
 					"position": 4,
 					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_FR_FR_Stream_Catalog_mUsJpQ }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "commerce.catalogId_rZ8Zce"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 4,
-					"type": "STRING",
 					"value": "{{ CATALOG.UAT_Global_D2C_Stream_Catalog_WoU9mj }}"
 				},
 				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_nz_bjXgfp }}"
 				},
 				"resourceName": "commerce.catalogId_rf678p"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 4,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EN_NZ_Stream_Catalog_obxhfD }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "commerce.catalogId_t2HoQZ"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 4,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EN_AU_Stream_Catalog_qMiq65 }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "commerce.catalogId_t4BJmY"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 3,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_EN_CA_Stream_Catalog_BPe1nb }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "commerce.catalogId_udqc6y"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "commerce.catalogId",
-					"position": 6,
-					"type": "STRING",
-					"value": "{{ CATALOG.Dev_Global_B2B_APAC_Region_Stream_Catalog_vGv5Eo }}"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "commerce.catalogId_wmrBe1"
 			},
 			{
 				"model": {
@@ -502,19 +359,6 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 7,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "enableDidYouMean_0EwxWt"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
 					"position": 2,
 					"type": "BOOLEAN",
 					"value": true
@@ -523,32 +367,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_cpap_au_zIgsOl }}"
 				},
 				"resourceName": "enableDidYouMean_0i4tGC"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 5,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "enableDidYouMean_1nMmng"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 5,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "enableDidYouMean_2VHiVH"
 			},
 			{
 				"model": {
@@ -624,74 +442,9 @@
 					"value": true
 				},
 				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "enableDidYouMean_BCiI02"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 4,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "enableDidYouMean_ENwJEP"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 5,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
 				},
 				"resourceName": "enableDidYouMean_EQt9EB"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 4,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "enableDidYouMean_FTs0cn"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 7,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "enableDidYouMean_IkFCJS"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 5,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "enableDidYouMean_L3h0SW"
 			},
 			{
 				"model": {
@@ -770,32 +523,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.search-dev_shopify_en_au_COBhoW }}"
 				},
 				"resourceName": "enableDidYouMean_VZtkt5"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 7,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "enableDidYouMean_VxiLnx"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
-					"position": 5,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "enableDidYouMean_YekIay"
 			},
 			{
 				"model": {
@@ -957,19 +684,6 @@
 				"model": {
 					"description": "",
 					"name": "enableDidYouMean",
-					"position": 6,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "enableDidYouMean_sc6hy1"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableDidYouMean",
 					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
@@ -1074,19 +788,6 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "enableQuerySyntax_1JRh3h"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
 					"position": 9,
 					"type": "BOOLEAN",
 					"value": true
@@ -1126,19 +827,6 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 11,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "enableQuerySyntax_QONBQI"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
 					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
@@ -1173,19 +861,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
 				},
 				"resourceName": "enableQuerySyntax_XEDlcZ"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "enableQuerySyntax_YBIaJA"
 			},
 			{
 				"model": {
@@ -1243,19 +918,6 @@
 				"model": {
 					"description": "",
 					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "enableQuerySyntax_gcEIql"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
 					"position": 9,
 					"type": "BOOLEAN",
 					"value": true
@@ -1277,97 +939,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
 				},
 				"resourceName": "enableQuerySyntax_ljXdrr"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 11,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "enableQuerySyntax_lsn02c"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "enableQuerySyntax_nSRzIc"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "enableQuerySyntax_ncJnbE"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 11,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "enableQuerySyntax_oKHreq"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "enableQuerySyntax_qUhOVv"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "enableQuerySyntax_r8aLxm"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "enableQuerySyntax",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "enableQuerySyntax_yrVUPY"
 			},
 			{
 				"model": {
@@ -1425,19 +996,6 @@
 				"model": {
 					"description": "",
 					"name": "filterField",
-					"position": 3,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "filterField_AnLXy7"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
 					"position": 5,
 					"type": "STRING",
 					"value": "@ec_item_group_id"
@@ -1451,32 +1009,6 @@
 				"model": {
 					"description": "",
 					"name": "filterField",
-					"position": 2,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "filterField_GIHqyW"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 3,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "filterField_HBQhHC"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
 					"position": 9,
 					"type": "STRING",
 					"value": "@ec_item_group_id"
@@ -1485,45 +1017,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_jp_04gnpZ }}"
 				},
 				"resourceName": "filterField_KUtwp6"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 3,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "filterField_MRHEWb"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 2,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "filterField_ONoOoz"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 5,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "filterField_Pi0er2"
 			},
 			{
 				"model": {
@@ -1563,19 +1056,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_ca_Led6zT }}"
 				},
 				"resourceName": "filterField_Smds0C"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 3,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "filterField_TSWG4T"
 			},
 			{
 				"model": {
@@ -1628,19 +1108,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
 				},
 				"resourceName": "filterField_ZCw7ig"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 3,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "filterField_ZHWTVW"
 			},
 			{
 				"model": {
@@ -1763,19 +1230,6 @@
 				"model": {
 					"description": "",
 					"name": "filterField",
-					"position": 5,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "filterField_rSExuX"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
 					"position": 3,
 					"type": "STRING",
 					"value": "@ec_item_group_id"
@@ -1784,32 +1238,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_nz_UJWDq7 }}"
 				},
 				"resourceName": "filterField_uK8K1u"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 4,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "filterField_y6el7F"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "filterField",
-					"position": 5,
-					"type": "STRING",
-					"value": "@ec_item_group_id"
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "filterField_yvagKG"
 			},
 			{
 				"model": {
@@ -2136,6 +1564,19 @@
 			{
 				"model": {
 					"description": "",
+					"name": "wildcards",
+					"position": 5,
+					"type": "BOOLEAN",
+					"value": true
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.Global_UK_Cross_Platform_Search_MflL2P }}"
+				},
+				"resourceName": "override_query_wildcards:_true_RqllkW"
+			},
+			{
+				"model": {
+					"description": "",
 					"name": "partialMatchOptions",
 					"position": 6,
 					"type": "STRUCTURED",
@@ -2205,40 +1646,6 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "partialMatchOptions_1ltUm0"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "partialMatchOptions_2IBsQH"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 1,
 					"type": "STRUCTURED",
 					"value": {
@@ -2256,28 +1663,11 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "partialMatchOptions_5kSPip"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 4,
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
-						"minimumNumberOfKeywords": 4,
+						"minimumNumberOfKeywords": 2,
 						"thresholdToMatch": "60%"
 					}
 				},
@@ -2319,23 +1709,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_cpap_au_b6Mrwv }}"
 				},
 				"resourceName": "partialMatchOptions_9AbeiO"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 8,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "partialMatchOptions_9LHqzN"
 			},
 			{
 				"model": {
@@ -2421,23 +1794,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_in_89Sg9s }}"
 				},
 				"resourceName": "partialMatchOptions_IsDkZY"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 5,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "partialMatchOptions_QCrWx7"
 			},
 			{
 				"model": {
@@ -2600,23 +1956,6 @@
 					"type": "STRUCTURED",
 					"value": {
 						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "partialMatchOptions_YqZvuS"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
 						"minimumNumberOfKeywords": 4,
 						"thresholdToMatch": "60%"
 					}
@@ -2681,74 +2020,6 @@
 				"model": {
 					"description": "",
 					"name": "partialMatchOptions",
-					"position": 5,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "partialMatchOptions_hkt3uB"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "partialMatchOptions_luT8yv"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "partialMatchOptions_qvCtCQ"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 8,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "partialMatchOptions_rSLEBn"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
 					"position": 10,
 					"type": "STRUCTURED",
 					"value": {
@@ -2778,23 +2049,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_shopify_en_au_OqVok6 }}"
 				},
 				"resourceName": "partialMatchOptions_rqcKsM"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "partialMatchOptions",
-					"position": 8,
-					"type": "STRUCTURED",
-					"value": {
-						"enabled": true,
-						"minimumNumberOfKeywords": 3,
-						"thresholdToMatch": "60%"
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "partialMatchOptions_tOFtSZ"
 			},
 			{
 				"model": {
@@ -2917,38 +2171,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "queryCorrection_6IMt4u"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "queryCorrection_6SGhiG"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 7,
 					"type": "STRUCTURED",
 					"value": {
@@ -2960,22 +2182,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_fr_fr_oS19ww }}"
 				},
 				"resourceName": "queryCorrection_7ByLQm"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "queryCorrection_7pLpgn"
 			},
 			{
 				"model": {
@@ -3093,22 +2299,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 8,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "queryCorrection_NxQa9s"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 11,
 					"type": "STRUCTURED",
 					"value": {
@@ -3120,22 +2310,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_shopify_en_in_9uyvjh }}"
 				},
 				"resourceName": "queryCorrection_RQZv6c"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 9,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "queryCorrection_RgLtml"
 			},
 			{
 				"model": {
@@ -3200,22 +2374,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_au_1gdNsJ }}"
 				},
 				"resourceName": "queryCorrection_Ufh7fS"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 6,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "queryCorrection_VI1a6m"
 			},
 			{
 				"model": {
@@ -3349,22 +2507,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "queryCorrection_fdp8gj"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 3,
 					"type": "STRUCTURED",
 					"value": {
@@ -3424,22 +2566,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_en_us_pTbyXP }}"
 				},
 				"resourceName": "queryCorrection_nVMQuE"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 9,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "queryCorrection_ozYYrW"
 			},
 			{
 				"model": {
@@ -3525,38 +2651,6 @@
 				"model": {
 					"description": "",
 					"name": "queryCorrection",
-					"position": 9,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "queryCorrection_tW3I7e"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "queryCorrection_wAajZ8"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "queryCorrection",
 					"position": 4,
 					"type": "STRUCTURED",
 					"value": {
@@ -3572,48 +2666,6 @@
 			{
 				"model": {
 					"description": "",
-					"name": "queryCorrection",
-					"position": 7,
-					"type": "STRUCTURED",
-					"value": {
-						"automaticallyCorrect": "whenNoResults",
-						"enabled": true
-					}
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "queryCorrection_zoTjJw"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 8,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_ca_CEO8sB }}"
-				},
-				"resourceName": "wildcards_0i3BB6"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_na_OczvCS }}"
-				},
-				"resourceName": "wildcards_43GJVy"
-			},
-			{
-				"model": {
-					"description": "",
 					"name": "wildcards",
 					"position": 9,
 					"type": "BOOLEAN",
@@ -3623,19 +2675,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_apac_Y50Xdp }}"
 				},
 				"resourceName": "wildcards_8lx3Ri"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_au_UgMiv7 }}"
-				},
-				"resourceName": "wildcards_EKPje7"
 			},
 			{
 				"model": {
@@ -3706,19 +2745,6 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_nz_4nUvGS }}"
-				},
-				"resourceName": "wildcards_SF84qY"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
 					"position": 6,
 					"type": "BOOLEAN",
 					"value": true
@@ -3784,84 +2810,6 @@
 				"model": {
 					"description": "",
 					"name": "wildcards",
-					"position": 8,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_us_6JF0if }}"
-				},
-				"resourceName": "wildcards_o47guE"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_de_de_R26PoL }}"
-				},
-				"resourceName": "wildcards_oYRdqC"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_apac_F31NO3 }}"
-				},
-				"resourceName": "wildcards_pSmnaF"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_ca_HJLWOu }}"
-				},
-				"resourceName": "wildcards_pinUOh"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 10,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_eu_hcxH6b }}"
-				},
-				"resourceName": "wildcards_sLInRR"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_en_gb_2AHGb6 }}"
-				},
-				"resourceName": "wildcards_uiHXYH"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
 					"position": 10,
 					"type": "BOOLEAN",
 					"value": true
@@ -3870,19 +2818,6 @@
 					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-search-dev_ros_na_YmXqCJ }}"
 				},
 				"resourceName": "wildcards_waHlS5"
-			},
-			{
-				"model": {
-					"description": "",
-					"name": "wildcards",
-					"position": 9,
-					"type": "BOOLEAN",
-					"value": true
-				},
-				"parents": {
-					"queryPipelineId": "{{ QUERY_PIPELINE.cmh-listing-dev_ros_fr_fr_cuCTzo }}"
-				},
-				"resourceName": "wildcards_wpBzPr"
 			}
 		]
 	}
